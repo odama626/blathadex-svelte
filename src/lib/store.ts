@@ -55,7 +55,6 @@ function writableBackend(
 
 	async function attach() {
 		const timeout = setTimeout(() => syncState.set('loading'), 100);
-		syncState.set('loading');
 		await fetch(url, FETCH_CONFIG)
 			.then((r) => {
 				if (!r.ok) throw r;
