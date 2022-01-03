@@ -5,7 +5,6 @@
 	import googleAnalytics from '@analytics/google-analytics';
 	import Analytics from 'analytics';
 	import { onMount } from 'svelte';
-	
 
 	export async function load(props) {
 		const { session, url, fetch, stuff } = props;
@@ -35,6 +34,10 @@
 <script lang="ts">
 	import '../global.scss';
 	import '../layout.css';
+
+	// TODO: implement color schemes https://stackoverflow.com/a/69328111/4913548
+	// TODO: implement migration from indexdb version
+
 	onMount(() => {
 		const analytics = Analytics({
 			app: 'blathadex',
