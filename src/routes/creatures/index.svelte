@@ -33,7 +33,7 @@
 	let adjustedHours;
 	let adjustedLocation = [];
 	let locations;
-	let isSelecting = !!Object.values($selected).length;
+	let isSelecting = !!getSetFromArray($selected).length;
 	let creatures = [];
 
 	$: {
@@ -65,7 +65,7 @@
 		});
 
 		node.dataset.selected = !isSelected;
-		isSelecting = Object.values($selected).length > 0;
+		isSelecting = getSetFromArray($selected).length > 0;
 	}
 
 	function onMarkCaught() {
@@ -110,7 +110,7 @@
 </Header>
 <nav data-desktop class="bottom">
 	<CreatureWidget />
-	{#if Object.values($selected).length > 0}
+	{#if getSetFromArray($selected).length > 0}
 		<header transition:slide|local>
 			<button
 				class="error"
@@ -122,7 +122,7 @@
 					isSelecting = false;
 				}}>Cancel</button
 			><button class="success" on:click={onMarkCaught}
-				>Mark {Object.values($selected).length} Caught!</button
+				>Mark {getSetFromArray($selected).length} Caught!</button
 			>
 		</header>
 	{/if}
@@ -198,7 +198,7 @@
 	</main>
 </div>
 
-{#if Object.values($selected).length > 0}
+{#if getSetFromArray($selected).length > 0}
 	<nav
 		transition:slide|local
 		data-mobile
@@ -220,7 +220,7 @@
 				Cancel
 			</button>
 			<button class="success" on:click={onMarkCaught}
-				>Mark {Object.values($selected).length} Caught!</button
+				>Mark {getSetFromArray($selected).length} Caught!</button
 			>
 		</header>
 	</nav>
