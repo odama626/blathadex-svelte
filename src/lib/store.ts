@@ -92,19 +92,19 @@ function writableBackend(
 		attach();
 	}
 
-	function updateBackend(value) {
-		if (browser)
-			fetch(url, {
-				method: 'post',
-				headers: {
-					'Content-Type': 'application/json'
-				},
-				credentials: 'same-origin',
-				body: JSON.stringify(value)
-			}).catch();
-	}
+	// function updateBackend(value) {
+	// 	if (browser)
+	// 		fetch(url, {
+	// 			method: 'post',
+	// 			headers: {
+	// 				'Content-Type': 'application/json'
+	// 			},
+	// 			credentials: 'same-origin',
+	// 			body: JSON.stringify(value)
+	// 		}).catch();
+	// }
 
-	store.subscribe(updateBackend);
+	// store.subscribe(updateBackend);
 
 	return store;
 }

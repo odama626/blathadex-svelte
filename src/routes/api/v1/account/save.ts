@@ -6,6 +6,7 @@ export async function post({ locals, url, body }) {
 	const { key, type } = Object.fromEntries(url.searchParams.entries());
 
 	const account = await prisma.account.findUnique({ where: { email } });
+	if (!account) return { status: 401 };
 	let curData;
 	let newData;
 	try {
