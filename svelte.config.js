@@ -1,8 +1,8 @@
-import adapter from '@sveltejs/adapter-node';
+import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
 import image from 'svelte-image';
 import svg from '@poppanator/sveltekit-svg';
-import sequential from 'svelte-sequential-preprocessor';
+import sequential from 'svelte-sequential-preprocessor'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -11,7 +11,7 @@ const config = {
 	preprocess: sequential([preprocess(), image()]),
 
 	kit: {
-		adapter: adapter({ out: 'dist' }),
+		adapter: adapter(),
 
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
