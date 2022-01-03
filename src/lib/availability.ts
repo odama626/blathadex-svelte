@@ -4,18 +4,19 @@ export const filterByMonth = (hemisphere, month) => (creature) => {
 };
 
 export function getMonthAvailability(creatures) {
-	let months = [];
+	const months = [];
 	for (let i = 0; i < 12; i++) {
 		months[i] = { available: creatures.filter(filterByMonth('northern', i + 1)) };
 	}
 
 	months.map((month, i) => {
 		month.leaving = month.available
-			.filter((x) => !months.at((i + 1) % 12).available.find((y) => y.name === x.name))
+			.filter((x) => !months[(i + 1) % months.length].available.find((y) => y.name === x.name))
 			.map((creature) => creature.name);
 
 		month.new = month.available.filter(
-			(x) => !months.at(i - 1).available.find((y) => y.name === x.name)
+			(x) =>
+				!months[(i - 1 + months.length) % months.length].available.find((y) => y.name === x.name)
 		);
 		return month;
 	});
@@ -38,18 +39,18 @@ const filterByHour = (month, hour) => (creature) => {
 };
 
 export function getDayAvailability(creatures) {
-	let hours = [];
+	const hours = [];
 	for (let i = 0; i < 24; i++) {
 		hours[i] = { available: creatures.filter(filterByHour(1, i)) };
 	}
 
 	return hours.map((hour, i) => {
 		hour.leaving = hour.available
-			.filter((x) => !hours.at((i + 1) % 24).available.find((y) => y.name === x.name))
+			.filter((x) => !hours[(i + 1) % hours.length].available.find((y) => y.name === x.name))
 			.map((creature) => creature.name);
 
 		hour.new = hour.available.filter(
-			(x) => !hours.at(i - 1).available.find((y) => y.name === x.name)
+			(x) => !hours[(i - 1 + hours.length) % hours.length].available.find((y) => y.name === x.name)
 		);
 		return hour;
 	});

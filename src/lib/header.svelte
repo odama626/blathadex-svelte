@@ -38,7 +38,7 @@
 
 <style lang="scss">
 	header {
-		margin-bottom: 1.45rem;
+		margin-bottom: 21px;
 	}
 	.action {
 		display: block;
