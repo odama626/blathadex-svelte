@@ -1,5 +1,5 @@
 import allJson from '$lib/data/all.json';
-import { Item } from '$lib/data/all';
+import type { Item } from '$lib/data/all';
 
 function percentageMatch(test, str) {
 	const index = str?.toLowerCase()?.indexOf(test) ?? -1;

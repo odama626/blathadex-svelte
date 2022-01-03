@@ -2,7 +2,6 @@
 	import items from '$lib/data/items.json';
 	import ItemBlock from '$lib/item-block.svelte';
 	import { sanitizeName } from '$lib/utils';
-	import SearchIcon from '$lib/vectors/searchButton.svg';
 	import VirtualList from '@sveltejs/svelte-virtual-list';
 </script>
 
