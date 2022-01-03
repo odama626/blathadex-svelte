@@ -18,24 +18,22 @@
 </script>
 
 <script lang="ts">
+	import { browser } from '$app/env';
 	import { getDayAvailability, getMonthAvailability } from '$lib/availability';
 	import BottomNav from '$lib/bottom-nav.svelte';
 	import Checkbox from '$lib/checkbox.svelte';
 	import CreatureBlock from '$lib/creature-block.svelte';
 	import Header from '$lib/header.svelte';
+	import Image from '$lib/image/index.svelte';
 	import Search from '$lib/search.svelte';
-	import { store } from '$lib/store';
+	import { caught, store } from '$lib/store';
 	import { getCreatureId, getLocaleTime, MONTH_NAMES, titleCase } from '$lib/utils';
-	import { caught } from '$lib/store';
 	import Bells from '$lib/vectors/bagOfBells.svg';
 	import LocationIcon from '$lib/vectors/locationIcon.svg';
 	import QuoteAfter from '$lib/vectors/quoteAfter.svg';
 	import QuoteBefore from '$lib/vectors/quoteBefore.svg';
 	import RarityIcon from '$lib/vectors/rarityIcon.svg';
-	import Image from '$lib/image/index.svelte';
-	import { browser } from '$app/env';
-	import About from '../about.svelte';
-import { slide } from 'svelte/transition';
+	import { slide } from 'svelte/transition';
 
 	export let creature;
 	export let similar;

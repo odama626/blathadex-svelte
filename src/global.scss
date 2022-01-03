@@ -521,7 +521,7 @@ nav.bottom[data-mobile] {
     }
 
     &.first,
-    &.last {
+    &.last + div {
       &:before {
         position: absolute;
         content: attr(data-content);

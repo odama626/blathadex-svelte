@@ -14,7 +14,6 @@
 	import itemsIcon from '$lib/vectors/sections/items.svelte';
 
 	// TODO: add recent searches as options to empty search state
-	// TODO: deploy to server
 	// TODO: add paging for items
 
 	const items = [

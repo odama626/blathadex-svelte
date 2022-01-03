@@ -31,17 +31,17 @@ export function inHoursInclusive(hour, from, to) {
 	}
 }
 
-const filterByHour = (month, hour) => (creature) => {
+const filterByHour = (hour) => (creature) => {
 	const activeMonth = creature.activeMonths['northern'][0]; //creature.activeMonths['northern'].find((x) => x.month === month);
 	if (activeMonth.isAllDay) return true;
-	const [from = 0, to = 0] = activeMonth?.activeHours?.map((x) => parseInt(x)) || [];
+	const [from = 0, to = 0] = activeMonth?.activeHours?.map((x) => x.map(y => parseInt(y)))[0] || [];
 	return inHoursInclusive(hour, from, to);
 };
 
 export function getDayAvailability(creatures) {
 	const hours = [];
 	for (let i = 0; i < 24; i++) {
-		hours[i] = { available: creatures.filter(filterByHour(1, i)) };
+		hours[i] = { available: creatures.filter(filterByHour(i)) };
 	}
 
 	return hours.map((hour, i) => {
