@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Blathadex",
+  "short_name": "Blathadex",
+  "start_url": "/",
+  "background_color": "#5382DE",
+  "theme_color": "#5382DE",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/icon-48x48.png?v=541aaee7d1f810d79a28fd120f042d9a",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-72x72.png?v=541aaee7d1f810d79a28fd120f042d9a",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-96x96.png?v=541aaee7d1f810d79a28fd120f042d9a",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-144x144.png?v=541aaee7d1f810d79a28fd120f042d9a",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-192x192.png?v=541aaee7d1f810d79a28fd120f042d9a",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-256x256.png?v=541aaee7d1f810d79a28fd120f042d9a",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-384x384.png?v=541aaee7d1f810d79a28fd120f042d9a",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png?v=541aaee7d1f810d79a28fd120f042d9a",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

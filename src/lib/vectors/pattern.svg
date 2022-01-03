@@ -1,0 +1,169 @@
+<svg preserveAspectRatio="xMinYMin slice" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1200" height="1200" viewBox="0 0 1200 1200">
+    <rect x="0px" y="0px" width="100%" height="100%" opacity="1" fill="var(--pattern-background)"/>
+    <defs>
+        <g transform="matrix(-0.09765918971772937 -0.09765918971772938 0.09765918971772938 -0.09765918971772937 217.01147584421997 226.29730539184123)" id="L1_35">
+            <path d="m312.882 71.902v-71.902h-69.529v71.902c-94.614 12.118-173.824 71.748-173.824 136.686v34.765c0 19.199 15.566 34.765 34.765 34.765h347.647c19.199 0 34.765-15.566 34.765-34.765v-34.765c0-64.938-79.21-124.568-173.824-136.686z" fill='var(--pattern-color-1)'/>
+            <path d="m233.898 536.324c8.827 4.617 17.314 8.997 24.936 14.072 5.839 3.887 12.561 5.839 19.284 5.839s13.444-1.952 19.284-5.839c7.622-5.076 16.109-9.455 24.936-14.072 52.024-27.238 122.192-64.335 128.935-223.441h-346.31c6.743 159.105 76.911 196.202 128.935 223.441z" fill='var(--pattern-color-2)'/>
+        </g>
+        <g transform="matrix(0.07193145211500643 -0.04891338729949303 0.04891338729949303 0.07193145211500643 269.39668858687264 309.5940464219667)" id="L1_36">
+            <path d="m312.882 71.902v-71.902h-69.529v71.902c-94.614 12.118-173.824 71.748-173.824 136.686v34.765c0 19.199 15.566 34.765 34.765 34.765h347.647c19.199 0 34.765-15.566 34.765-34.765v-34.765c0-64.938-79.21-124.568-173.824-136.686z" fill='var(--pattern-color-1)'/>
+            <path d="m233.898 536.324c8.827 4.617 17.314 8.997 24.936 14.072 5.839 3.887 12.561 5.839 19.284 5.839s13.444-1.952 19.284-5.839c7.622-5.076 16.109-9.455 24.936-14.072 52.024-27.238 122.192-64.335 128.935-223.441h-346.31c6.743 159.105 76.911 196.202 128.935 223.441z" fill='var(--pattern-color-2)'/>
+        </g>
+        <g transform="matrix(0.1561417923357871 0.11450398040927084 -0.11450398040927084 0.1561417923357871 67.40635857871308 94.73435799136249)" id="L1_37">
+            <path d="m312.882 71.902v-71.902h-69.529v71.902c-94.614 12.118-173.824 71.748-173.824 136.686v34.765c0 19.199 15.566 34.765 34.765 34.765h347.647c19.199 0 34.765-15.566 34.765-34.765v-34.765c0-64.938-79.21-124.568-173.824-136.686z" fill='var(--pattern-color-1)'/>
+            <path d="m233.898 536.324c8.827 4.617 17.314 8.997 24.936 14.072 5.839 3.887 12.561 5.839 19.284 5.839s13.444-1.952 19.284-5.839c7.622-5.076 16.109-9.455 24.936-14.072 52.024-27.238 122.192-64.335 128.935-223.441h-346.31c6.743 159.105 76.911 196.202 128.935 223.441z" fill='var(--pattern-color-2)'/>
+        </g>
+        <g transform="matrix(-0.1374047884350989 -0.08743940784183671 -0.08743940784183671 0.1374047884350989 247.5228487182418 15.10723522270051)">
+            <path d="m312.882 71.902v-71.902h-69.529v71.902c-94.614 12.118-173.824 71.748-173.824 136.686v34.765c0 19.199 15.566 34.765 34.765 34.765h347.647c19.199 0 34.765-15.566 34.765-34.765v-34.765c0-64.938-79.21-124.568-173.824-136.686z" fill='var(--pattern-color-1)'/>
+            <path d="m233.898 536.324c8.827 4.617 17.314 8.997 24.936 14.072 5.839 3.887 12.561 5.839 19.284 5.839s13.444-1.952 19.284-5.839c7.622-5.076 16.109-9.455 24.936-14.072 52.024-27.238 122.192-64.335 128.935-223.441h-346.31c6.743 159.105 76.911 196.202 128.935 223.441z" fill='var(--pattern-color-2)'/>
+        </g>
+        <g transform="matrix(0.07193145211500643 -0.04891338729949303 0.04891338729949303 0.07193145211500643 87.396689640556 251.594045705462)">
+            <path d="m312.882 71.902v-71.902h-69.529v71.902c-94.614 12.118-173.824 71.748-173.824 136.686v34.765c0 19.199 15.566 34.765 34.765 34.765h347.647c19.199 0 34.765-15.566 34.765-34.765v-34.765c0-64.938-79.21-124.568-173.824-136.686z" fill='var(--pattern-color-1)'/>
+            <path d="m233.898 536.324c8.827 4.617 17.314 8.997 24.936 14.072 5.839 3.887 12.561 5.839 19.284 5.839s13.444-1.952 19.284-5.839c7.622-5.076 16.109-9.455 24.936-14.072 52.024-27.238 122.192-64.335 128.935-223.441h-346.31c6.743 159.105 76.911 196.202 128.935 223.441z" fill='var(--pattern-color-2)'/>
+        </g>
+        <g transform="matrix(0.11751360664590478 -0.044344758078325254 0.044344758078325254 0.11751360664590478 3.9895721843390106 -17.34840617265779)">
+            <path d="m312.882 71.902v-71.902h-69.529v71.902c-94.614 12.118-173.824 71.748-173.824 136.686v34.765c0 19.199 15.566 34.765 34.765 34.765h347.647c19.199 0 34.765-15.566 34.765-34.765v-34.765c0-64.938-79.21-124.568-173.824-136.686z" fill='var(--pattern-color-1)'/>
+            <path d="m233.898 536.324c8.827 4.617 17.314 8.997 24.936 14.072 5.839 3.887 12.561 5.839 19.284 5.839s13.444-1.952 19.284-5.839c7.622-5.076 16.109-9.455 24.936-14.072 52.024-27.238 122.192-64.335 128.935-223.441h-346.31c6.743 159.105 76.911 196.202 128.935 223.441z" fill='var(--pattern-color-2)'/>
+        </g>
+        <g transform="matrix(0.11711289874621875 0.03346082725975437 -0.03346082725975437 0.11711289874621875 255.73097063548929 20.12389352763026)">
+            <path d="m312.882 71.902v-71.902h-69.529v71.902c-94.614 12.118-173.824 71.748-173.824 136.686v34.765c0 19.199 15.566 34.765 34.765 34.765h347.647c19.199 0 34.765-15.566 34.765-34.765v-34.765c0-64.938-79.21-124.568-173.824-136.686z" fill='var(--pattern-color-1)'/>
+            <path d="m233.898 536.324c8.827 4.617 17.314 8.997 24.936 14.072 5.839 3.887 12.561 5.839 19.284 5.839s13.444-1.952 19.284-5.839c7.622-5.076 16.109-9.455 24.936-14.072 52.024-27.238 122.192-64.335 128.935-223.441h-346.31c6.743 159.105 76.911 196.202 128.935 223.441z" fill='var(--pattern-color-2)'/>
+        </g>
+        <g transform="matrix(0.11711289874621875 0.03346082725975437 -0.03346082725975437 0.11711289874621875 238.73097149324977 113.12389377270463)">
+            <path d="m312.882 71.902v-71.902h-69.529v71.902c-94.614 12.118-173.824 71.748-173.824 136.686v34.765c0 19.199 15.566 34.765 34.765 34.765h347.647c19.199 0 34.765-15.566 34.765-34.765v-34.765c0-64.938-79.21-124.568-173.824-136.686z" fill='var(--pattern-color-1)'/>
+            <path d="m233.898 536.324c8.827 4.617 17.314 8.997 24.936 14.072 5.839 3.887 12.561 5.839 19.284 5.839s13.444-1.952 19.284-5.839c7.622-5.076 16.109-9.455 24.936-14.072 52.024-27.238 122.192-64.335 128.935-223.441h-346.31c6.743 159.105 76.911 196.202 128.935 223.441z" fill='var(--pattern-color-2)'/>
+        </g>
+    </defs>
+    <g>
+        <pattern id="pattern_L1_35" width="350" height="350" patternUnits="userSpaceOnUse" patternTransform='translate(10 30)'>
+            <use xlink:href="#L1_35" x="-350" y="-350"/>
+            <use xlink:href="#L1_35" x="0" y="-350"/>
+            <use xlink:href="#L1_35" x="350" y="-350"/>
+            <use xlink:href="#L1_35" x="-350" y="0"/>
+            <use xlink:href="#L1_35" x="0" y="0"/>
+            <use xlink:href="#L1_35" x="350" y="0"/>
+            <use xlink:href="#L1_35" x="-350" y="350"/>
+            <use xlink:href="#L1_35" x="0" y="350"/>
+            <use xlink:href="#L1_35" x="350" y="350"/>
+                    <animateTransform attributeType="xml"
+                        attributeName="patternTransform"
+                        type="translate" from="35 35" to="1000 -1000" begin="0"
+                        dur="90s" repeatCount="indefinite"/>
+        </pattern>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_L1_35)"/>
+    </g>
+    <g>
+        <pattern id="pattern_L1_36" width="350" height="350" patternUnits="userSpaceOnUse" patternTransform='translate(10 30)'>
+            <use xlink:href="#L1_36" x="-350" y="-350"/>
+            <use xlink:href="#L1_36" x="0" y="-350"/>
+            <use xlink:href="#L1_36" x="350" y="-350"/>
+            <use xlink:href="#L1_36" x="-350" y="0"/>
+            <use xlink:href="#L1_36" x="0" y="0"/>
+            <use xlink:href="#L1_36" x="350" y="0"/>
+            <use xlink:href="#L1_36" x="-350" y="350"/>
+            <use xlink:href="#L1_36" x="0" y="350"/>
+            <use xlink:href="#L1_36" x="350" y="350"/>
+                    <animateTransform attributeType="xml"
+                        attributeName="patternTransform"
+                        type="translate" from="35 35" to="1000 -1000" begin="0"
+                        dur="90s" repeatCount="indefinite"/>
+        </pattern>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_L1_36)"/>
+    </g>
+    <g>
+        <pattern id="pattern_L1_37" width="350" height="350" patternUnits="userSpaceOnUse" patternTransform='translate(10 30)'>
+            <use xlink:href="#L1_37" x="-350" y="-350"/>
+            <use xlink:href="#L1_37" x="0" y="-350"/>
+            <use xlink:href="#L1_37" x="350" y="-350"/>
+            <use xlink:href="#L1_37" x="-350" y="0"/>
+            <use xlink:href="#L1_37" x="0" y="0"/>
+            <use xlink:href="#L1_37" x="350" y="0"/>
+            <use xlink:href="#L1_37" x="-350" y="350"/>
+            <use xlink:href="#L1_37" x="0" y="350"/>
+            <use xlink:href="#L1_37" x="350" y="350"/>
+                    <animateTransform attributeType="xml"
+                        attributeName="patternTransform"
+                        type="translate" from="35 35" to="1000 -1000" begin="0"
+                        dur="90s" repeatCount="indefinite"/>
+        </pattern>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_L1_37)"/>
+    </g>
+    <g transform="matrix(1 0 0 1 20 20)">
+        <pattern id="pattern_UNKNOWN" width="350" height="350" patternUnits="userSpaceOnUse" patternTransform='translate(10 30)'>
+            <use xlink:href="#UNKNOWN" x="-350" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="0" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="350" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="-350" y="0"/>
+            <use xlink:href="#UNKNOWN" x="0" y="0"/>
+            <use xlink:href="#UNKNOWN" x="350" y="0"/>
+            <use xlink:href="#UNKNOWN" x="-350" y="350"/>
+            <use xlink:href="#UNKNOWN" x="0" y="350"/>
+            <use xlink:href="#UNKNOWN" x="350" y="350"/>
+                    <animateTransform attributeType="xml"
+                        attributeName="patternTransform"
+                        type="translate" from="35 35" to="1000 -1000" begin="0"
+                        dur="90s" repeatCount="indefinite"/>
+        </pattern>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_UNKNOWN)"/>
+    </g>
+    <!-- <g transform="matrix(1 0 0 1 20 20)">
+        <pattern id="pattern_UNKNOWN" width="350" height="350" patternUnits="userSpaceOnUse" patternTransform='translate(10 30)'>
+            <use xlink:href="#UNKNOWN" x="-350" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="0" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="350" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="-350" y="0"/>
+            <use xlink:href="#UNKNOWN" x="0" y="0"/>
+            <use xlink:href="#UNKNOWN" x="350" y="0"/>
+            <use xlink:href="#UNKNOWN" x="-350" y="350"/>
+            <use xlink:href="#UNKNOWN" x="0" y="350"/>
+            <use xlink:href="#UNKNOWN" x="350" y="350"/>
+        </pattern>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_UNKNOWN)"/>
+    </g> -->
+    <!-- <g transform="matrix(1 0 0 1 20 20)">
+        <pattern id="pattern_UNKNOWN" width="350" height="350" patternUnits="userSpaceOnUse">
+            <use xlink:href="#UNKNOWN" x="-350" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="0" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="350" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="-350" y="0"/>
+            <use xlink:href="#UNKNOWN" x="0" y="0"/>
+            <use xlink:href="#UNKNOWN" x="350" y="0"/>
+            <use xlink:href="#UNKNOWN" x="-350" y="350"/>
+            <use xlink:href="#UNKNOWN" x="0" y="350"/>
+            <use xlink:href="#UNKNOWN" x="350" y="350"/>
+        </pattern>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_UNKNOWN)"/>
+    </g> -->
+    <!-- <g transform="matrix(1 0 0 1 40 40)">
+        <pattern id="pattern_UNKNOWN" width="350" height="350" patternUnits="userSpaceOnUse">
+            <use xlink:href="#UNKNOWN" x="-350" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="0" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="350" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="-350" y="0"/>
+            <use xlink:href="#UNKNOWN" x="0" y="0"/>
+            <use xlink:href="#UNKNOWN" x="350" y="0"/>
+            <use xlink:href="#UNKNOWN" x="-350" y="350"/>
+            <use xlink:href="#UNKNOWN" x="0" y="350"/>
+            <use xlink:href="#UNKNOWN" x="350" y="350"/>
+        </pattern>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_UNKNOWN)"/>
+    </g> -->
+    <!-- <g transform="matrix(1 0 0 1 60 60)">
+        <pattern id="pattern_UNKNOWN" width="350" height="350" patternUnits="userSpaceOnUse" patternTransform="translate(10, 10)">
+            <use xlink:href="#UNKNOWN" x="-350" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="0" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="350" y="-350"/>
+            <use xlink:href="#UNKNOWN" x="-350" y="0"/>
+            <use xlink:href="#UNKNOWN" x="0" y="0"/>
+            <use xlink:href="#UNKNOWN" x="350" y="0"/>
+            <use xlink:href="#UNKNOWN" x="-350" y="350"/>
+            <use xlink:href="#UNKNOWN" x="0" y="350"/>
+            <use xlink:href="#UNKNOWN" x="350" y="350"/>
+        </pattern>
+        <animateTransform attributeType="xml"
+                        attributeName="patternTransform"
+                        type="translate" from="35 35" to="395 -395" begin="0"
+                        dur="60s" repeatCount="indefinite"/>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_UNKNOWN)"/>
+    </g> -->
+</svg>

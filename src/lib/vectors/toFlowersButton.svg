@@ -1,0 +1,22 @@
+<svg width="66" height="77" viewBox="0 0 66 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#to-flower-filter)">
+<rect x="1.26866" y="0.635424" width="41.1564" height="57.6264" rx="3" transform="matrix(0.949942 -0.312426 0.318717 0.94785 2.86099 13.9129)" fill="#71D084" stroke="white" stroke-width="2"/>
+</g>
+<g clip-path="url(#to-flower-clip)">
+<path d="M47.9543 36.0648C47.9543 33.6363 45.4664 32.1025 42.9785 32.1344C44.5617 30.4089 45.4664 27.5969 43.7216 25.9033C41.9769 24.1777 39.1336 24.8488 37.3565 26.6063C37.2596 24.2736 35.8702 21.6533 33.4469 21.6533C30.9914 21.6533 29.4405 24.1458 29.4728 26.6063C27.728 25.0405 24.8847 24.1458 23.1723 25.8713C21.4275 27.5969 22.106 30.4089 23.8831 32.1344C21.5244 32.2303 18.875 33.6043 18.875 36.0009C18.875 38.4295 21.3952 39.9633 23.8508 39.9313C22.2676 41.6569 21.3629 44.4689 23.1076 46.1625C24.8524 47.888 27.6957 47.217 29.4728 45.4595C29.5697 47.7922 30.9591 50.4124 33.3823 50.4124C35.8379 50.4124 37.3888 47.92 37.3565 45.4595C39.1013 47.0253 41.9446 47.92 43.657 46.1944C45.4018 44.4689 44.7232 41.6569 42.9462 39.9313C45.3048 39.8355 47.9543 38.4614 47.9543 36.0648ZM33.4146 40.858C30.7006 40.858 28.5358 38.6851 28.5358 36.0329C28.5358 33.3487 30.7329 31.2077 33.4146 31.2077C36.0964 31.2077 38.2935 33.3487 38.2935 36.0329C38.2935 38.7171 36.1287 40.858 33.4146 40.858Z" fill="white"/>
+</g>
+<defs>
+<filter id="to-flower-filter" x="0.0664062" y="1.04785" width="65.8688" height="75.9041" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<clipPath id="to-flower-clip">
+<rect x="18.875" y="21.6533" width="29.0793" height="28.7591" fill="white"/>
+</clipPath>
+</defs>
+</svg>
