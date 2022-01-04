@@ -1,9 +1,14 @@
 import { prisma } from '../../_utils';
 
+const KEY_WHITELIST = ['caught', 'config', 'selected', 'collected', 'flowers'];
+
 export async function post({ locals, url, body }) {
 	if (!locals.account) return { status: 401 };
 	const { email } = locals.account;
 	const { key, type } = Object.fromEntries(url.searchParams.entries());
+
+	if (!KEY_WHITELIST.includes(key))
+		return { status: 403, body: { msg: `operations on key key "${key}" are illegal.` } };
 
 	const account = await prisma.account.findUnique({ where: { email } });
 	let curData;
@@ -38,6 +43,10 @@ export async function get({ locals, url, body }) {
 	if (!locals.account) return { status: 401 };
 	const { email } = locals.account;
 	const { key, type } = Object.fromEntries(url.searchParams.entries());
+
+	if (!KEY_WHITELIST.includes(key))
+		return { status: 403, body: { msg: `operations on key key "${key}" are illegal.` } };
+
 	const account = await prisma.account.findUnique({ where: { email } });
 
 	try {

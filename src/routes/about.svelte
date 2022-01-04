@@ -25,7 +25,7 @@
 				quality time to produce Blathadex. As a developer and designer we hope this will be the
 				first of many apps we will build to share with the world.
 			</p>
-			<Image src='/aboutImage.png' />
+			<Image src="/aboutImage.png" />
 		</section>
 		<section>
 			<h2>Feedback</h2>
@@ -35,14 +35,24 @@
 			</p>
 			<p />
 			<p>
-				PS: It isn’t Comic Sans it’s Comic Nue which is entirely different.{' '}
+				PS: It isn’t Comic Sans it’s Comic Nue which is entirely different.
 				<span role="img" aria-label="wink"> 😉 </span>
 			</p>
 			<p />
 			<p />
 			<p>
-				If you want to help out and contribute the app is hosted on github at{' '}
-				<a target="__blank" href="https://github.com/odama626/blathadex">odama626/blathadex</a>
+				If you want to help out and contribute the app is hosted on github at
+				<a target="__blank" href="https://github.com/odama626/blathadex-svelte">
+					odama626/blathadex-svelte
+				</a>
+			</p>
+			<p>
+				A lot of the data in this site is provided by
+				<a
+					href="https://docs.google.com/spreadsheets/d/13d_LAJPlxMa_DubPTuirkIV4DERBMXbrWQsmSh8ReK4/edit#gid=926889329"
+				>
+					Data Spreadsheet for Animal Crossing New Horizons
+				</a>
 			</p>
 		</section>
 	</main>

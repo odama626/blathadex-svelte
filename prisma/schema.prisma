@@ -17,6 +17,7 @@ model Account {
   config    Json     @default("{}")
   selected  Json     @default("[]")
   collected Json     @default("[]")
+  flowers   Json     @default("[]")
   updatedAt DateTime @updatedAt
   createdAt DateTime @default(now())
   magicLink String   @unique
