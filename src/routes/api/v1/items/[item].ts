@@ -1,6 +1,6 @@
 import itemJson from '$lib/data/items.json';
 import type { Items } from '$lib/data/items';
-import { getVariantImage, sanitizeName } from '$lib/utils';
+import { getItemImage, sanitizeName } from '$lib/utils';
 import recipeJson from '$lib/data/recipes.json';
 import type { Recipes } from '$lib/recipes';
 
@@ -28,7 +28,7 @@ function getRecipe(name) {
 		const item = items.find((i) => i.name === name);
 		const variant = item?.variants?.[0];
 
-		return { name, qty, image: getVariantImage(variant) };
+		return { name, qty, image: getItemImage(item) };
 	});
 	return recipe;
 }

@@ -1,12 +1,11 @@
 <script lang="ts">
-	import { getVariantImage, sanitizeName } from './utils';
+	import { getItemImage, sanitizeName } from './utils';
 	import Image from 'svelte-image';
 
 	export let item;
 
-	let variant = item?.variants?.[0];
 
-	let image = getVariantImage(variant);
+	let image = getItemImage(item);
 </script>
 
 <a href="/items/{sanitizeName(item.name)}" class="item">

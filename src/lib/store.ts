@@ -11,6 +11,8 @@ const FETCH_CONFIG: Partial<RequestInit> = {
 export const syncState = writable('loading');
 export const selected = writableLocalStorage({}, { key: 'selected' });
 export const caught = writableBackend({}, { url: '/api/v1/account/save?key=caught&type=set' });
+export const collectedItems = writableBackend({}, { url: '/api/v1/account/save?key=collected&type=set'})
+export const grownFlowers = writableBackend({}, { url: '/api/v1/account/save?key=flowers&type=set'})
 
 export const store = writableChainStore(
 	{
@@ -90,21 +92,7 @@ function writableBackend(
 	if (browser) {
 		attach();
 	}
-
-	// function updateBackend(value) {
-	// 	if (browser)
-	// 		fetch(url, {
-	// 			method: 'post',
-	// 			headers: {
-	// 				'Content-Type': 'application/json'
-	// 			},
-	// 			credentials: 'same-origin',
-	// 			body: JSON.stringify(value)
-	// 		}).catch();
-	// }
-
-	// store.subscribe(updateBackend);
-
+	
 	return store;
 }
 

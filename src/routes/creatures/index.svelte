@@ -5,6 +5,7 @@
 	import CreatureWidget from '$lib/creature-widget.svelte';
 	import creatureJson from '$lib/data/creatures.json';
 	import Header from '$lib/header.svelte';
+	import MigrateFromGatsby from '$lib/migrate-from-gatsby.svelte';
 	import Search from '$lib/search.svelte';
 	import { caught, selected, store } from '$lib/store';
 	import {
@@ -26,7 +27,6 @@
 	const currentMonth = now.getMonth();
 	const currentHour = now.getHours();
 	let offsetMonth;
-	// let $store.isDayView = false;
 	let months;
 	let adjustedMonths;
 	let hours;
@@ -129,6 +129,7 @@
 </nav>
 <div class="container">
 	<main>
+		<MigrateFromGatsby />
 		<section role="radiogroup" class="switcher wide">
 			<div
 				role="radio"
@@ -219,9 +220,9 @@
 			>
 				Cancel
 			</button>
-			<button class="success" on:click={onMarkCaught}
-				>Mark {getSetFromArray($selected).length} Caught!</button
-			>
+			<button class="success" on:click={onMarkCaught}>
+				Mark {getSetFromArray($selected).length} Caught!
+			</button>
 		</header>
 	</nav>
 {:else}

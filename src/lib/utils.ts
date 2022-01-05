@@ -71,7 +71,8 @@ export function getLargeVariantImage(variant: variant): string {
 	return variant[key];
 }
 
-export function getVariantImage(variant: Variant): string {
+export function getItemImage(item): string {
+	const variant = item?.variants?.[0];
 	if (!variant) return null;
 	const key = [
 		'image',

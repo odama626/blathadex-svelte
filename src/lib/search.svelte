@@ -5,8 +5,10 @@
 	import VirtualList from '@sveltejs/svelte-virtual-list';
 	import { onMount, tick } from 'svelte';
 	import { fade } from 'svelte/transition';
-	import { store } from './store';
-	import { getRouteFromSourceSheet, getVariantImage, sanitizeName } from './utils';
+	import { caught, store } from './store';
+	import Checkmark from '$lib/vectors/checkmark.svg';
+
+	import { getRouteFromSourceSheet, getItemImage, sanitizeName, getCreatureId } from './utils';
 	import debounce from 'lodash.debounce';
 
 	export let inline = false;
@@ -14,18 +16,21 @@
 	export let hideResults = false;
 	export let desktop = false;
 	let input;
+	let state;
 
 	let items = [];
 
 	async function updateResults() {
 		if (!value) return;
+		state = 'loading';
 		const url = new URL(`/api/v1/search`, location.origin);
 		url.searchParams.set('q', value);
 		const result = await fetch(url.toString()).then((r) => r.json());
 		items = result.items;
+		state = 'done';
 	}
 
-	const debouncedUpdate = debounce(updateResults, 500)
+	const debouncedUpdate = debounce(updateResults, 500);
 
 	onMount(() => {
 		function searchListener(e) {
@@ -41,7 +46,11 @@
 
 	$: value, debouncedUpdate();
 
-	$: if ($store.isSearching) tick().then(() => input.focus());
+	$: if ($store.isSearching)
+		tick().then(() => {
+			input.focus();
+			input.select();
+		});
 </script>
 
 <div data-desktop={desktop} on:click={() => store.set((s) => !s, 'isSearching')}>
@@ -57,24 +66,37 @@
 	<div transition:fade|local class="search overlay" class:attached={!inline}>
 		<div class="input">
 			<SearchIcon class="input start" />
-			<div class="input end" on:click={() => (value = '')}>
+			<div class="input end" on:click={() => store.set(false, 'isSearching')}>
 				<CloseIcon class="input end" style="cursor: pointer" />
 			</div>
 			<input bind:this={input} bind:value placeholder="Search" />
 		</div>
 		{#if !hideResults}
 			<div class="results">
-				<VirtualList {items} let:item>
-					<a
-						on:click={() => store.set((s) => false, 'isSearching')}
-						class="item"
-						style="text-decoration: none;"
-						href="/{getRouteFromSourceSheet(item.sourceSheet)}/{sanitizeName(item.name)}"
-					>
-						<img src={getVariantImage(item?.variants?.[0]) ?? item?.iconImage ?? item?.image} />
-						{item.name}
-					</a>
-				</VirtualList>
+				{#if state === 'loading'}
+					<div class="info">Loading</div>
+				{:else if state === 'done' && items.length}
+					<VirtualList {items} let:item>
+						<a
+							on:click={() => store.set((s) => false, 'isSearching')}
+							class="item"
+							style="text-decoration: none;"
+							href="/{getRouteFromSourceSheet(item.sourceSheet)}/{sanitizeName(item.name)}"
+						>
+							<div class="stack">
+								<img src={getItemImage(item) ?? item?.iconImage ?? item?.image} />
+								{#if $caught[getCreatureId(item)]}
+									<Checkmark style='padding: 0;' class="badge bottom left" />
+								{/if}
+							</div>
+							{item.name}
+						</a>
+					</VirtualList>
+				{:else if !value?.length || state !== 'done'}
+					<div class="info">Start typing to search</div>
+				{:else}
+					<div class="info">No results</div>
+				{/if}
 			</div>
 		{/if}
 	</div>
@@ -83,10 +105,19 @@
 <style lang="scss">
 	.shade {
 		backdrop-filter: blur(5px);
-		top: 73px;
+		top: var(--header-height);
 		width: 100%;
 		left: 0;
 		bottom: 0;
+	}
+
+	.info {
+		display: flex;
+		justify-content: center;
+		padding: 2rem;
+		font-size: 2rem;
+		color: var(--accent);
+		filter: drop-shadow(1px 1px 1px var(--primary));
 	}
 
 	.results {

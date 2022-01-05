@@ -15,7 +15,7 @@
 
 <a
 	transition:slide|local
-	class="critter block"
+	class="item block"
 	class:caught
 	class:leaving
 	class:loading
@@ -36,56 +36,3 @@
 		{#if leaving}<WarningIcon class="badge top right overhang" />{/if}
 	</div>
 </a>
-
-<style lang="scss">
-	.critter.block {
-		width: 100px;
-		height: 100px;
-		:global(img.blur) {
-			filter: none;
-		}
-	}
-
-	.critter.block[data-selected='true'] {
-		background-color: var(--accent-background);
-		animation-delay: 0;
-		animation-duration: 0.33s;
-	}
-
-	.critter.block[data-selected='true']:nth-child(2n) {
-		animation-name: keyframes1;
-		animation-iteration-count: infinite;
-		transform-origin: 50% 10%;
-	}
-
-	.critter.block[data-selected='true']:nth-child(2n-1) {
-		animation-name: keyframes2;
-		animation-iteration-count: infinite;
-		animation-direction: alternate;
-		transform-origin: 30% 5%;
-	}
-
-	@keyframes keyframes1 {
-		0% {
-			transform: rotate(-1deg);
-			animation-timing-function: ease-in;
-		}
-
-		50% {
-			transform: rotate(1.5deg);
-			animation-timing-function: ease-out;
-		}
-	}
-
-	@keyframes keyframes2 {
-		0% {
-			transform: rotate(1deg);
-			animation-timing-function: ease-in;
-		}
-
-		50% {
-			transform: rotate(-1.5deg);
-			animation-timing-function: ease-out;
-		}
-	}
-</style>
