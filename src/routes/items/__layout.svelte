@@ -1,11 +1,12 @@
 <script>
+	import BottomNav from '$lib/bottom-nav.svelte';
 	import Header from '$lib/header.svelte';
 	import Search from '$lib/search.svelte';
 </script>
 
 <Header>
 	<svelte:fragment slot="actions">
-		<Search />
+		<Search desktop />
 	</svelte:fragment>
 </Header>
 <div class="container">
@@ -13,6 +14,7 @@
 		<slot />
 	</main>
 </div>
+<BottomNav />
 
 <style lang="scss">
 	.container {

@@ -36,7 +36,6 @@
 	import '../layout.css';
 
 	// TODO: implement color schemes https://stackoverflow.com/a/69328111/4913548
-	// TODO: implement migration from indexdb version
 
 	onMount(() => {
 		const analytics = Analytics({

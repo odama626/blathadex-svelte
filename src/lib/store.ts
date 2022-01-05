@@ -11,8 +11,14 @@ const FETCH_CONFIG: Partial<RequestInit> = {
 export const syncState = writable('loading');
 export const selected = writableLocalStorage({}, { key: 'selected' });
 export const caught = writableBackend({}, { url: '/api/v1/account/save?key=caught&type=set' });
-export const collectedItems = writableBackend({}, { url: '/api/v1/account/save?key=collected&type=set'})
-export const grownFlowers = writableBackend({}, { url: '/api/v1/account/save?key=flowers&type=set'})
+export const collectedItems = writableBackend(
+	{},
+	{ url: '/api/v1/account/save?key=collected&type=set' }
+);
+export const grownFlowers = writableBackend(
+	{},
+	{ url: '/api/v1/account/save?key=flowers&type=set' }
+);
 
 export const store = writableChainStore(
 	{
@@ -34,7 +40,7 @@ export const store = writableChainStore(
 	}
 );
 
-function writableBackend(
+export function writableBackend(
 	initial,
 	{ merge = (a, b) => ({ ...a, ...b }), url, internalStore = writable } = {}
 ) {
@@ -92,11 +98,11 @@ function writableBackend(
 	if (browser) {
 		attach();
 	}
-	
+
 	return store;
 }
 
-function writableLocalStorage(initial, { key, internalStore = writable } = {}) {
+export function writableLocalStorage(initial, { key, internalStore = writable } = {}) {
 	let init = initial;
 	try {
 		init = JSON.parse(localStorage.getItem(key)) || initial;

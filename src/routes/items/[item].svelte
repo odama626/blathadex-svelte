@@ -23,6 +23,7 @@
 	import Checkbox from '$lib/checkbox.svelte';
 	import Image from '$lib/image/index.svelte';
 	import ItemBlock from '$lib/item-block.svelte';
+	import { collectedItems } from '$lib/store';
 	import { getLargeVariantImage, sanitizeName, titleCase } from '$lib/utils';
 	import Bells from '$lib/vectors/bagOfBells.svg';
 	import LocationIcon from '$lib/vectors/locationIcon.svg';
@@ -60,7 +61,18 @@
 		<div class="detail grid">
 			<Bells />
 			<h3 style="margin-bottom: 0">{variant.sell?.toLocaleString() || 'not for sale'}</h3>
-			<Checkbox style="justify-self: flex-end" label="Collected" />
+			<Checkbox
+				checked={$collectedItems[item.name.toLowerCase()]}
+				on:click={() => {
+					collectedItems.update((items) => {
+						const id = item.name.toLowerCase();
+						items[id] = !items[id];
+						return items;
+					});
+				}}
+				style="justify-self: flex-end"
+				label="Collected"
+			/>
 			{#if variant.source}
 				<LocationIcon />
 				{#each variant.source as source}

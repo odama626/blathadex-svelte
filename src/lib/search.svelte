@@ -21,7 +21,8 @@
 	let items = [];
 
 	async function updateResults() {
-		if (!value) return;
+		if (!value) return (items = []);
+		if (value.length < 3) return;
 		state = 'loading';
 		const url = new URL(`/api/v1/search`, location.origin);
 		url.searchParams.set('q', value);
@@ -48,6 +49,7 @@
 
 	$: if ($store.isSearching)
 		tick().then(() => {
+			state = '';
 			input.focus();
 			input.select();
 		});
@@ -86,7 +88,7 @@
 							<div class="stack">
 								<img src={getItemImage(item) ?? item?.iconImage ?? item?.image} />
 								{#if $caught[getCreatureId(item)]}
-									<Checkmark style='padding: 0;' class="badge bottom left" />
+									<Checkmark style="padding: 0;" class="badge bottom left" />
 								{/if}
 							</div>
 							{item.name}

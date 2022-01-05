@@ -1,6 +1,7 @@
 <script lang="ts">
 	import items from '$lib/data/items.json';
 	import ItemBlock from '$lib/item-block.svelte';
+	import { collectedItems } from '$lib/store';
 	import { sanitizeName } from '$lib/utils';
 	import VirtualList from '@sveltejs/svelte-virtual-list';
 </script>
@@ -15,9 +16,9 @@
 	</div> -->
 	<div class="container">
 		<VirtualList {items} let:item>
-			<a style='text-decoration: none;' href="/items/{sanitizeName(item.name)}">
+			<a style="text-decoration: none;" href="/items/{sanitizeName(item.name)}">
 				<div class="item">
-					<ItemBlock {item} />
+					<ItemBlock {item} collected={$collectedItems[item.name.toLowerCase()]} />
 					{item.name}
 				</div>
 			</a>
