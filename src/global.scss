@@ -749,7 +749,7 @@ a {
 input {
   background-color: var(--background);
   color: var(--text-color);
-  border: none;
+  border: 2px solid var(--basic-outline);
   // outline-offset: 3px;
   outline-color: var(--accent-outline);
   // border-radius: var(--border-radius);
