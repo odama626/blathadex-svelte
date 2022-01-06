@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { browser } from '$app/env';
-	import { createEventDispatcher, onMount } from 'svelte';
-	import { backIn } from 'svelte/easing';
+	import { createEventDispatcher,onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
 	import { store } from './store';
 
@@ -23,13 +22,17 @@
 	export let fabIconPath = FAB_BUTTON.SEARCH;
 	export let keepOpen = false;
 
-	let width = browser ?visualViewport.width : 1000;
+	let width = browser ? visualViewport.width : 1000;
 	let fabXPosition = 0;
 	let drawerXPosition = 0;
 	let collapsed;
 
+	store.subscribe((s) => {
+		if (s.isSearching && !collapsed) collapsed = true;
+	});
+
 	function updatePositions() {
-		width = browser ?visualViewport.width : 1000;
+		width = browser ? visualViewport.width : 1000;
 		if (fabPosition === 'right') {
 			fabXPosition = width - padding - fabRadius - cutoutWidth;
 			drawerXPosition = padding;
