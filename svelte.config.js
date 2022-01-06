@@ -3,6 +3,7 @@ import preprocess from 'svelte-preprocess';
 import image from 'svelte-image';
 import svg from '@poppanator/sveltekit-svg';
 import sequential from 'svelte-sequential-preprocessor'
+import { resolve } from 'path';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -17,7 +18,12 @@ const config = {
 		target: '#svelte',
 
 		vite: {
-			plugins: [svg()]
+			plugins: [svg()],
+			resolve: {
+				alias: {
+					$routes: resolve('./src/routes')
+				}
+			}
 		}
 	}
 };

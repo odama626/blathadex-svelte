@@ -12,7 +12,7 @@
 
 <a href="/items/{sanitizeName(item.name)}" class="item">
 	<div class="stack">
-		<Image src={image} />
+		<img src={image} />
 		{#if collected}<Checkmark class="badge bottom left" />{/if}
 	</div>
 </a>

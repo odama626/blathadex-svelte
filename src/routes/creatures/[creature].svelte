@@ -26,7 +26,8 @@
 	import Header from '$lib/header.svelte';
 	import Image from '$lib/image/index.svelte';
 	import Search from '$lib/search.svelte';
-	import { caught, store } from '$lib/store';
+	import { store } from '$lib/store';
+	import { acquired } from './_store';
 	import { getCreatureId, getLocaleTime, MONTH_NAMES, titleCase } from '$lib/utils';
 	import Bells from '$lib/vectors/bagOfBells.svg';
 	import LocationIcon from '$lib/vectors/locationIcon.svg';
@@ -37,9 +38,9 @@
 
 	export let creature;
 	export let similar;
-	export let isCaught = $caught[getCreatureId(creature)];
+	export let isCaught = $acquired[getCreatureId(creature)];
 
-	$: isCaught = $caught[getCreatureId(creature)];
+	$: isCaught = $acquired[getCreatureId(creature)];
 
 	const hoursAvailable = getDayAvailability([creature]);
 	let monthsAvailable = getMonthAvailability([creature]);
@@ -80,7 +81,7 @@
 					<h3 style="margin-bottom: 0;">{creature.sell.toLocaleString()}</h3>
 					<Checkbox
 						on:click={() =>
-							caught.update((creatures) => {
+							acquired.update((creatures) => {
 								const id = getCreatureId(creature);
 								creatures[id] = !creatures[id];
 								return creatures;
@@ -89,7 +90,7 @@
 						label="Caught"
 						checked={isCaught}
 					/>
-					<LocationIcon />
+					<LocationIcon style='color: var(--primary); place-self: center;' />
 					<span class="location">{creature.whereHow || creature.sourceSheet}</span>
 				</div>
 			</section>
@@ -199,6 +200,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		margin-bottom: 1rem;
 
 		:global(div) {
 			max-height: 300px;

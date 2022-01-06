@@ -123,7 +123,7 @@ const SHEET_GROUPS = {
 	'season-and-events': ['Seasons and Events']
 };
 
-export function getRouteFromSourceSheet(sourceSheet) {
+export function getGroupFromSourceSheet(sourceSheet) {
 	return Object.entries(SHEET_GROUPS).find(([key, set]) => set.includes(sourceSheet))[0];
 }
 

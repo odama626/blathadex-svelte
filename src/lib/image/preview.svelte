@@ -36,7 +36,7 @@
 		justify-content: center;
 		align-items: center;
     backdrop-filter: blur(5px);
-    z-index: 5;
+    z-index: 100;
 	}
   .large-image {
 		z-index: 100;

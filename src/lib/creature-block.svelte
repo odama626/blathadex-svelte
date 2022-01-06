@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Checkmark from '$lib/vectors/checkmark.svg';
 	import WarningIcon from '$lib/vectors/warningIcon.svg';
-	import Image from 'svelte-image';
 	import { slide } from 'svelte/transition';
 	import longPress from './long-press';
 	import { getCreatureId, sanitizeName } from './utils';

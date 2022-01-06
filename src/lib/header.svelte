@@ -2,7 +2,7 @@
 	import Hamburger from '$lib/vectors/hamburger.svg';
 	import Logo from '$lib/vectors/logo.svg';
 	import Nav from '$lib/nav.svelte';
-	import { syncState } from './store';
+	import { syncState } from './store-types';
 	import SyncOk from '$lib/vectors/sync-ok.svg';
 	import SyncError from '$lib/vectors/sync-error.svg';
 	import SyncLoading from '$lib/vectors/sync-progress.svg';

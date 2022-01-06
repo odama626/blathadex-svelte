@@ -1,19 +1,22 @@
 <script lang="ts">
+	import { browser } from '$app/env';
+
 	import { getDayAvailability, getMonthAvailability, groupByLocation } from '$lib/availability';
 	import BottomNav from '$lib/bottom-nav.svelte';
-	import CreatureBlock from '$lib/creature-block.svelte';
 	import CreatureWidget from '$lib/creature-widget.svelte';
 	import creatureJson from '$lib/data/creatures.json';
 	import Header from '$lib/header.svelte';
 	import MigrateFromGatsby from '$lib/migrate-from-gatsby.svelte';
 	import Search from '$lib/search.svelte';
-	import { caught, selected, store } from '$lib/store';
+	import SelectableBlock from '$lib/selectable-block.svelte';
+	import { store } from '$lib/store';
 	import {
 		filterCreature,
 		getCreatureId,
 		getLocaleTime,
 		getSetFromArray,
 		MONTH_NAMES,
+		sanitizeName,
 		sortCreature
 	} from '$lib/utils';
 	import DaySvg from '$lib/vectors/day.svg';
@@ -21,7 +24,11 @@
 	import MonthSvg from '$lib/vectors/month.svg';
 	import SettingsIcon from '$lib/vectors/settings.svg';
 	import SortIcon from '$lib/vectors/sort.svg';
+	import AllSvg from '$lib/vectors/all.svg';
+	import Location from '$lib/vectors/locationIcon.svg';
+	import WarningIcon from '$lib/vectors/warningIcon.svg';
 	import { fade, slide } from 'svelte/transition';
+	import { acquired, selected } from './_store';
 
 	const now = new Date();
 	const currentMonth = now.getMonth();
@@ -33,13 +40,14 @@
 	let adjustedHours;
 	let adjustedLocation = [];
 	let locations;
-	let isSelecting = !!getSetFromArray($selected).length;
+	let isSelecting: string | boolean = !!getSetFromArray($selected).length;
 	let creatures = [];
+	let loading = true;
 
 	$: {
 		offsetMonth = currentMonth;
 		if ($store.hemisphere === 'south') offsetMonth -= 6;
-		const caughtArray = getSetFromArray($caught);
+		const caughtArray = getSetFromArray($acquired);
 		creatures = creatureJson
 			.filter(filterCreature($store.filter, caughtArray))
 			.sort(sortCreature($store.sort, caughtArray));
@@ -50,6 +58,7 @@
 		adjustedHours = hours.slice(currentHour).concat(hours.slice(0, currentHour));
 
 		locations = groupByLocation(adjustedHours[0].available);
+		if (browser) loading = false;
 	}
 
 	let sections = [];
@@ -69,10 +78,18 @@
 	}
 
 	function onMarkCaught() {
-		caught.update((cur) => ({
+		acquired.update((cur) => ({
 			...cur,
 			...$selected
 		}));
+		selected.set({});
+		isSelecting = false;
+	}
+
+	function onCancelSelection() {
+		document
+			.querySelectorAll('[data-selected="true"]')
+			.forEach((node) => (node.dataset.selected = false));
 		selected.set({});
 		isSelecting = false;
 	}
@@ -112,18 +129,10 @@
 	<CreatureWidget />
 	{#if getSetFromArray($selected).length > 0}
 		<header transition:slide|local>
-			<button
-				class="error"
-				on:click={() => {
-					document
-						.querySelectorAll('[data-selected="true"]')
-						.forEach((node) => (node.dataset.selected = false));
-					selected.set([]);
-					isSelecting = false;
-				}}>Cancel</button
-			><button class="success" on:click={onMarkCaught}
-				>Mark {getSetFromArray($selected).length} Caught!</button
-			>
+			<button class="error" on:click={onCancelSelection}>Cancel</button>
+			<button class="success" on:click={onMarkCaught}>
+				Mark {getSetFromArray($selected).length} Caught!
+			</button>
 		</header>
 	{/if}
 </nav>
@@ -137,7 +146,7 @@
 				class:active={$store.groupBy === 'all'}
 				on:click={() => store.set('all', 'groupBy')}
 			>
-				<MonthSvg /> All
+				<AllSvg height="28px" /> All
 			</div>
 			<div
 				role="radio"
@@ -161,7 +170,7 @@
 				class:active={$store.groupBy === 'live'}
 				on:click={() => store.set('live', 'groupBy')}
 			>
-				<MonthSvg /> Live
+				<Location /> Live
 			</div>
 		</section>
 		{#each sections as section, i}
@@ -170,9 +179,13 @@
 					<h3>{section.header}</h3>
 					<div class="grid">
 						{#each (i === 0 ? section.available : section.new) || section.items || [] as creature (getCreatureId(creature))}
-							<CreatureBlock
+							<SelectableBlock
+								{loading}
+								id={getCreatureId(creature)}
 								selected={$selected[getCreatureId(creature)]}
-								caught={$caught[getCreatureId(creature)]}
+								acquired={$acquired[getCreatureId(creature)]}
+								image={creature.iconImage}
+								href="/creatures/{sanitizeName(creature.name)}"
 								on:long-press={(e) => {
 									toggleSelected(e.currentTarget);
 									isSelecting = getCreatureId(creature);
@@ -186,9 +199,13 @@
 									}
 									isSelecting = !!isSelecting;
 								}}
-								{creature}
-								leaving={i === 0 && section.leaving?.includes(creature.name)}
-							/>
+							>
+								<svelte:fragment slot="stack">
+									{#if i === 0 && section.leaving?.includes(creature.name)}
+										<WarningIcon class="badge top right overhang" />
+									{/if}
+								</svelte:fragment>
+							</SelectableBlock>
 						{:else}
 							<p style="grid-column: 1 / 4">Nothing to see here, adjust the filters</p>
 						{/each}
@@ -208,18 +225,7 @@
 		class="bottom selection"
 	>
 		<header>
-			<button
-				class="error"
-				on:click={() => {
-					document
-						.querySelectorAll('[data-selected="true"]')
-						.forEach((node) => (node.dataset.selected = false));
-					selected.set([]);
-					isSelecting = false;
-				}}
-			>
-				Cancel
-			</button>
+			<button class="error" on:click={onCancelSelection}> Cancel </button>
 			<button class="success" on:click={onMarkCaught}>
 				Mark {getSetFromArray($selected).length} Caught!
 			</button>
@@ -254,14 +260,6 @@
 	.container {
 		margin: 0 auto;
 		max-width: 966px;
-	}
-
-	nav.bottom header {
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
-		padding: 14px;
-		margin: auto;
 	}
 
 	.bottom-nav-tray-container {

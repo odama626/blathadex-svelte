@@ -8,7 +8,7 @@
 
 <script>
 	import Header from '$lib/header.svelte';
-	import { syncState } from '$lib/store';
+	import { syncState } from '$lib/store-types';
 
 	export let account;
 	export let sent;

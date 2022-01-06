@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script>
+			if (localStorage.getItem('color-scheme')) {
+				document.documentElement.dataset.theme = JSON.parse(localStorage.getItem('color-scheme'));
+			}
+		</script>
 		<meta charset="utf-8" />
 		<meta name="description" content="" />
 		<link rel="icon" href="/favicon.png" />

@@ -1,6 +1,7 @@
 <script context="module" lang="ts">
 	import { browser } from '$app/env';
 	import Preview from '$lib/image/preview.svelte';
+	import { colorScheme } from '$lib/store';
 	import { replaceStateWithQuery } from '$lib/utils';
 	import googleAnalytics from '@analytics/google-analytics';
 	import Analytics from 'analytics';
@@ -35,8 +36,6 @@
 	import '../global.scss';
 	import '../layout.css';
 
-	// TODO: implement color schemes https://stackoverflow.com/a/69328111/4913548
-
 	onMount(() => {
 		const analytics = Analytics({
 			app: 'blathadex',
@@ -48,6 +47,12 @@
 		});
 		analytics.page();
 	});
+
+	if (browser) {
+		colorScheme.subscribe((color) => {
+			document.documentElement.dataset.theme = color;
+		});
+	}
 </script>
 
 <slot />

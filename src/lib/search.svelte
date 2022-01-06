@@ -5,10 +5,13 @@
 	import VirtualList from '@sveltejs/svelte-virtual-list';
 	import { onMount, tick } from 'svelte';
 	import { fade } from 'svelte/transition';
-	import { caught, store } from './store';
+	import { store } from './store';
+	import { acquired as acquiredCreatures } from '$routes/creatures/_store';
+	import { acquired as acquiredItems } from '$routes/items/_store';
+	import { acquired as acquiredVillagers } from '$routes/villagers/_store';
 	import Checkmark from '$lib/vectors/checkmark.svg';
 
-	import { getRouteFromSourceSheet, getItemImage, sanitizeName, getCreatureId } from './utils';
+	import { getGroupFromSourceSheet, getItemImage, sanitizeName, getCreatureId } from './utils';
 	import debounce from 'lodash.debounce';
 
 	export let inline = false;
@@ -32,6 +35,19 @@
 	}
 
 	const debouncedUpdate = debounce(updateResults, 500);
+
+	function isAcquired(item) {
+		switch (item.sourceSheet) {
+			case 'Insects':
+			case 'Fish':
+			case 'Sea Creatures':
+				return $acquiredCreatures[getCreatureId(item)];
+			case 'Villagers':
+				return $acquiredVillagers[item.name.toLowerCase()];
+			default:
+				return $acquiredItems[item.name.toLowerCase()];
+		}
+	}
 
 	onMount(() => {
 		function searchListener(e) {
@@ -82,12 +98,12 @@
 						<a
 							on:click={() => store.set((s) => false, 'isSearching')}
 							class="item"
-							style="text-decoration: none;"
-							href="/{getRouteFromSourceSheet(item.sourceSheet)}/{sanitizeName(item.name)}"
+							style="text-decoration: none; color: inherit;"
+							href="/{getGroupFromSourceSheet(item.sourceSheet)}/{sanitizeName(item.name)}"
 						>
 							<div class="stack">
 								<img src={getItemImage(item) ?? item?.iconImage ?? item?.image} />
-								{#if $caught[getCreatureId(item)]}
+								{#if isAcquired(item)}
 									<Checkmark style="padding: 0;" class="badge bottom left" />
 								{/if}
 							</div>
@@ -117,9 +133,11 @@
 		display: flex;
 		justify-content: center;
 		padding: 2rem;
-		font-size: 2rem;
-		color: var(--accent);
-		filter: drop-shadow(1px 1px 1px var(--primary));
+		font-size: 1.5rem;
+	}
+
+	.search.overlay {
+		background-color: var(--background);
 	}
 
 	.results {
@@ -130,7 +148,6 @@
 	.item {
 		display: flex;
 		align-items: center;
-		background-color: var(--section-background);
 
 		> :first-child {
 			width: 52px;

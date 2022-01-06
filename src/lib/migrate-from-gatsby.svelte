@@ -11,7 +11,6 @@
 		if (databases.find((database) => database.name === DATABASE_NAME)) {
 			foundOldDatabase = true;
 		}
-		console.log({ databases });
 	});
 </script>
 

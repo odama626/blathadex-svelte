@@ -1,6 +1,6 @@
 import { prisma } from '../../_utils';
 
-const KEY_WHITELIST = ['caught', 'config', 'selected', 'collected', 'flowers'];
+const KEY_WHITELIST = ['caught', 'config', 'selected', 'collected', 'flowers', 'villagers'];
 
 export async function post({ locals, url, body }) {
 	if (!locals.account) return { status: 401 };

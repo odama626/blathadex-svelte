@@ -3,8 +3,10 @@
 	import itemJson from '$lib/data/items.json';
 	import Header from '$lib/header.svelte';
 	import Search from '$lib/search.svelte';
-	import { caught, collectedItems, grownFlowers } from '$lib/store';
+	import { grownFlowers } from '$lib/store';
 	import { getCreatureId, getItemImage } from '$lib/utils';
+	import { acquired as acquiredCreatures } from '../creatures/_store';
+	import { acquired as acquiredItems } from '../items/_store';
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
 
@@ -28,14 +30,20 @@
 	let selectedFlowers = {};
 
 	function importData() {
-		caught.update((cur) => ({ ...cur, ...selectedCreatures }));
-		collectedItems.update((cur) => ({ ...cur, ...selectedItems }));
+		acquiredCreatures.update((cur) => ({ ...cur, ...selectedCreatures }));
+		acquiredItems.update((cur) => ({ ...cur, ...selectedItems }));
 		grownFlowers.update((cur) => ({ ...cur, ...selectedFlowers }));
-		indexedDB.deleteDatabase('critterDb')
+		indexedDB.deleteDatabase('critterDb');
 		goto(`/creatures`);
 	}
 
 	onMount(async () => {
+		const databases = await indexedDB.databases();
+		if (!databases.find((database) => database.name === DATABASE_NAME)) {
+			// nothing to do
+			return;
+		}
+
 		const { default: Dexie } = await import('dexie');
 
 		const db = new Dexie('critterDb');
@@ -73,7 +81,6 @@
 
 		items = await db.collected.toArray().then((records) => {
 			const names = records.map((item) => item.name.toLowerCase());
-			console.log({ names });
 			return itemJson.filter((item) => {
 				const itemName = item.name.toLowerCase();
 				return names.find((name) => itemName === name);
@@ -83,8 +90,6 @@
 			group[item.name.toLowerCase()] = true;
 			return group;
 		}, {});
-
-		console.log({ creatures, flowers, items });
 	});
 </script>
 
@@ -93,16 +98,22 @@
 </Header>
 <div class="container">
 	<main>
-		<section>
-			<p>We tried our best, does this look right?</p>
-			<p>
-				We support magic link logins now! If you want to access your data on more devices you need
-				to login with your email
-			</p>
-			<div>
-				<button on:click={importData}>Import my Data</button>
-			</div>
-		</section>
+		{#if items.length || flowers.length || creatures.length}
+			<section>
+				<p>We tried our best, does this look right?</p>
+				<p>
+					We support magic link logins now! If you want to access your data on more devices you need
+					to login with your email
+				</p>
+				<div>
+					<button on:click={importData}>Import my Data</button>
+				</div>
+			</section>
+		{:else}
+			<section>
+				<p>We weren't able to find any data to import</p>
+			</section>
+		{/if}
 		{#if creatures.length > 0}
 			<section>
 				<h3>Creatures</h3>
@@ -141,29 +152,31 @@
 				</div>
 			</section>
 		{/if}
-		<section>
-			<h3>Flowers</h3>
-			<p>
-				Flowers have yet to be recreated in the new version but we will save what we found for when
-				it does get added
-			</p>
-			<div class="grid">
-				{#each flowers as flower (flower.id)}
-					<div
-						class="item block"
-						style="display: flex; align-items: center; justify-content: center;"
-						data-selected={selectedFlowers[getMigratedFlowerId(flower)]}
-						on:click={() => {
-							const id = getMigratedFlowerId(flower);
-							selectedFlowers[id] = !selectedFlowers[id];
-						}}
-					>
-						{flower.color}
-						{flower.genus}
-					</div>
-				{/each}
-			</div>
-		</section>
+		{#if flowers.length > 0}
+			<section>
+				<h3>Flowers</h3>
+				<p>
+					Flowers have yet to be recreated in the new version but we will save what we found for
+					when it does get added
+				</p>
+				<div class="grid">
+					{#each flowers as flower (flower.id)}
+						<div
+							class="item block"
+							style="display: flex; align-items: center; justify-content: center;"
+							data-selected={selectedFlowers[getMigratedFlowerId(flower)]}
+							on:click={() => {
+								const id = getMigratedFlowerId(flower);
+								selectedFlowers[id] = !selectedFlowers[id];
+							}}
+						>
+							{flower.color}
+							{flower.genus}
+						</div>
+					{/each}
+				</div>
+			</section>
+		{/if}
 	</main>
 </div>
 
