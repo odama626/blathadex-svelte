@@ -16,7 +16,7 @@ export interface SeasonAndEvent {
 }
 
 export enum SourceSheet {
-  SeasonsAndEvents = 'SeasonsAndEvents',
+  SeasonsAndEvents = 'Seasons and Events',
 }
 
 export enum Type {

@@ -22,5 +22,5 @@ export enum Gender {
 }
 
 export enum SourceSheet {
-  SpecialNpcs = 'SpecialNpcs',
+  SpecialNPCS = 'Special NPCs',
 }
