@@ -1,11 +1,11 @@
 import itemJson from '$lib/data/items.json';
-import type { Items } from '$lib/data/items';
+import type { Item } from '$lib/data/items';
 import { getItemImage, sanitizeName } from '$lib/utils';
 import recipeJson from '$lib/data/recipes.json';
-import type { Recipes } from '$lib/recipes';
+import type { Recipe } from '$lib/recipes';
 
-const items = itemJson as Items[];
-const recipes = recipeJson as Recipes[];
+const items = itemJson as Item[];
+const recipes = recipeJson as Recipe[];
 
 function getMatchCount(item, match) {
 	let count = 0;

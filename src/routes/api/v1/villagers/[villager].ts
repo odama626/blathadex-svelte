@@ -1,8 +1,8 @@
 import villagerJson from '$lib/data/villagers.json';
-import type { Villagers } from '$lib/data/villagers';
+import type { Villager } from '$lib/data/villagers';
 import { sanitizeName } from '$lib/utils';
 
-const villagers = villagerJson as Villagers[];
+const villagers = villagerJson as Villager[];
 
 export async function get({ params }) {
 	try {

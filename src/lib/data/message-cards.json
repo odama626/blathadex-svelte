@@ -1,6 +1,6 @@
 [
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Acorn card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgFall03.png",
     "buy": 200,
@@ -23,7 +23,7 @@
     "uniqueEntryId": "oWdfeTEzWt8puvKW3"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Airmail card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgOther01.png",
     "buy": 200,
@@ -46,7 +46,7 @@
     "uniqueEntryId": "FfCPKSQkxM64FZ2nd"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Baby-goods card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgBaby00.png",
     "buy": 200,
@@ -69,7 +69,7 @@
     "uniqueEntryId": "TDuhkjRtw7KAQakP2"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Balloons card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgBirthday02.png",
     "buy": 200,
@@ -92,7 +92,7 @@
     "uniqueEntryId": "AdTRESNSb7JfssoCt"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Bandage card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgSympathy00.png",
     "buy": 200,
@@ -115,7 +115,7 @@
     "uniqueEntryId": "p5cZtRuvvHRk4nETq"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Beach card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgSummer03.png",
     "buy": 200,
@@ -138,7 +138,7 @@
     "uniqueEntryId": "jEjPnzF6G3hDkq8P4"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Birthday-cake card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgBirthday00.png",
     "buy": 200,
@@ -161,7 +161,7 @@
     "uniqueEntryId": "rRnBoDeMhYutyWtqD"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Blue-sky card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgOther06.png",
     "buy": 200,
@@ -184,7 +184,7 @@
     "uniqueEntryId": "meW8u7nvBuTdJpCeG"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Bunny Day card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgEaster00.png",
     "buy": 200,
@@ -207,7 +207,7 @@
     "uniqueEntryId": "bmD2rpkaq8gdBi8TZ"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Camo card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgCool01.png",
     "buy": 200,
@@ -230,7 +230,7 @@
     "uniqueEntryId": "Pa6BykAvEjxAgrNmB"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Dawning-year card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgNewyear01.png",
     "buy": -1,
@@ -253,7 +253,7 @@
     "uniqueEntryId": "K7N64yJH3NpwKk6BY"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Card from Bank of Nook",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgBank00.png",
     "buy": -1,
@@ -276,7 +276,7 @@
     "uniqueEntryId": "q4KoqTjC22ghtvuu4"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Card from C.J.",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgFish00.png",
     "buy": -1,
@@ -299,7 +299,7 @@
     "uniqueEntryId": "pyhPqjY5seC6N2EPP"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Card from Flick",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgInsect00.png",
     "buy": -1,
@@ -322,7 +322,7 @@
     "uniqueEntryId": "8H9YnYnz44vYZBTzd"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Card from Happy Home Academy",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgAcademy00.png",
     "buy": -1,
@@ -345,7 +345,7 @@
     "uniqueEntryId": "9SnHEWxApcQCBiefK"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Card from Jolly Redd's",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgTsunekichi00.png",
     "buy": -1,
@@ -368,7 +368,7 @@
     "uniqueEntryId": "eD6D9pW3A6a8YM5Es"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Card from K.K.",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgTotakeke00.png",
     "buy": -1,
@@ -391,7 +391,7 @@
     "uniqueEntryId": "pK5n68w5djRAXGrBR"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Fireworks card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgNewyear00.png",
     "buy": -1,
@@ -414,7 +414,7 @@
     "uniqueEntryId": "CRrysKXYPecdavppY"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Card from Nook Mileage Program",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgMilage00.png",
     "buy": -1,
@@ -437,7 +437,7 @@
     "uniqueEntryId": "aFfbn4p7DAQDEfLnB"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Card from Your pals at Dodo Airlines",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgDal00.png",
     "buy": -1,
@@ -460,7 +460,7 @@
     "uniqueEntryId": "jmD477wFpZYTyg7JW"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Carpet-of-leaves card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgFall01.png",
     "buy": 200,
@@ -483,7 +483,7 @@
     "uniqueEntryId": "4gutEbpyCGQJywuqR"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Cherry-blossoms card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgSpring00.png",
     "buy": 200,
@@ -506,7 +506,7 @@
     "uniqueEntryId": "CePQFE2nenXK2nS8W"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Chocolate card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgValentine01.png",
     "buy": 200,
@@ -529,7 +529,7 @@
     "uniqueEntryId": "ek9h3bN59WHc4c9ee"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Chocolate-heart card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgValentine00.png",
     "buy": 200,
@@ -552,7 +552,7 @@
     "uniqueEntryId": "EwqiNdRrQJFLjEPTD"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Common card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgSimple00.png",
     "buy": 200,
@@ -575,7 +575,7 @@
     "uniqueEntryId": "shuuoFNypR6Fgntq5"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Cool-cool card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgCool00.png",
     "buy": 200,
@@ -598,7 +598,7 @@
     "uniqueEntryId": "tGtbK6hWXFuDDtEQY"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Dandelion card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgSpring01.png",
     "buy": 200,
@@ -621,7 +621,7 @@
     "uniqueEntryId": "qBukA5CtCMxwiuQs2"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Decorative card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgGorgeous01.png",
     "buy": 200,
@@ -644,7 +644,7 @@
     "uniqueEntryId": "tWZFw2DJ85cJhfyJE"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Elegant-roses card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgElegant01.png",
     "buy": 200,
@@ -667,7 +667,7 @@
     "uniqueEntryId": "yQ4NKsgLyQyaxonn6"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Fanciful card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgCute00.png",
     "buy": 200,
@@ -690,7 +690,7 @@
     "uniqueEntryId": "LDXqDQmHJmGTvgRcf"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Fantasy-stars card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgCute01.png",
     "buy": 200,
@@ -713,7 +713,7 @@
     "uniqueEntryId": "y6pgsRhjp7BEJufqM"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Father's Day card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgFather00.png",
     "buy": 200,
@@ -736,7 +736,7 @@
     "uniqueEntryId": "hFxBjcAtSZGc4b6Ef"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Festive-tree card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgChristmas00.png",
     "buy": 200,
@@ -759,7 +759,7 @@
     "uniqueEntryId": "SKZtd2YWveniGktxw"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Flower-bouquet card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgThankyou00.png",
     "buy": 200,
@@ -782,7 +782,7 @@
     "uniqueEntryId": "B6M3bgwNGuhfojaAv"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Fluffy-clouds card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgSummer01.png",
     "buy": 200,
@@ -805,7 +805,7 @@
     "uniqueEntryId": "soTMti7GC6DBuNTTQ"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Full-bloom card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgSpring02.png",
     "buy": 200,
@@ -828,7 +828,7 @@
     "uniqueEntryId": "XuiGAQaASmhbhaYQR"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Gears card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgOther04.png",
     "buy": 200,
@@ -851,7 +851,7 @@
     "uniqueEntryId": "d8JvDkZmHn7fa25nd"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Gem card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgElegant00.png",
     "buy": 200,
@@ -874,7 +874,7 @@
     "uniqueEntryId": "8u6GWaqqKowKDaQMc"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Gift card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgShopping00.png",
     "buy": -1,
@@ -897,7 +897,7 @@
     "uniqueEntryId": "Lg9oDxdeWQoiqSDfa"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Goldfish card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgSummer00.png",
     "buy": 200,
@@ -920,7 +920,7 @@
     "uniqueEntryId": "LYSrW8P9Qtbgjp6Fo"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Graduation card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgGraduate00.png",
     "buy": 200,
@@ -943,7 +943,7 @@
     "uniqueEntryId": "KNgFTS9DnY2yDj3Po"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Graffiti card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgActive00.png",
     "buy": 200,
@@ -966,7 +966,7 @@
     "uniqueEntryId": "jADvDRLmF5dHJkBZP"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Halloween card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgHalloween01.png",
     "buy": 200,
@@ -989,7 +989,7 @@
     "uniqueEntryId": "whjFSsXWHv75vvXwH"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Happy-clovers card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgEncourage00.png",
     "buy": 200,
@@ -1012,7 +1012,7 @@
     "uniqueEntryId": "Lzhq6cyapSuGRsuvu"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Turkey Day card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgThanksgiving00.png",
     "buy": 200,
@@ -1035,7 +1035,7 @@
     "uniqueEntryId": "eMmoyy8BfudhMeZvW"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Hibiscus card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgSummer02.png",
     "buy": 200,
@@ -1058,7 +1058,7 @@
     "uniqueEntryId": "DpdwLMqmxy4cCKNfZ"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Holiday card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgChristmas01.png",
     "buy": 200,
@@ -1081,7 +1081,7 @@
     "uniqueEntryId": "yBe5TtK8cowF38QFo"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Lovely hearts card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgLove00.png",
     "buy": 200,
@@ -1104,7 +1104,7 @@
     "uniqueEntryId": "qKHdMdrTEFdQvQTNy"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Mother's Day card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgMother00.png",
     "buy": 200,
@@ -1127,7 +1127,7 @@
     "uniqueEntryId": "ztwWJo7Rv4RLuHcjK"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Mushroom card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgFall02.png",
     "buy": 200,
@@ -1150,7 +1150,7 @@
     "uniqueEntryId": "eK9QMfBwFzoc9DvBc"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Pumpkin card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgHalloween00.png",
     "buy": 200,
@@ -1173,7 +1173,7 @@
     "uniqueEntryId": "nznxAbGCBPW97Nibg"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Red-dragonflies card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgFall00.png",
     "buy": 200,
@@ -1196,7 +1196,7 @@
     "uniqueEntryId": "iyFNtujivporYgfva"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Ribbon card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgBirthday01.png",
     "buy": 200,
@@ -1219,7 +1219,7 @@
     "uniqueEntryId": "pfp4eHBrZzYJXao2v"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Shapes card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgThankyou01.png",
     "buy": 200,
@@ -1242,7 +1242,7 @@
     "uniqueEntryId": "HH9MTDZSbQjSLMdvM"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Shooting-stars card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgStar00.png",
     "buy": 200,
@@ -1265,7 +1265,7 @@
     "uniqueEntryId": "tfxwrM9jHukBqzcMe"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Snowflake card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgWinter00.png",
     "buy": 200,
@@ -1288,7 +1288,7 @@
     "uniqueEntryId": "emawdP4yt2aKdjG5v"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Snowperson card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgSnowfes00.png",
     "buy": 200,
@@ -1311,7 +1311,7 @@
     "uniqueEntryId": "CKTiJB94AipapsMyQ"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "So-many-hearts card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgOther05.png",
     "buy": 200,
@@ -1334,7 +1334,7 @@
     "uniqueEntryId": "uMreu3ZFwHpPAPCiH"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Star card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgActive01.png",
     "buy": 200,
@@ -1357,7 +1357,7 @@
     "uniqueEntryId": "2MfR4So6XB8X5btra"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Stationery-goods card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgOther03.png",
     "buy": 200,
@@ -1380,7 +1380,7 @@
     "uniqueEntryId": "XNi8ib3tkDKRD3h9W"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Torn card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgSimple01.png",
     "buy": 200,
@@ -1403,7 +1403,7 @@
     "uniqueEntryId": "Xj9q2wzes2bAzEGSz"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Town-view card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgWinter02.png",
     "buy": 200,
@@ -1426,7 +1426,7 @@
     "uniqueEntryId": "sYi9GYXt3svjcEFBA"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Velvety card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgGorgeous00.png",
     "buy": 200,
@@ -1449,7 +1449,7 @@
     "uniqueEntryId": "vHZqSxqW4WRAyb3Qw"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Warm-sweater card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgChristmas02.png",
     "buy": 200,
@@ -1472,7 +1472,7 @@
     "uniqueEntryId": "qjuD4YWMv86AkwRp6"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Wedding card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgWedding00.png",
     "buy": 200,
@@ -1495,7 +1495,7 @@
     "uniqueEntryId": "iBqa4MMzucwejjWmm"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Winter-camellia card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgWinter01.png",
     "buy": 200,
@@ -1518,7 +1518,7 @@
     "uniqueEntryId": "ptYcfxZjk4CnCpPRp"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Zen card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgOther00.png",
     "buy": 200,
@@ -1541,7 +1541,7 @@
     "uniqueEntryId": "3sCFGDHSNaYD5rhhZ"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Flight-ticket card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgWherearen05.png",
     "buy": null,
@@ -1564,7 +1564,7 @@
     "uniqueEntryId": "XGnRzexuWbqFGnR7P"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Glowing-moss card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgWherearen03.png",
     "buy": null,
@@ -1587,7 +1587,7 @@
     "uniqueEntryId": "EnzJovE36QtxCGf2B"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "MsgWherearenOffice00",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgWherearenOffice00.png",
     "buy": null,
@@ -1610,7 +1610,7 @@
     "uniqueEntryId": "Tg7b6bh48DD79G9fr"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Paradise Planning card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgWherearenShopping00.png",
     "buy": null,
@@ -1633,7 +1633,7 @@
     "uniqueEntryId": "tGCQBx4teagP9gB9z"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Plumeria card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgWherearen00.png",
     "buy": null,
@@ -1656,7 +1656,7 @@
     "uniqueEntryId": "wPC5MssczpxvgZnub"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Sunset card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgWherearen02.png",
     "buy": null,
@@ -1679,7 +1679,7 @@
     "uniqueEntryId": "ZtyRsYeBeK52eWFYP"
   },
   {
-    "sourceSheet": "Message Cards",
+    "sourceSheet": "MessageCards",
     "name": "Tropical card",
     "image": "https://acnhcdn.com/latest/MessageCard/MsgWherearen04.png",
     "buy": null,

@@ -1,4 +1,4 @@
-export interface SeasonAndEvents {
+export interface SeasonAndEvent {
   sourceSheet: SourceSheet;
   name: string;
   type: Type;
@@ -16,7 +16,7 @@ export interface SeasonAndEvents {
 }
 
 export enum SourceSheet {
-  SeasonsAndEvents = 'Seasons and Events',
+  SeasonsAndEvents = 'SeasonsAndEvents',
 }
 
 export enum Type {
@@ -38,12 +38,12 @@ export enum UnlockMethodEnum {
 export enum VersionLastUpdated {
   The100 = '1.0.0',
   The1100 = '1.10.0',
-  The140 = '1.4.0',
-  The150 = '1.5.0',
+  The1110 = '1.11.0',
   The160 = '1.6.0',
   The170 = '1.7.0',
   The180 = '1.8.0',
   The190 = '1.9.0',
+  The200 = '2.0.0',
 }
 
 export enum YearEnum {

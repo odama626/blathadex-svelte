@@ -1,10 +1,11 @@
 export interface Item {
   sourceSheet: SourceSheet;
-  name: string;
+  name: null | string;
   patternTitle?: null | string;
   diy?: boolean;
   patternCustomize?: boolean;
   kitType?: KitType | null;
+  cyrusCustomizePrice?: number | null;
   size?: Size;
   surface?: boolean;
   exchangePrice?: number | null;
@@ -17,7 +18,7 @@ export interface Item {
   interact?: boolean | InteractEnum;
   tag?: string;
   outdoor?: boolean;
-  speakerType?: SpeakerType | null;
+  speakerType?: null | string;
   lightingType?: LightingType | null;
   catalog?: Catalog;
   versionAdded?: Version | null;
@@ -26,6 +27,8 @@ export interface Item {
   series?: null | string;
   customizationKitCost?: number | null;
   variants?: Variant[];
+  stackSize?: number;
+  foodPower?: number | null;
   doorDeco?: boolean;
   vfx?: boolean;
   vfxType?: VfxType | null;
@@ -38,7 +41,7 @@ export interface Item {
   sizeCategory?: Shadow;
   customize?: boolean;
   uses?: number;
-  stackSize?: number;
+  villagerEquippable?: boolean;
   seasonalAvailability?: SeasonalAvailability;
   seasonality?: SeasonalAvailability;
   mannequinSeason?: SeasonalAvailability | null;
@@ -47,7 +50,6 @@ export interface Item {
   style1?: Style;
   style2?: Style | null;
   sortOrder?: number;
-  villagerEquippable?: boolean;
   clothGroupId?: number;
   primaryShape?: PrimaryShape;
   secondaryShape?: SecondaryShape;
@@ -55,17 +57,42 @@ export interface Item {
   fossilGroup?: string;
   description?: string;
   museum?: Museum;
-  highResTexture?: null;
-  category?: Category;
+  highResTexture?: null | string;
+  category?: Category | null;
   realArtworkTitle?: string;
   artist?: string;
   inventoryFilename?: string;
   storageFilename?: string;
+  request?: string;
+  thoughtBubble?: string;
+  song?: string;
+  furnitureList?: string;
+  furnitureNameList?: string;
+  image?: string;
+  genuine?: boolean;
+  buy?: number | null;
+  sell?: number | null;
+  color1?: Color;
+  color2?: Color;
+  source?: string[];
+  hhaConcept1?: HhaConcept1 | null;
+  hhaConcept2?: HhaConcept1 | null;
+  hhaSeries?: null;
+  hhaSet?: null;
+  filename?: string;
+  internalId?: number | string;
+  uniqueEntryId?: string;
+  variation?: null | string;
+  bodyTitle?: BodyTitle | null;
+  pattern?: null;
+  bodyCustomize?: boolean;
+  kitCost?: number | null;
+  soundType?: SoundType;
+  variantId?: VariantID | null;
   num?: number;
   iconImage?: null | string;
   critterpediaImage?: string;
   furnitureImage?: string;
-  sell?: number | null;
   whereHow?: string;
   weather?: Weather;
   totalCatchesToUnlock?: number;
@@ -74,8 +101,6 @@ export interface Item {
   iconFilename?: null | string;
   critterpediaFilename?: string;
   furnitureFilename?: string;
-  internalId?: number;
-  uniqueEntryId?: string;
   colors?: Color[];
   specialSell?: number;
   activeMonths?: ActiveMonths;
@@ -83,18 +108,20 @@ export interface Item {
   catchDifficulty?: CatchDifficulty;
   vision?: Vision;
   movementSpeed?: MovementSpeed;
-  image?: string;
-  buy?: number;
-  source?: string[];
-  filename?: string;
   imageSh?: null | string;
   recipesToUnlock?: number;
   craftedItemInternalId?: number;
-  cardColor?: CardColor | null;
+  cardColor?: null | string;
   diyIconFilename?: string;
   diyIconFilenameSh?: null | string;
   serialId?: number;
   materials?: {[key: string]: number};
+  achievementDescription?: string;
+  achievementCriteria?: string;
+  internalName?: string;
+  internalCategory?: string;
+  sequential?: boolean;
+  tiers?: Tier[];
   photoImage?: null | string;
   houseImage?: null | string;
   species?: string;
@@ -109,12 +136,10 @@ export interface Item {
   defaultUmbrella?: string;
   wallpaper?: string;
   flooring?: string;
-  furnitureList?: null | string;
-  furnitureNameList?: null | string;
-  diyWorkbench?: number | string;
-  kitchenEquipment?: string;
-  nameColor?: string;
-  bubbleColor?: string;
+  diyWorkbench?: string;
+  kitchenEquipment?: number | string;
+  nameColor?: null | string;
+  bubbleColor?: null | string;
   styles?: Style[];
   genderAsia?: Gender;
   npcId?: string;
@@ -133,6 +158,7 @@ export interface Item {
   nhEndDate?: null | string;
   shStartDate?: null | string;
   shEndDate?: null | string;
+  version?: string;
   versionLastUpdated?: Version;
   year?: YearEnum | number | null;
   datesNorthernHemisphere?: null | string;
@@ -163,29 +189,116 @@ export enum Season {
   Winter = 'winter',
 }
 
-export enum CardColor {
-  Beige = 'beige',
-  Blue = 'blue',
-  Brick = 'brick',
-  Brown = 'brown',
-  Cream = 'cream',
-  DarkGray = 'dark gray',
-  Gold = 'gold',
-  Green = 'green',
-  LightGray = 'light gray',
-  Orange = 'orange',
-  Pink = 'pink',
-  Purple = 'purple',
-  Red = 'red',
-  Silver = 'silver',
-  White = 'white',
-  Yellow = 'yellow',
+export enum BodyTitle {
+  Art = 'Art',
+  BallType = 'Ball type',
+  Bamboo = 'Bamboo',
+  BaseColor = 'Base color',
+  Beans = 'Beans',
+  BeverageColor = 'Beverage color',
+  BladeColor = 'Blade color',
+  BlockColor = 'Block color',
+  BoardMarkings = 'Board markings',
+  BodyColor = 'Body color',
+  BottleColor = 'Bottle color',
+  BoxColor = 'Box color',
+  BrickColor = 'Brick color',
+  BucketColor = 'Bucket color',
+  BuntingColor = 'Bunting color',
+  BurnerColor = 'Burner color',
+  Can = 'Can',
+  CandleColor = 'Candle color',
+  ChairColor = 'Chair color',
+  ChinaColor = 'China color',
+  Color = 'Color',
+  Condition = 'Condition',
+  ConfettiColor = 'Confetti color',
+  ContentColor = 'Content color',
+  Contents = 'Contents',
+  CordColor = 'Cord color',
+  CoverDesign = 'Cover design',
+  Creation = 'Creation',
+  CupColor = 'Cup color',
+  CurtainRod = 'Curtain rod',
+  Decorations = 'Decorations',
+  Design = 'Design',
+  Fabric = 'Fabric',
+  FlameColor = 'Flame color',
+  Flavor = 'Flavor',
+  Flavors = 'Flavors',
+  FlowerColor = 'Flower color',
+  Flowers = 'Flowers',
+  Food = 'Food',
+  Frame = 'Frame',
+  FrameColor = 'Frame color',
+  FruitColor = 'Fruit color',
+  Genre = 'Genre',
+  Hairstyle = 'Hairstyle',
+  Hanger = 'Hanger',
+  HangerColor = 'Hanger color',
+  HayCondition = 'Hay condition',
+  HolderColor = 'Holder color',
+  Illumination = 'Illumination',
+  JoyCon = 'Joy-Con',
+  KimonoPattern = 'Kimono pattern',
+  KnitCapColor = 'Knit-cap color',
+  LabelColor = 'Label color',
+  Leaves = 'Leaves',
+  LidSeatColor = 'Lid & seat color',
+  LightColor = 'Light color',
+  Logo = 'Logo',
+  LumberType = 'Lumber type',
+  MakeupColor = 'Makeup color',
+  MapCenter = 'Map center',
+  MatColor = 'Mat color',
+  MetalColor = 'Metal color',
+  MushroomType = 'Mushroom type',
+  Name = 'Name',
+  Navigation = 'Navigation',
+  NutColor = 'Nut color',
+  PaintColor = 'Paint color',
+  PaintColors = 'Paint colors',
+  Pattern = 'Pattern',
+  PlanterColor = 'Planter color',
+  Plants = 'Plants',
+  PlateColor = 'Plate color',
+  PoleColor = 'Pole color',
+  Poles = 'Poles',
+  PumpkinColor = 'Pumpkin color',
+  RaceCarColors = 'Race-car colors',
+  RoofColor = 'Roof color',
+  RoofTileColor = 'Roof-tile color',
+  Scent = 'Scent',
+  ScreenDesign = 'Screen design',
+  Season = 'Season',
+  SeatColor = 'Seat color',
+  ShadeColor = 'Shade color',
+  ShakerColor = 'Shaker color',
+  ShellColor = 'Shell color',
+  Sign = 'Sign',
+  SignDesign = 'Sign design',
+  StandColor = 'Stand color',
+  Stone = 'Stone',
+  Style = 'Style',
+  SurfaceColor = 'Surface color',
+  TableColor = 'Table color',
+  Tableware = 'Tableware',
+  TapeType = 'Tape type',
+  Theme = 'Theme',
+  TopCloth = 'Top cloth',
+  TracingTableColor = 'Tracing-table color',
+  Tray = 'Tray',
+  TrayColor = 'Tray color',
+  Variation = 'Variation',
+  WagonColor = 'Wagon color',
+  WreathColor = 'Wreath color',
 }
 
 export enum Catalog {
   ForSale = 'For sale',
   NotForSale = 'Not for sale',
   NotInCatalog = 'Not in catalog',
+  Seasonal = 'Seasonal',
 }
 
 export enum CatchDifficulty {
@@ -198,6 +311,7 @@ export enum CatchDifficulty {
 
 export enum Category {
   Bridge = 'Bridge',
+  CeilingDecor = 'Ceiling Decor',
   Door = 'Door',
   Equipment = 'Equipment',
   Floors = 'Floors',
@@ -208,7 +322,9 @@ export enum Category {
   Other = 'Other',
   Roofing = 'Roofing',
   Rugs = 'Rugs',
+  Savory = 'Savory',
   Siding = 'Siding',
+  Sweet = 'Sweet',
   Tools = 'Tools',
   WallMounted = 'Wall-mounted',
   Wallpaper = 'Wallpaper',
@@ -247,9 +363,11 @@ export enum CurtainType {
 }
 
 export enum ExchangeCurrency {
+  Bells = 'Bells',
   HeartCrystals = 'Heart Crystals',
   NookMiles = 'Nook Miles',
   NookPoints = 'Nook Points',
+  Poki = 'Poki',
 }
 
 export enum Gender {
@@ -267,6 +385,8 @@ export enum HhaCategory {
   Clock = 'Clock',
   Doll = 'Doll',
   Dresser = 'Dresser',
+  Food = 'Food',
+  Kitchen = 'Kitchen',
   Lighting = 'Lighting',
   MusicalInstrument = 'MusicalInstrument',
   Pet = 'Pet',
@@ -274,6 +394,55 @@ export enum HhaCategory {
   SmallGoods = 'SmallGoods',
   Trash = 'Trash',
   Tv = 'TV',
+}
+
+export enum HhaConcept1 {
+  AmusementPark = 'amusement park',
+  Ancient = 'ancient',
+  ApparelShop = 'apparel shop',
+  Arcade = 'arcade',
+  Bathroom = 'bathroom',
+  Café = 'café',
+  ChildSRoom = "child's room",
+  CityLife = 'city life',
+  Concert = 'concert',
+  ConstructionSite = 'construction site',
+  Den = 'den',
+  European = 'European',
+  Expensive = 'expensive',
+  Facility = 'facility',
+  Fancy = 'fancy',
+  Fantasy = 'fantasy',
+  Fitness = 'fitness',
+  FreezingCold = 'freezing cold',
+  Garden = 'garden',
+  Harmonious = 'harmonious',
+  Heritage = 'heritage',
+  Horror = 'horror',
+  Hospital = 'hospital',
+  Kitchen = 'kitchen',
+  Lab = 'lab',
+  LivingRoom = 'living room',
+  Local = 'local',
+  Music = 'music',
+  Nature = 'nature',
+  Ocean = 'ocean',
+  Office = 'office',
+  Outdoors = 'outdoors',
+  Park = 'park',
+  Party = 'party',
+  PublicBath = 'public bath',
+  Resort = 'resort',
+  Restaurant = 'restaurant',
+  Retro = 'retro',
+  School = 'school',
+  SciFi = 'sci-fi',
+  Shop = 'shop',
+  Space = 'space',
+  Sports = 'sports',
+  Stylish = 'stylish',
+  Supermarket = 'supermarket',
+  Workshop = 'workshop',
 }
 
 export enum Hobby {
@@ -288,9 +457,12 @@ export enum Hobby {
 export enum InteractEnum {
   Bed = 'Bed',
   Chair = 'Chair',
+  Kitchenware = 'Kitchenware',
   Mirror = 'Mirror',
   MusicPlayer = 'Music Player',
   MusicalInstrument = 'Musical Instrument',
+  Storage = 'Storage',
+  Toilet = 'Toilet',
   Trash = 'Trash',
   Tv = 'TV',
   Wardrobe = 'Wardrobe',
@@ -308,6 +480,7 @@ export enum LightingType {
   Emission = 'Emission',
   Fluorescent = 'Fluorescent',
   Monitor = 'Monitor',
+  Shade = 'Shade',
   Spotlight = 'Spotlight',
 }
 
@@ -357,6 +530,7 @@ export enum PrimaryShape {
   ALong = 'A-long',
   BLong = 'B-long',
   Balloon = 'Balloon',
+  Balloonemm = 'Balloonemm',
   Box = 'Box',
   Dress = 'Dress',
   Kimono = 'Kimono',
@@ -365,6 +539,7 @@ export enum PrimaryShape {
   Rib = 'Rib',
   Robe = 'Robe',
   Salopette = 'Salopette',
+  Salopetteemm = 'Salopetteemm',
 }
 
 export enum SecondaryShape {
@@ -385,6 +560,7 @@ export enum Shadow {
 }
 
 export enum Size {
+  The05X05 = '0.5x0.5',
   The05X1 = '0.5x1',
   The15X15 = '1.5x1.5',
   The1X05 = '1x0.5',
@@ -403,47 +579,55 @@ export enum Size {
   The5X5 = '5x5',
 }
 
+export enum SoundType {
+  Crash = 'Crash',
+  DrumSet = 'Drum set',
+  HiHat = 'Hi-hat',
+  Kick = 'Kick',
+  Melody = 'Melody',
+  Snare = 'Snare',
+}
+
 export enum SourceSheet {
   Accessories = 'Accessories',
-  Art = 'Art',
+  Achievements = 'Achievements',
+  Artwork = 'Artwork',
   Bags = 'Bags',
   Bottoms = 'Bottoms',
-  ClothingOther = 'Clothing Other',
+  CeilingDecor = 'CeilingDecor',
+  ClothingOther = 'ClothingOther',
   Construction = 'Construction',
-  DressUp = 'Dress-Up',
+  DressUp = 'DressUp',
   Fencing = 'Fencing',
   Fish = 'Fish',
   Floors = 'Floors',
   Fossils = 'Fossils',
+  Gyroids = 'Gyroids',
   Headwear = 'Headwear',
   Housewares = 'Housewares',
   Insects = 'Insects',
-  MessageCards = 'Message Cards',
+  InteriorStructures = 'InteriorStructures',
+  MessageCards = 'MessageCards',
   Miscellaneous = 'Miscellaneous',
   Music = 'Music',
   Other = 'Other',
+  ParadisePlanning = 'ParadisePlanning',
   Photos = 'Photos',
   Posters = 'Posters',
+  Reactions = 'Reactions',
   Recipes = 'Recipes',
   Rugs = 'Rugs',
-  SeaCreatures = 'Sea Creatures',
-  SeasonsAndEvents = 'Seasons and Events',
+  SeaCreatures = 'SeaCreatures',
+  SeasonsAndEvents = 'SeasonsAndEvents',
   Shoes = 'Shoes',
   Socks = 'Socks',
-  SpecialNPCS = 'Special NPCs',
-  Tools = 'Tools',
+  SpecialNpcs = 'SpecialNpcs',
+  ToolsGoods = 'ToolsGoods',
   Tops = 'Tops',
   Umbrellas = 'Umbrellas',
   Villagers = 'Villagers',
-  WallMounted = 'Wall-mounted',
+  WallMounted = 'WallMounted',
   Wallpaper = 'Wallpaper',
-}
-
-export enum SpeakerType {
-  Cheap = 'Cheap',
-  HiFi = 'Hi-fi',
-  Phono = 'Phono',
-  Retro = 'Retro',
 }
 
 export enum Style {
@@ -460,228 +644,18 @@ export enum Subtype {
   B = 'B',
 }
 
+export interface Tier {
+  qty: number;
+  reward: number;
+  modifier: string;
+  Noun: string;
+}
+
 export enum UnlockMethodEnum {
   BCATA = 'BCAT (a)',
   BCATB = 'BCAT (b)',
   BCATC = 'BCAT (c)',
   NTP = 'NTP',
-}
-
-export interface Variant {
-  image?: string;
-  filename?: string;
-  uniqueEntryId: string;
-  colors: Color[];
-  source: Source[];
-  internalId: number;
-  buy: number;
-  sell: number | null;
-  themes: Theme[];
-  variation?: number | null | string;
-  variantId?: VariantID | null;
-  bodyCustomize?: boolean;
-  bodyTitle?: BodyTitle | null;
-  pattern?: null | string;
-  closetImage?: string;
-  storageImage?: null | string;
-  labelThemes?: LabelTheme[];
-  framedImage?: null | string;
-  albumImage?: null | string;
-  genuine?: boolean;
-  inventoryImage?: null | string;
-}
-
-export enum BodyTitle {
-  Art = 'Art',
-  BagColor = 'Bag color',
-  Bamboo = 'Bamboo',
-  BarrelColor = 'Barrel color',
-  BlockColor = 'Block color',
-  Body = 'Body',
-  BodyColor = 'Body color',
-  BrickColor = 'Brick color',
-  Can = 'Can',
-  Cardboard = 'Cardboard',
-  ChairBackAndSeat = 'Chair back and seat',
-  Coating = 'Coating',
-  Color = 'Color',
-  CoverDesign = 'Cover design',
-  CoverPattern = 'Cover pattern',
-  Creation = 'Creation',
-  Decorations = 'Decorations',
-  Design = 'Design',
-  Dish = 'Dish',
-  Easel = 'Easel',
-  Fabric = 'Fabric',
-  Finish = 'Finish',
-  Flavor = 'Flavor',
-  FlowerColor = 'Flower color',
-  Food = 'Food',
-  Frame = 'Frame',
-  FruitType = 'Fruit type',
-  Genre = 'Genre',
-  HayCondition = 'Hay condition',
-  Illumination = 'Illumination',
-  JoyCon = 'Joy-Con',
-  KnitCapColor = 'Knit-cap color',
-  LightColor = 'Light color',
-  LumberType = 'Lumber type',
-  MapCenter = 'Map center',
-  MushroomType = 'Mushroom type',
-  Name = 'Name',
-  Navigation = 'Navigation',
-  NutColor = 'Nut color',
-  Paint = 'Paint',
-  PaintColor = 'Paint color',
-  PlateColor = 'Plate color',
-  PumpkinColor = 'Pumpkin color',
-  RoofColor = 'Roof color',
-  Season = 'Season',
-  ShellColor = 'Shell color',
-  Sign = 'Sign',
-  Stone = 'Stone',
-  Tabletop = 'Tabletop',
-  TireColor = 'Tire color',
-  Variation = 'Variation',
-}
-
-export enum LabelTheme {
-  Comfy = 'comfy',
-  Everyday = 'everyday',
-  FairyTale = 'fairy tale',
-  Formal = 'formal',
-  Goth = 'goth',
-  Outdoorsy = 'outdoorsy',
-  Party = 'party',
-  Sporty = 'sporty',
-  Theatrical = 'theatrical',
-  Vacation = 'vacation',
-  Work = 'work',
-}
-
-export enum Source {
-  AbleSisters = 'Able Sisters',
-  AllVillagers = 'All villagers',
-  AppleTree = 'Apple Tree',
-  AssessingFossils = 'Assessing fossils',
-  Beach = 'Beach',
-  Birthday = 'Birthday',
-  Blathers = 'Blathers',
-  Breeding = 'Breeding',
-  BuryingBellsInAGlowingSpot = 'Burying bells in a glowing spot',
-  CJ = 'C.J.',
-  CatchingWithANet = 'Catching with a net',
-  CedarTree = 'Cedar Tree',
-  CheckToyDayStockingsTheDayAfterToyDay = 'Check Toy Day stockings the day after Toy Day',
-  CherryTree = 'Cherry Tree',
-  ChoppingABambooTree = 'Chopping a bamboo tree',
-  ChoppingATree = 'Chopping a tree',
-  ClamDigSpot = 'Clam dig spot',
-  CoconutTree = 'Coconut Tree',
-  Crafting = 'Crafting',
-  Cyrus = 'Cyrus',
-  DaisyMae = 'Daisy Mae',
-  DeliveringItemForAVillager = 'Delivering item for a villager',
-  DigSpot = 'Dig Spot',
-  DiggingUpAFullyGrownBush = 'Digging up a fully grown bush',
-  DiggingUpAPumpkinPlant = 'Digging up a pumpkin plant',
-  DiveSpot = 'Dive spot',
-  DodoAirlines = 'Dodo Airlines',
-  DonTReturnLostItem = "Don't return lost item",
-  DonTReturnTreasureQuestItem = "Don't return treasure quest item",
-  EggBalloon = 'Egg balloon',
-  ExpiredTurnips = 'Expired turnips',
-  Fishing = 'Fishing',
-  Flick = 'Flick',
-  Franklin = 'Franklin',
-  GlowingDigSpot = 'Glowing dig spot',
-  Gullivarrr = 'Gullivarrr',
-  Gulliver = 'Gulliver',
-  HardwoodTree = 'Hardwood Tree',
-  Hha = 'HHA',
-  HighFriendship = 'High Friendship',
-  HittingARock = 'Hitting a rock',
-  Isabelle = 'Isabelle',
-  Jack = 'Jack',
-  Jingle = 'Jingle',
-  JollyReddSTreasureTrawler = "Jolly Redd's Treasure Trawler",
-  KKConcert = 'K.K. concert',
-  Kicks = 'Kicks',
-  Label = 'Label',
-  Leif = 'Leif',
-  Luna = 'Luna',
-  MOM = 'Mom',
-  Mail = 'Mail',
-  MayDayTour = 'May Day Tour',
-  Nintendo = 'Nintendo',
-  NookLink = 'NookLink',
-  NookMilesRedemption = 'Nook Miles Redemption',
-  NookSCranny = "Nook's Cranny",
-  NookShopping = 'Nook Shopping',
-  NookShoppingDailySelection = 'Nook Shopping Daily Selection',
-  NookShoppingPosters = 'Nook Shopping Posters',
-  NookShoppingPromotion = 'Nook Shopping Promotion',
-  NookShoppingSeasonal = 'Nook Shopping Seasonal',
-  OnGround = 'On ground',
-  OrangeTree = 'Orange Tree',
-  Pascal = 'Pascal',
-  Pavé = 'Pavé',
-  PeachTree = 'Peach Tree',
-  PearTree = 'Pear Tree',
-  PickingFlowers = 'Picking flowers',
-  PickingPumpkins = 'Picking pumpkins',
-  PlantingABambooShoot = 'Planting a bamboo shoot',
-  PlantingACedarSapling = 'Planting a cedar sapling',
-  PlantingACherry = 'Planting a cherry',
-  PlantingACoconut = 'Planting a coconut',
-  PlantingAPeach = 'Planting a peach',
-  PlantingAPear = 'Planting a pear',
-  PlantingASapling = 'Planting a sapling',
-  PlantingAnApple = 'Planting an apple',
-  PlantingAnOrange = 'Planting an orange',
-  RecycleBox = 'Recycle box',
-  ReddSRaffle = "Redd's Raffle",
-  Reese = 'Reese',
-  Rover = 'Rover',
-  Saharah = 'Saharah',
-  SeedBag = 'Seed bag',
-  ShakingAHardwoodOrCedarTree = 'Shaking a hardwood or cedar tree',
-  Snowboy = 'Snowboy',
-  StartingItems = 'Starting items',
-  The5StarTownStatus = '5-star town status',
-  TomNook = 'Tom Nook',
-  UseAFountainFirework = 'Use a fountain firework',
-  Wilbur = 'Wilbur',
-  WishingOnShootingStars = 'Wishing on shooting stars',
-  WrappingAPresent = 'Wrapping a present',
-  Zipper = 'Zipper',
-}
-
-export enum Theme {
-  Bathroom = 'bathroom',
-  ChildSRoom = "child's room",
-  Concert = 'concert',
-  Den = 'den',
-  Expensive = 'expensive',
-  Facility = 'facility',
-  Fancy = 'fancy',
-  Fitness = 'fitness',
-  FreezingCold = 'freezing cold',
-  Garden = 'garden',
-  Harmonious = 'harmonious',
-  Heritage = 'heritage',
-  Horror = 'horror',
-  Kitchen = 'kitchen',
-  LivingRoom = 'living room',
-  Music = 'music',
-  Ocean = 'ocean',
-  Office = 'office',
-  Outdoors = 'outdoors',
-  Party = 'party',
-  School = 'school',
-  Shop = 'shop',
-  Space = 'space',
-  Workshop = 'workshop',
 }
 
 export enum VariantID {
@@ -751,10 +725,178 @@ export enum VariantID {
   The7_7 = '7_7',
 }
 
+export interface Variant {
+  image?: string;
+  filename?: string;
+  uniqueEntryId: string;
+  colors: Color[];
+  source?: Source[];
+  internalId?: number;
+  buy?: number;
+  sell?: number | null;
+  themes: HhaConcept1[];
+  variation?: number | null | string;
+  variantId?: VariantID | null;
+  bodyCustomize?: boolean;
+  bodyTitle?: BodyTitle | null;
+  pattern?: null | string;
+  closetImage?: null | string;
+  storageImage?: null | string;
+  labelThemes?: LabelTheme[];
+  framedImage?: null | string;
+  albumImage?: null | string;
+  genuine?: boolean;
+  inventoryImage?: null | string;
+}
+
+export enum LabelTheme {
+  Comfy = 'comfy',
+  Everyday = 'everyday',
+  FairyTale = 'fairy tale',
+  Formal = 'formal',
+  Goth = 'goth',
+  Outdoorsy = 'outdoorsy',
+  Party = 'party',
+  Sporty = 'sporty',
+  Theatrical = 'theatrical',
+  Vacation = 'vacation',
+  Work = 'work',
+}
+
+export enum Source {
+  AbleSisters = 'Able Sisters',
+  AllVillagers = 'All villagers',
+  AppleTree = 'Apple Tree',
+  AssessingFossils = 'Assessing fossils',
+  Beach = 'Beach',
+  Birthday = 'Birthday',
+  Blathers = 'Blathers',
+  Breeding = 'Breeding',
+  Brewster = 'Brewster',
+  BuryingBellsInAGlowingSpot = 'Burying bells in a glowing spot',
+  CJ = 'C.J.',
+  CatchingWithANet = 'Catching with a net',
+  CedarTree = 'Cedar Tree',
+  CheckToyDayStockingsTheDayAfterToyDay = 'Check Toy Day stockings the day after Toy Day',
+  CherryTree = 'Cherry Tree',
+  ChoppingABambooTree = 'Chopping a bamboo tree',
+  ChoppingATree = 'Chopping a tree',
+  ClamDigSpot = 'Clam dig spot',
+  CoconutTree = 'Coconut Tree',
+  Cooking = 'Cooking',
+  Crafting = 'Crafting',
+  Cyrus = 'Cyrus',
+  DaisyMae = 'Daisy Mae',
+  DeliveringItemForAVillager = 'Delivering item for a villager',
+  DigSpot = 'Dig Spot',
+  DiggingUpACarrotPlant = 'Digging up a carrot plant',
+  DiggingUpAFullyGrownBush = 'Digging up a fully grown bush',
+  DiggingUpAPotatoPlant = 'Digging up a potato plant',
+  DiggingUpAPumpkinPlant = 'Digging up a pumpkin plant',
+  DiggingUpASugarcanePlant = 'Digging up a sugarcane plant',
+  DiggingUpATomatoPlant = 'Digging up a tomato plant',
+  DiggingUpAWheatPlant = 'Digging up a wheat plant',
+  DiveSpot = 'Dive spot',
+  DodoAirlines = 'Dodo Airlines',
+  DonTReturnLostItem = "Don't return lost item",
+  DonTReturnTreasureQuestItem = "Don't return treasure quest item",
+  DonatingAllArt = 'Donating all art',
+  DonatingAllBugs = 'Donating all bugs',
+  DonatingAllFish = 'Donating all fish',
+  DonatingAllFossils = 'Donating all fossils',
+  DonatingAllSeaCreatures = 'Donating all sea creatures',
+  EggBalloon = 'Egg balloon',
+  ExpiredTurnips = 'Expired turnips',
+  Fishing = 'Fishing',
+  Flick = 'Flick',
+  Franklin = 'Franklin',
+  GlowingDigSpot = 'Glowing dig spot',
+  GroupStretching = 'Group Stretching',
+  Gullivarrr = 'Gullivarrr',
+  Gulliver = 'Gulliver',
+  HHPApparelShop = 'HHP Apparel Shop',
+  HHPCafé = 'HHP Café',
+  HHPOffice = 'HHP Office',
+  HardwoodTree = 'Hardwood Tree',
+  Hha = 'HHA',
+  HighFriendship = 'High Friendship',
+  HittingARock = 'Hitting a rock',
+  Isabelle = 'Isabelle',
+  Jack = 'Jack',
+  Jingle = 'Jingle',
+  JollyReddSTreasureTrawler = "Jolly Redd's Treasure Trawler",
+  KKConcert = 'K.K. concert',
+  KappN = "Kapp'n",
+  KappNIslands = "Kapp'n islands",
+  KatrinaSCleansingService = "Katrina's Cleansing Service",
+  Kicks = 'Kicks',
+  KicksCoOp = "Kicks' Co-op",
+  Label = 'Label',
+  Leif = 'Leif',
+  Lottie = 'Lottie',
+  Luna = 'Luna',
+  MOM = 'Mom',
+  Mail = 'Mail',
+  MayDayTour = 'May Day Tour',
+  Niko = 'Niko',
+  Nintendo = 'Nintendo',
+  NookLink = 'NookLink',
+  NookMilesRedemption = 'Nook Miles Redemption',
+  NookSCranny = "Nook's Cranny",
+  NookShopping = 'Nook Shopping',
+  NookShoppingDailySelection = 'Nook Shopping Daily Selection',
+  NookShoppingPosters = 'Nook Shopping Posters',
+  NookShoppingPromotion = 'Nook Shopping Promotion',
+  NookShoppingSeasonal = 'Nook Shopping Seasonal',
+  NotAvailable = 'NotAvailable',
+  OnGround = 'On ground',
+  OrangeTree = 'Orange Tree',
+  Pascal = 'Pascal',
+  Pavé = 'Pavé',
+  PeachTree = 'Peach Tree',
+  PearTree = 'Pear Tree',
+  PickingCarrots = 'Picking carrots',
+  PickingFlowers = 'Picking flowers',
+  PickingPotatoes = 'Picking potatoes',
+  PickingPumpkins = 'Picking pumpkins',
+  PickingSugarcane = 'Picking sugarcane',
+  PickingTomatoes = 'Picking tomatoes',
+  PickingWheat = 'Picking wheat',
+  PlantingABambooShoot = 'Planting a bamboo shoot',
+  PlantingACedarSapling = 'Planting a cedar sapling',
+  PlantingACherry = 'Planting a cherry',
+  PlantingACoconut = 'Planting a coconut',
+  PlantingAPeach = 'Planting a peach',
+  PlantingAPear = 'Planting a pear',
+  PlantingASapling = 'Planting a sapling',
+  PlantingAnApple = 'Planting an apple',
+  PlantingAnOrange = 'Planting an orange',
+  RecycleBox = 'Recycle box',
+  ReddSCoOpRaffle = "Redd's Co-op Raffle",
+  ReddSRaffle = "Redd's Raffle",
+  Reese = 'Reese',
+  Rover = 'Rover',
+  Saharah = 'Saharah',
+  SaharahSCoOp = "Saharah's Co-op",
+  SeedBag = 'Seed bag',
+  ShakingAHardwoodOrCedarTree = 'Shaking a hardwood or cedar tree',
+  Snowboy = 'Snowboy',
+  StartingItems = 'Starting items',
+  The5StarTownStatus = '5-star town status',
+  TomNook = 'Tom Nook',
+  UseAFountainFirework = 'Use a fountain firework',
+  Wardell = 'Wardell',
+  Wilbur = 'Wilbur',
+  WishingOnShootingStars = 'Wishing on shooting stars',
+  WrappingAPresent = 'Wrapping a present',
+  Zipper = 'Zipper',
+}
+
 export enum Version {
   The100 = '1.0.0',
   The110 = '1.1.0',
   The1100 = '1.10.0',
+  The1110 = '1.11.0',
   The120 = '1.2.0',
   The130 = '1.3.0',
   The140 = '1.4.0',
@@ -763,6 +905,8 @@ export enum Version {
   The170 = '1.7.0',
   The180 = '1.8.0',
   The190 = '1.9.0',
+  The200 = '2.0.0',
+  The204 = '2.0.4',
 }
 
 export enum VfxType {

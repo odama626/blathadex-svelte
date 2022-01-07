@@ -1,8 +1,8 @@
-export interface MessageCards {
+export interface MessageCard {
   sourceSheet: SourceSheet;
   name: string;
   image: string;
-  buy: number;
+  buy: number | null;
   backColor: null | string;
   bodyColor: string;
   headColor: string;
@@ -17,10 +17,11 @@ export interface MessageCards {
   nhEndDate: null | string;
   shStartDate: null | string;
   shEndDate: null | string;
+  version: string;
   internalId: number;
   uniqueEntryId: string;
 }
 
 export enum SourceSheet {
-  MessageCards = 'Message Cards',
+  MessageCards = 'MessageCards',
 }

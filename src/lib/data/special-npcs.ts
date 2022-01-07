@@ -1,4 +1,4 @@
-export interface SpecialNpcs {
+export interface SpecialNpc {
   sourceSheet: SourceSheet;
   name: string;
   iconImage: null | string;
@@ -9,8 +9,8 @@ export interface SpecialNpcs {
   npcId: string;
   internalId: number;
   birthday: string;
-  nameColor: string;
-  bubbleColor: string;
+  nameColor: null | string;
+  bubbleColor: null | string;
   iconFilename: null | string;
   photoFilename: null | string;
   uniqueEntryId: string;
@@ -22,5 +22,5 @@ export enum Gender {
 }
 
 export enum SourceSheet {
-  SpecialNPCS = 'Special NPCs',
+  SpecialNpcs = 'SpecialNpcs',
 }

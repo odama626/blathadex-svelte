@@ -1,11 +1,12 @@
 export interface Construction {
   sourceSheet: SourceSheet;
-  name: string;
+  name: null | string;
   image: string;
-  buy: number;
-  category: Category;
+  buy: number | null;
+  category: Category | null;
   source: Source[];
   filename: string;
+  versionAdded: VersionAdded;
   uniqueEntryId: string;
 }
 
@@ -19,6 +20,7 @@ export enum Category {
 }
 
 export enum Source {
+  Empty = '',
   InitialHouse = 'Initial House',
   ResidentServicesUpgrade = 'Resident Services Upgrade',
   Tent = 'Tent',
@@ -29,4 +31,9 @@ export enum Source {
 
 export enum SourceSheet {
   Construction = 'Construction',
+}
+
+export enum VersionAdded {
+  The100 = '1.0.0',
+  The200 = '2.0.0',
 }

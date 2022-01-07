@@ -8,34 +8,17 @@
     "internalId": "53",
     "internalName": "ImmigratetoIsland",
     "internalCategory": "Event",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "500",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Nook Inc.'s",
-    "tier1Noun": "Patron",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "QvQq6d4qJgCiBkMLX"
+    "uniqueEntryId": "QvQq6d4qJgCiBkMLX",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 500,
+        "modifier": "Nook Inc.'s",
+        "Noun": "Patron"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -46,34 +29,41 @@
     "internalId": "0",
     "internalName": "CatchFish",
     "internalCategory": "Fish",
-    "numOfTiers": "5",
-    "tier1": "10",
-    "tier2": "100",
-    "tier3": "500",
-    "tier4": "2000",
-    "tier5": "5000",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Accomplished",
-    "tier1Noun": "Lad; Lass",
-    "tier2Modifier": "Competent",
-    "tier2Noun": "Fishing Fan",
-    "tier3Modifier": "Moderate",
-    "tier3Noun": "Beach Bum",
-    "tier4Modifier": "Fierce",
-    "tier4Noun": "Fisher",
-    "tier5Modifier": "Battle-Tested",
-    "tier5Noun": "Catch of the Day",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "wkj9WzycBpxtq6CDG"
+    "uniqueEntryId": "wkj9WzycBpxtq6CDG",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 300,
+        "modifier": "Accomplished",
+        "Noun": "Lad; Lass"
+      },
+      {
+        "qty": 100,
+        "reward": 500,
+        "modifier": "Competent",
+        "Noun": "Fishing Fan"
+      },
+      {
+        "qty": 500,
+        "reward": 1000,
+        "modifier": "Moderate",
+        "Noun": "Beach Bum"
+      },
+      {
+        "qty": 2000,
+        "reward": 2000,
+        "modifier": "Fierce",
+        "Noun": "Fisher"
+      },
+      {
+        "qty": 5000,
+        "reward": 3000,
+        "modifier": "Battle-Tested",
+        "Noun": "Catch of the Day"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -84,34 +74,41 @@
     "internalId": "3",
     "internalName": "FillFishList",
     "internalCategory": "Fish",
-    "numOfTiers": "5",
-    "tier1": "10",
-    "tier2": "20",
-    "tier3": "40",
-    "tier4": "60",
-    "tier5": "80",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Small-Fry",
-    "tier1Noun": "Pesca Pro",
-    "tier2Modifier": "Energetic",
-    "tier2Noun": "Angler",
-    "tier3Modifier": "Pond-Raised",
-    "tier3Noun": "Tropical Fish",
-    "tier4Modifier": "Hooked",
-    "tier4Noun": "Reaction",
-    "tier5Modifier": "Pole-Fishing",
-    "tier5Noun": "Expert",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "Ajpkv8wXcZLqM8bMT"
+    "uniqueEntryId": "Ajpkv8wXcZLqM8bMT",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 300,
+        "modifier": "Small-Fry",
+        "Noun": "Pesca Pro"
+      },
+      {
+        "qty": 20,
+        "reward": 500,
+        "modifier": "Energetic",
+        "Noun": "Angler"
+      },
+      {
+        "qty": 40,
+        "reward": 1000,
+        "modifier": "Pond-Raised",
+        "Noun": "Tropical Fish"
+      },
+      {
+        "qty": 60,
+        "reward": 2000,
+        "modifier": "Hooked",
+        "Noun": "Reaction"
+      },
+      {
+        "qty": 80,
+        "reward": 3000,
+        "modifier": "Pole-Fishing",
+        "Noun": "Expert"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -122,34 +119,41 @@
     "internalId": "68",
     "internalName": "GreetAllVillager",
     "internalCategory": "Communication",
-    "numOfTiers": "5",
-    "tier1": "1",
-    "tier2": "10",
-    "tier3": "20",
-    "tier4": "30",
-    "tier5": "50",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Unhindered",
-    "tier1Noun": "Wallflower",
-    "tier2Modifier": "Unabashedly",
-    "tier2Noun": "Shy Kid",
-    "tier3Modifier": "Respected",
-    "tier3Noun": "One",
-    "tier4Modifier": "Ludicrously Popular",
-    "tier4Noun": "\"It\" Guy; \"It\" Girl",
-    "tier5Modifier": "Natural",
-    "tier5Noun": "Heart Stealer",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "syoxyxWL7ymwpKpGN"
+    "uniqueEntryId": "syoxyxWL7ymwpKpGN",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Unhindered",
+        "Noun": "Wallflower"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Unabashedly",
+        "Noun": "Shy Kid"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Respected",
+        "Noun": "One"
+      },
+      {
+        "qty": 30,
+        "reward": 2000,
+        "modifier": "Ludicrously Popular",
+        "Noun": "\"It\" Guy; \"It\" Girl"
+      },
+      {
+        "qty": 50,
+        "reward": 3000,
+        "modifier": "Natural",
+        "Noun": "Heart Stealer"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -160,34 +164,41 @@
     "internalId": "1",
     "internalName": "CatchInsect",
     "internalCategory": "Insect",
-    "numOfTiers": "5",
-    "tier1": "10",
-    "tier2": "100",
-    "tier3": "500",
-    "tier4": "2000",
-    "tier5": "5000",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Freshly Delivered",
-    "tier1Noun": "Egg",
-    "tier2Modifier": "Weak",
-    "tier2Noun": "Grub",
-    "tier3Modifier": "Emerging",
-    "tier3Noun": "Pupa",
-    "tier4Modifier": "Soaring",
-    "tier4Noun": "Butterfly",
-    "tier5Modifier": "Complete",
-    "tier5Noun": "Metamorphosis",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "weJ4f9MDdBuzLBrBM"
+    "uniqueEntryId": "weJ4f9MDdBuzLBrBM",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 300,
+        "modifier": "Freshly Delivered",
+        "Noun": "Egg"
+      },
+      {
+        "qty": 100,
+        "reward": 500,
+        "modifier": "Weak",
+        "Noun": "Grub"
+      },
+      {
+        "qty": 500,
+        "reward": 1000,
+        "modifier": "Emerging",
+        "Noun": "Pupa"
+      },
+      {
+        "qty": 2000,
+        "reward": 2000,
+        "modifier": "Soaring",
+        "Noun": "Butterfly"
+      },
+      {
+        "qty": 5000,
+        "reward": 3000,
+        "modifier": "Complete",
+        "Noun": "Metamorphosis"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -198,34 +209,41 @@
     "internalId": "4",
     "internalName": "FillInsectList",
     "internalCategory": "Insect",
-    "numOfTiers": "5",
-    "tier1": "10",
-    "tier2": "20",
-    "tier3": "40",
-    "tier4": "60",
-    "tier5": "80",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Hobby-Level",
-    "tier1Noun": "Bug Fan",
-    "tier2Modifier": "Night-Owl",
-    "tier2Noun": "Insect",
-    "tier3Modifier": "Defiant",
-    "tier3Noun": "Ant",
-    "tier4Modifier": "Polymorphing",
-    "tier4Noun": "Creature",
-    "tier5Modifier": "Scarce",
-    "tier5Noun": "Critter",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "ttRSm74XC4MzSHgnX"
+    "uniqueEntryId": "ttRSm74XC4MzSHgnX",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 300,
+        "modifier": "Hobby-Level",
+        "Noun": "Bug Fan"
+      },
+      {
+        "qty": 20,
+        "reward": 500,
+        "modifier": "Night-Owl",
+        "Noun": "Insect"
+      },
+      {
+        "qty": 40,
+        "reward": 1000,
+        "modifier": "Defiant",
+        "Noun": "Ant"
+      },
+      {
+        "qty": 60,
+        "reward": 2000,
+        "modifier": "Polymorphing",
+        "Noun": "Creature"
+      },
+      {
+        "qty": 80,
+        "reward": 3000,
+        "modifier": "Scarce",
+        "Noun": "Critter"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -236,34 +254,41 @@
     "internalId": "55",
     "internalName": "FillRecipeList",
     "internalCategory": "DIY",
-    "numOfTiers": "5",
-    "tier1": "10",
-    "tier2": "50",
-    "tier3": "100",
-    "tier4": "150",
-    "tier5": "200",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Trivia",
-    "tier1Noun": "Representative",
-    "tier2Modifier": "Savvy",
-    "tier2Noun": "Intellectual",
-    "tier3Modifier": "Understated",
-    "tier3Noun": "Authority",
-    "tier4Modifier": "Knowledge-Thirsty",
-    "tier4Noun": "Sidekick",
-    "tier5Modifier": "Clever",
-    "tier5Noun": "Father; Mother",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "fsanquagmfwNCY8wW"
+    "uniqueEntryId": "fsanquagmfwNCY8wW",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 300,
+        "modifier": "Trivia",
+        "Noun": "Representative"
+      },
+      {
+        "qty": 50,
+        "reward": 500,
+        "modifier": "Savvy",
+        "Noun": "Intellectual"
+      },
+      {
+        "qty": 100,
+        "reward": 1000,
+        "modifier": "Understated",
+        "Noun": "Authority"
+      },
+      {
+        "qty": 150,
+        "reward": 2000,
+        "modifier": "Knowledge-Thirsty",
+        "Noun": "Sidekick"
+      },
+      {
+        "qty": 200,
+        "reward": 3000,
+        "modifier": "Clever",
+        "Noun": "Father; Mother"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -274,34 +299,41 @@
     "internalId": "98",
     "internalName": "CatchSeafood",
     "internalCategory": "Seafood",
-    "numOfTiers": "5",
-    "tier1": "5",
-    "tier2": "50",
-    "tier3": "250",
-    "tier4": "1000",
-    "tier5": "2500",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Midsummer",
-    "tier1Noun": "Swimmer",
-    "tier2Modifier": "Bodyboardin'",
-    "tier2Noun": "Beachcomber",
-    "tier3Modifier": "Aquatic",
-    "tier3Noun": "Jetsam",
-    "tier4Modifier": "Splashy",
-    "tier4Noun": "Winner",
-    "tier5Modifier": "Deep-Sea",
-    "tier5Noun": "Monster",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.3.0",
-    "uniqueEntryId": "WC4tRgHxSDxLLLFCd"
+    "uniqueEntryId": "WC4tRgHxSDxLLLFCd",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Midsummer",
+        "Noun": "Swimmer"
+      },
+      {
+        "qty": 50,
+        "reward": 500,
+        "modifier": "Bodyboardin'",
+        "Noun": "Beachcomber"
+      },
+      {
+        "qty": 250,
+        "reward": 1000,
+        "modifier": "Aquatic",
+        "Noun": "Jetsam"
+      },
+      {
+        "qty": 1000,
+        "reward": 2000,
+        "modifier": "Splashy",
+        "Noun": "Winner"
+      },
+      {
+        "qty": 2500,
+        "reward": 3000,
+        "modifier": "Deep-Sea",
+        "Noun": "Monster"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -312,34 +344,41 @@
     "internalId": "95",
     "internalName": "FillSeafoodList",
     "internalCategory": "Seafood",
-    "numOfTiers": "5",
-    "tier1": "5",
-    "tier2": "10",
-    "tier3": "20",
-    "tier4": "30",
-    "tier5": "40",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Cerulean",
-    "tier1Noun": "Diver",
-    "tier2Modifier": "Fresh",
-    "tier2Noun": "Ingredient",
-    "tier3Modifier": "Surfing",
-    "tier3Noun": "Pa; Ma",
-    "tier4Modifier": "Waterlogged",
-    "tier4Noun": "Seaweed",
-    "tier5Modifier": "Seaside",
-    "tier5Noun": "Darling; Honey",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.3.0",
-    "uniqueEntryId": "J62JDagagj5k98Cqp"
+    "uniqueEntryId": "J62JDagagj5k98Cqp",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Cerulean",
+        "Noun": "Diver"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Fresh",
+        "Noun": "Ingredient"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Surfing",
+        "Noun": "Pa; Ma"
+      },
+      {
+        "qty": 30,
+        "reward": 2000,
+        "modifier": "Waterlogged",
+        "Noun": "Seaweed"
+      },
+      {
+        "qty": 40,
+        "reward": 3000,
+        "modifier": "Seaside",
+        "Noun": "Darling; Honey"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -350,34 +389,41 @@
     "internalId": "72",
     "internalName": "DIYTool",
     "internalCategory": "DIY",
-    "numOfTiers": "5",
-    "tier1": "5",
-    "tier2": "50",
-    "tier3": "200",
-    "tier4": "1000",
-    "tier5": "3000",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Creative",
-    "tier1Noun": "Enthusiast",
-    "tier2Modifier": "Crafty",
-    "tier2Noun": "Club Member",
-    "tier3Modifier": "Hip",
-    "tier3Noun": "Virtuoso",
-    "tier4Modifier": "Bona Fide",
-    "tier4Noun": "Technician",
-    "tier5Modifier": "Relentless",
-    "tier5Noun": "Meister",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "6k5CnRgbm55m93jMT"
+    "uniqueEntryId": "6k5CnRgbm55m93jMT",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Creative",
+        "Noun": "Enthusiast"
+      },
+      {
+        "qty": 50,
+        "reward": 500,
+        "modifier": "Crafty",
+        "Noun": "Club Member"
+      },
+      {
+        "qty": 200,
+        "reward": 1000,
+        "modifier": "Hip",
+        "Noun": "Virtuoso"
+      },
+      {
+        "qty": 1000,
+        "reward": 2000,
+        "modifier": "Bona Fide",
+        "Noun": "Technician"
+      },
+      {
+        "qty": 3000,
+        "reward": 3000,
+        "modifier": "Relentless",
+        "Noun": "Meister"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -388,34 +434,41 @@
     "internalId": "73",
     "internalName": "DIYFurniture",
     "internalCategory": "DIY",
-    "numOfTiers": "5",
-    "tier1": "5",
-    "tier2": "50",
-    "tier3": "200",
-    "tier4": "1000",
-    "tier5": "3000",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Handmade",
-    "tier1Noun": "Resident",
-    "tier2Modifier": "Emergent",
-    "tier2Noun": "Artisan",
-    "tier3Modifier": "Picky",
-    "tier3Noun": "Crafter",
-    "tier4Modifier": "Humbly Begun",
-    "tier4Noun": "Master; Matriarch",
-    "tier5Modifier": "Destructive-Creative",
-    "tier5Noun": "King; Queen",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "TprrYjwsCvZbDdcvK"
+    "uniqueEntryId": "TprrYjwsCvZbDdcvK",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Handmade",
+        "Noun": "Resident"
+      },
+      {
+        "qty": 50,
+        "reward": 500,
+        "modifier": "Emergent",
+        "Noun": "Artisan"
+      },
+      {
+        "qty": 200,
+        "reward": 1000,
+        "modifier": "Picky",
+        "Noun": "Crafter"
+      },
+      {
+        "qty": 1000,
+        "reward": 2000,
+        "modifier": "Humbly Begun",
+        "Noun": "Master; Matriarch"
+      },
+      {
+        "qty": 3000,
+        "reward": 3000,
+        "modifier": "Destructive-Creative",
+        "Noun": "King; Queen"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -426,34 +479,41 @@
     "internalId": "14",
     "internalName": "RemakeFurniture",
     "internalCategory": "DIY",
-    "numOfTiers": "5",
-    "tier1": "5",
-    "tier2": "20",
-    "tier3": "50",
-    "tier4": "100",
-    "tier5": "200",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Unique",
-    "tier1Noun": "Eccentric",
-    "tier2Modifier": "Change-It-Up",
-    "tier2Noun": "Challenger",
-    "tier3Modifier": "Detail-Oriented",
-    "tier3Noun": "Engineer",
-    "tier4Modifier": "Mold-Breaking",
-    "tier4Noun": "Modder",
-    "tier5Modifier": "Remodeling",
-    "tier5Noun": "Inspiration",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "viHJXo8XB8C3h259Q"
+    "uniqueEntryId": "viHJXo8XB8C3h259Q",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Unique",
+        "Noun": "Eccentric"
+      },
+      {
+        "qty": 20,
+        "reward": 500,
+        "modifier": "Change-It-Up",
+        "Noun": "Challenger"
+      },
+      {
+        "qty": 50,
+        "reward": 1000,
+        "modifier": "Detail-Oriented",
+        "Noun": "Engineer"
+      },
+      {
+        "qty": 100,
+        "reward": 2000,
+        "modifier": "Mold-Breaking",
+        "Noun": "Modder"
+      },
+      {
+        "qty": 200,
+        "reward": 3000,
+        "modifier": "Remodeling",
+        "Noun": "Inspiration"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -464,34 +524,41 @@
     "internalId": "67",
     "internalName": "StrikeWood",
     "internalCategory": "DIY",
-    "numOfTiers": "5",
-    "tier1": "20",
-    "tier2": "100",
-    "tier3": "500",
-    "tier4": "2000",
-    "tier5": "5000",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Specific",
-    "tier1Noun": "Producer",
-    "tier2Modifier": "Aggressive",
-    "tier2Noun": "Problem Solver",
-    "tier3Modifier": "Sharp",
-    "tier3Noun": "Guard",
-    "tier4Modifier": "Pointy",
-    "tier4Noun": "Tack",
-    "tier5Modifier": "Productive",
-    "tier5Noun": "Superhero",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "btjGeCA3qDRLwhuZE"
+    "uniqueEntryId": "btjGeCA3qDRLwhuZE",
+    "tiers": [
+      {
+        "qty": 20,
+        "reward": 300,
+        "modifier": "Specific",
+        "Noun": "Producer"
+      },
+      {
+        "qty": 100,
+        "reward": 500,
+        "modifier": "Aggressive",
+        "Noun": "Problem Solver"
+      },
+      {
+        "qty": 500,
+        "reward": 1000,
+        "modifier": "Sharp",
+        "Noun": "Guard"
+      },
+      {
+        "qty": 2000,
+        "reward": 2000,
+        "modifier": "Pointy",
+        "Noun": "Tack"
+      },
+      {
+        "qty": 5000,
+        "reward": 3000,
+        "modifier": "Productive",
+        "Noun": "Superhero"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -502,34 +569,29 @@
     "internalId": 105,
     "internalName": "FillCookingList",
     "internalCategory": "Cooking",
-    "numOfTiers": 3,
-    "tier1": 10,
-    "tier2": 30,
-    "tier3": 50,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": 500,
-    "tier2Reward": 1000,
-    "tier3Reward": 2000,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Ever-Improving",
-    "tier1Noun": "Test Chef",
-    "tier2Modifier": "Skilled",
-    "tier2Noun": "Cook",
-    "tier3Modifier": "Homestyle",
-    "tier3Noun": "Chef",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "2.0.0",
-    "uniqueEntryId": "mzzZEmnLuyCB9tLBa"
+    "uniqueEntryId": "mzzZEmnLuyCB9tLBa",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Ever-Improving",
+        "Noun": "Test Chef"
+      },
+      {
+        "qty": 30,
+        "reward": 1000,
+        "modifier": "Skilled",
+        "Noun": "Cook"
+      },
+      {
+        "qty": 50,
+        "reward": 2000,
+        "modifier": "Homestyle",
+        "Noun": "Chef"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -540,34 +602,41 @@
     "internalId": 107,
     "internalName": "CookFood",
     "internalCategory": "Cooking",
-    "numOfTiers": 5,
-    "tier1": 5,
-    "tier2": 30,
-    "tier3": 100,
-    "tier4": 300,
-    "tier5": 500,
-    "tier6": null,
-    "tier1Reward": 300,
-    "tier2Reward": 500,
-    "tier3Reward": 1000,
-    "tier4Reward": 2000,
-    "tier5Reward": 3000,
-    "tier6Reward": null,
-    "tier1Modifier": "Scorching",
-    "tier1Noun": "Gourmet",
-    "tier2Modifier": "Sugary",
-    "tier2Noun": "Sweets",
-    "tier3Modifier": "Spicy",
-    "tier3Noun": "Head Chef",
-    "tier4Modifier": "Gourmet",
-    "tier4Noun": "Epicure",
-    "tier5Modifier": "Culinary",
-    "tier5Noun": "Glutton",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "2.0.0",
-    "uniqueEntryId": "d3eivXiM6Gsjc5Gsj"
+    "uniqueEntryId": "d3eivXiM6Gsjc5Gsj",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Scorching",
+        "Noun": "Gourmet"
+      },
+      {
+        "qty": 30,
+        "reward": 500,
+        "modifier": "Sugary",
+        "Noun": "Sweets"
+      },
+      {
+        "qty": 100,
+        "reward": 1000,
+        "modifier": "Spicy",
+        "Noun": "Head Chef"
+      },
+      {
+        "qty": 300,
+        "reward": 2000,
+        "modifier": "Gourmet",
+        "Noun": "Epicure"
+      },
+      {
+        "qty": 500,
+        "reward": 3000,
+        "modifier": "Culinary",
+        "Noun": "Glutton"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -578,34 +647,41 @@
     "internalId": "49",
     "internalName": "BreakTool",
     "internalCategory": "HHA",
-    "numOfTiers": "5",
-    "tier1": "1",
-    "tier2": "20",
-    "tier3": "50",
-    "tier4": "100",
-    "tier5": "200",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Rascally",
-    "tier1Noun": "Clown",
-    "tier2Modifier": "Overboard",
-    "tier2Noun": "Crusher",
-    "tier3Modifier": "Rowdy",
-    "tier3Noun": "Punk",
-    "tier4Modifier": "Rough-And-Tumble",
-    "tier4Noun": "Meanie",
-    "tier5Modifier": "Chaotic",
-    "tier5Noun": "Ruiner",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "YhhXqkerTwLu4ewXi"
+    "uniqueEntryId": "YhhXqkerTwLu4ewXi",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Rascally",
+        "Noun": "Clown"
+      },
+      {
+        "qty": 20,
+        "reward": 500,
+        "modifier": "Overboard",
+        "Noun": "Crusher"
+      },
+      {
+        "qty": 50,
+        "reward": 1000,
+        "modifier": "Rowdy",
+        "Noun": "Punk"
+      },
+      {
+        "qty": 100,
+        "reward": 2000,
+        "modifier": "Rough-And-Tumble",
+        "Noun": "Meanie"
+      },
+      {
+        "qty": 200,
+        "reward": 3000,
+        "modifier": "Chaotic",
+        "Noun": "Ruiner"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -616,34 +692,17 @@
     "internalId": "57",
     "internalName": "StrikeRock8Times",
     "internalCategory": "HHA",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "500",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Sports-Minded",
-    "tier1Noun": "Muscle",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "hgxFRczyFtmSmiTEG"
+    "uniqueEntryId": "hgxFRczyFtmSmiTEG",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 500,
+        "modifier": "Sports-Minded",
+        "Noun": "Muscle"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -654,34 +713,17 @@
     "internalId": "61",
     "internalName": "DigFossil",
     "internalCategory": "HHA",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Discovered",
-    "tier1Noun": "Fossil",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "za7CbkxtzEysWCFJg"
+    "uniqueEntryId": "za7CbkxtzEysWCFJg",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Discovered",
+        "Noun": "Fossil"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -692,34 +734,41 @@
     "internalId": "62",
     "internalName": "JudgeFossil",
     "internalCategory": "HHA",
-    "numOfTiers": "5",
-    "tier1": "5",
-    "tier2": "30",
-    "tier3": "100",
-    "tier4": "300",
-    "tier5": "500",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Anonymous",
-    "tier1Noun": "Something Or Other",
-    "tier2Modifier": "Ancient",
-    "tier2Noun": "Truth",
-    "tier3Modifier": "History-Loving",
-    "tier3Noun": "Researcher",
-    "tier4Modifier": "Evolving",
-    "tier4Noun": "Scatterbrain",
-    "tier5Modifier": "Historic",
-    "tier5Noun": "Discovery",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "SYs89hReg8PJPhi7b"
+    "uniqueEntryId": "SYs89hReg8PJPhi7b",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Anonymous",
+        "Noun": "Something Or Other"
+      },
+      {
+        "qty": 30,
+        "reward": 500,
+        "modifier": "Ancient",
+        "Noun": "Truth"
+      },
+      {
+        "qty": 100,
+        "reward": 1000,
+        "modifier": "History-Loving",
+        "Noun": "Researcher"
+      },
+      {
+        "qty": 300,
+        "reward": 2000,
+        "modifier": "Evolving",
+        "Noun": "Scatterbrain"
+      },
+      {
+        "qty": 500,
+        "reward": 3000,
+        "modifier": "Historic",
+        "Noun": "Discovery"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -730,34 +779,17 @@
     "internalId": 106,
     "internalName": "DigGyroid",
     "internalCategory": "HHA",
-    "numOfTiers": 1,
-    "tier1": 1,
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": 300,
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Rain-Soaked",
-    "tier1Noun": "Gyroid",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "2.0.0",
-    "uniqueEntryId": "ouFCjx3aRATHszgkB"
+    "uniqueEntryId": "ouFCjx3aRATHszgkB",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Rain-Soaked",
+        "Noun": "Gyroid"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -768,34 +800,29 @@
     "internalId": 104,
     "internalName": "FillGyroidList",
     "internalCategory": "HHA",
-    "numOfTiers": 3,
-    "tier1": 5,
-    "tier2": 15,
-    "tier3": 20,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": 300,
-    "tier2Reward": 500,
-    "tier3Reward": 1000,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Distinctive",
-    "tier1Noun": "Curator",
-    "tier2Modifier": "Whimsical",
-    "tier2Noun": "Statue",
-    "tier3Modifier": "Novel",
-    "tier3Noun": "Symbol",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "2.0.0",
-    "uniqueEntryId": "xsKGvxZbwdXW8e5kN"
+    "uniqueEntryId": "xsKGvxZbwdXW8e5kN",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Distinctive",
+        "Noun": "Curator"
+      },
+      {
+        "qty": 15,
+        "reward": 500,
+        "modifier": "Whimsical",
+        "Noun": "Statue"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Novel",
+        "Noun": "Symbol"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -806,34 +833,41 @@
     "internalId": "37",
     "internalName": "SellWeed",
     "internalCategory": "Plant",
-    "numOfTiers": "5",
-    "tier1": "50",
-    "tier2": "200",
-    "tier3": "1000",
-    "tier4": "2000",
-    "tier5": "3000",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Messy",
-    "tier1Noun": "Lawn Clippings",
-    "tier2Modifier": "Omnivorous",
-    "tier2Noun": "Custodian",
-    "tier3Modifier": "Herbivorous",
-    "tier3Noun": "Sorter",
-    "tier4Modifier": "Vigorous",
-    "tier4Noun": "Sprout",
-    "tier5Modifier": "Wild",
-    "tier5Noun": "Beast",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "MRjh6LGccgw56xxca"
+    "uniqueEntryId": "MRjh6LGccgw56xxca",
+    "tiers": [
+      {
+        "qty": 50,
+        "reward": 300,
+        "modifier": "Messy",
+        "Noun": "Lawn Clippings"
+      },
+      {
+        "qty": 200,
+        "reward": 500,
+        "modifier": "Omnivorous",
+        "Noun": "Custodian"
+      },
+      {
+        "qty": 1000,
+        "reward": 1000,
+        "modifier": "Herbivorous",
+        "Noun": "Sorter"
+      },
+      {
+        "qty": 2000,
+        "reward": 2000,
+        "modifier": "Vigorous",
+        "Noun": "Sprout"
+      },
+      {
+        "qty": 3000,
+        "reward": 3000,
+        "modifier": "Wild",
+        "Noun": "Beast"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -844,34 +878,41 @@
     "internalId": "6",
     "internalName": "PlantFlowerSeed",
     "internalCategory": "Plant",
-    "numOfTiers": "5",
-    "tier1": "10",
-    "tier2": "50",
-    "tier3": "100",
-    "tier4": "200",
-    "tier5": "300",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Greenhouse",
-    "tier1Noun": "Flower",
-    "tier2Modifier": "Thorny",
-    "tier2Noun": "Rose",
-    "tier3Modifier": "Heavenly",
-    "tier3Noun": "Rejuvenator",
-    "tier4Modifier": "Sweet-Smelling",
-    "tier4Noun": "Blossom",
-    "tier5Modifier": "Gorgeous",
-    "tier5Noun": "Groom; Bride",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "aub4aeJa7i4ps92vt"
+    "uniqueEntryId": "aub4aeJa7i4ps92vt",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 300,
+        "modifier": "Greenhouse",
+        "Noun": "Flower"
+      },
+      {
+        "qty": 50,
+        "reward": 500,
+        "modifier": "Thorny",
+        "Noun": "Rose"
+      },
+      {
+        "qty": 100,
+        "reward": 1000,
+        "modifier": "Heavenly",
+        "Noun": "Rejuvenator"
+      },
+      {
+        "qty": 200,
+        "reward": 2000,
+        "modifier": "Sweet-Smelling",
+        "Noun": "Blossom"
+      },
+      {
+        "qty": 300,
+        "reward": 3000,
+        "modifier": "Gorgeous",
+        "Noun": "Groom; Bride"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -882,34 +923,41 @@
     "internalId": "23",
     "internalName": "WaterPlant",
     "internalCategory": "Plant",
-    "numOfTiers": "5",
-    "tier1": "10",
-    "tier2": "50",
-    "tier3": "100",
-    "tier4": "500",
-    "tier5": "1000",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Refined",
-    "tier1Noun": "Caretaker",
-    "tier2Modifier": "Detailed",
-    "tier2Noun": "Keeper",
-    "tier3Modifier": "Careful",
-    "tier3Noun": "Gardener",
-    "tier4Modifier": "Caretaking",
-    "tier4Noun": "Ringleader",
-    "tier5Modifier": "Flower-Loving",
-    "tier5Noun": "Boss",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "8JeajqbS7bHbJ4KPH"
+    "uniqueEntryId": "8JeajqbS7bHbJ4KPH",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 300,
+        "modifier": "Refined",
+        "Noun": "Caretaker"
+      },
+      {
+        "qty": 50,
+        "reward": 500,
+        "modifier": "Detailed",
+        "Noun": "Keeper"
+      },
+      {
+        "qty": 100,
+        "reward": 1000,
+        "modifier": "Careful",
+        "Noun": "Gardener"
+      },
+      {
+        "qty": 500,
+        "reward": 2000,
+        "modifier": "Caretaking",
+        "Noun": "Ringleader"
+      },
+      {
+        "qty": 1000,
+        "reward": 3000,
+        "modifier": "Flower-Loving",
+        "Noun": "Boss"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -920,34 +968,29 @@
     "internalId": "8",
     "internalName": "PlantTreeSeedling",
     "internalCategory": "Plant",
-    "numOfTiers": "3",
-    "tier1": "5",
-    "tier2": "10",
-    "tier3": "30",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Outdoorsy",
-    "tier1Noun": "Defender",
-    "tier2Modifier": "Organic",
-    "tier2Noun": "Dietitian",
-    "tier3Modifier": "Hay-Feverish",
-    "tier3Noun": "Sneezer",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "eeDWd35DjuJy7CsM5"
+    "uniqueEntryId": "eeDWd35DjuJy7CsM5",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Outdoorsy",
+        "Noun": "Defender"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Organic",
+        "Noun": "Dietitian"
+      },
+      {
+        "qty": 30,
+        "reward": 1000,
+        "modifier": "Hay-Feverish",
+        "Noun": "Sneezer"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -958,34 +1001,41 @@
     "internalId": "70",
     "internalName": "SellFruit",
     "internalCategory": "Plant",
-    "numOfTiers": "5",
-    "tier1": "20",
-    "tier2": "100",
-    "tier3": "500",
-    "tier4": "1000",
-    "tier5": "3000",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Inexperienced",
-    "tier1Noun": "Observationist",
-    "tier2Modifier": "Precocious",
-    "tier2Noun": "Bounty",
-    "tier3Modifier": "Seasonal",
-    "tier3Noun": "Tree",
-    "tier4Modifier": "Mature",
-    "tier4Noun": "Kind",
-    "tier5Modifier": "Rotten",
-    "tier5Noun": "Scent",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "tGg8gEWooCRFAn2Km"
+    "uniqueEntryId": "tGg8gEWooCRFAn2Km",
+    "tiers": [
+      {
+        "qty": 20,
+        "reward": 300,
+        "modifier": "Inexperienced",
+        "Noun": "Observationist"
+      },
+      {
+        "qty": 100,
+        "reward": 500,
+        "modifier": "Precocious",
+        "Noun": "Bounty"
+      },
+      {
+        "qty": 500,
+        "reward": 1000,
+        "modifier": "Seasonal",
+        "Noun": "Tree"
+      },
+      {
+        "qty": 1000,
+        "reward": 2000,
+        "modifier": "Mature",
+        "Noun": "Kind"
+      },
+      {
+        "qty": 3000,
+        "reward": 3000,
+        "modifier": "Rotten",
+        "Noun": "Scent"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -996,34 +1046,47 @@
     "internalId": "7",
     "internalName": "PlantFruit",
     "internalCategory": "Plant",
-    "numOfTiers": "6",
-    "tier1": "0",
-    "tier2": "0",
-    "tier3": "0",
-    "tier4": "0",
-    "tier5": "0",
-    "tier6": "0",
-    "tier1Reward": "100",
-    "tier2Reward": "200",
-    "tier3Reward": "300",
-    "tier4Reward": "500",
-    "tier5Reward": "700",
-    "tier6Reward": "1000",
-    "tier1Modifier": "Twin's",
-    "tier1Noun": "Other Half",
-    "tier2Modifier": "Total",
-    "tier2Noun": "Freshman",
-    "tier3Modifier": "Unpearable",
-    "tier3Noun": "Pear",
-    "tier4Modifier": "Plucky",
-    "tier4Noun": "Star",
-    "tier5Modifier": "Crisp",
-    "tier5Noun": "Mr. Popular; Ms. Popular",
-    "tier6Modifier": "Tropically Grown",
-    "tier6Noun": "Coconut",
     "sequential": false,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "tNSnLaumH2MbDMSqK"
+    "uniqueEntryId": "tNSnLaumH2MbDMSqK",
+    "tiers": [
+      {
+        "qty": 0,
+        "reward": 100,
+        "modifier": "Twin's",
+        "Noun": "Other Half"
+      },
+      {
+        "qty": 0,
+        "reward": 200,
+        "modifier": "Total",
+        "Noun": "Freshman"
+      },
+      {
+        "qty": 0,
+        "reward": 300,
+        "modifier": "Unpearable",
+        "Noun": "Pear"
+      },
+      {
+        "qty": 0,
+        "reward": 500,
+        "modifier": "Plucky",
+        "Noun": "Star"
+      },
+      {
+        "qty": 0,
+        "reward": 700,
+        "modifier": "Crisp",
+        "Noun": "Mr. Popular; Ms. Popular"
+      },
+      {
+        "qty": 0,
+        "reward": 1000,
+        "modifier": "Tropically Grown",
+        "Noun": "Coconut"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1034,34 +1097,29 @@
     "internalId": "92",
     "internalName": "PlantBushSeedling",
     "internalCategory": "Plant",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "5",
-    "tier3": "20",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Verdant",
-    "tier1Noun": "Wonder",
-    "tier2Modifier": "Unrestrained",
-    "tier2Noun": "Sentinel",
-    "tier3Modifier": "Surprising",
-    "tier3Noun": "Snake",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.2.0",
-    "uniqueEntryId": "kosAYGQuM92yWsRZx"
+    "uniqueEntryId": "kosAYGQuM92yWsRZx",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Verdant",
+        "Noun": "Wonder"
+      },
+      {
+        "qty": 5,
+        "reward": 500,
+        "modifier": "Unrestrained",
+        "Noun": "Sentinel"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Surprising",
+        "Noun": "Snake"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1072,34 +1130,41 @@
     "internalId": 100,
     "internalName": "PlantVegetableSeedling",
     "internalCategory": "Vegetable",
-    "numOfTiers": 5,
-    "tier1": 5,
-    "tier2": 20,
-    "tier3": 50,
-    "tier4": 100,
-    "tier5": 200,
-    "tier6": null,
-    "tier1Reward": 300,
-    "tier2Reward": 500,
-    "tier3Reward": 1000,
-    "tier4Reward": 2000,
-    "tier5Reward": 3000,
-    "tier6Reward": null,
-    "tier1Modifier": "Field-Fresh",
-    "tier1Noun": "Fertilizer",
-    "tier2Modifier": "Locally Sourced",
-    "tier2Noun": "Soil",
-    "tier3Modifier": "Sustainable",
-    "tier3Noun": "Start",
-    "tier4Modifier": "Hardworking",
-    "tier4Noun": "Days",
-    "tier5Modifier": "Green-Thumbed",
-    "tier5Noun": "Success",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "2.0.0",
-    "uniqueEntryId": "N4sv7eDNRw5cuiRaF"
+    "uniqueEntryId": "N4sv7eDNRw5cuiRaF",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Field-Fresh",
+        "Noun": "Fertilizer"
+      },
+      {
+        "qty": 20,
+        "reward": 500,
+        "modifier": "Locally Sourced",
+        "Noun": "Soil"
+      },
+      {
+        "qty": 50,
+        "reward": 1000,
+        "modifier": "Sustainable",
+        "Noun": "Start"
+      },
+      {
+        "qty": 100,
+        "reward": 2000,
+        "modifier": "Hardworking",
+        "Noun": "Days"
+      },
+      {
+        "qty": 200,
+        "reward": 3000,
+        "modifier": "Green-Thumbed",
+        "Noun": "Success"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1110,34 +1175,41 @@
     "internalId": 102,
     "internalName": "HarvestVegetable",
     "internalCategory": "Vegetable",
-    "numOfTiers": 5,
-    "tier1": 10,
-    "tier2": 50,
-    "tier3": 150,
-    "tier4": 500,
-    "tier5": 1000,
-    "tier6": null,
-    "tier1Reward": 300,
-    "tier2Reward": 500,
-    "tier3Reward": 1000,
-    "tier4Reward": 2000,
-    "tier5Reward": 3000,
-    "tier6Reward": null,
-    "tier1Modifier": "Farming",
-    "tier1Noun": "Greenhorn",
-    "tier2Modifier": "Crop-Tending",
-    "tier2Noun": "Crops",
-    "tier3Modifier": "Vibrant",
-    "tier3Noun": "Baby",
-    "tier4Modifier": "Nurturing",
-    "tier4Noun": "Young'un",
-    "tier5Modifier": "Thriving",
-    "tier5Noun": "Populace",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "2.0.0",
-    "uniqueEntryId": "spwh6w6ZL695xXKGP"
+    "uniqueEntryId": "spwh6w6ZL695xXKGP",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 300,
+        "modifier": "Farming",
+        "Noun": "Greenhorn"
+      },
+      {
+        "qty": 50,
+        "reward": 500,
+        "modifier": "Crop-Tending",
+        "Noun": "Crops"
+      },
+      {
+        "qty": 150,
+        "reward": 1000,
+        "modifier": "Vibrant",
+        "Noun": "Baby"
+      },
+      {
+        "qty": 500,
+        "reward": 2000,
+        "modifier": "Nurturing",
+        "Noun": "Young'un"
+      },
+      {
+        "qty": 1000,
+        "reward": 3000,
+        "modifier": "Thriving",
+        "Noun": "Populace"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1148,34 +1220,41 @@
     "internalId": "69",
     "internalName": "SellShell",
     "internalCategory": "Fish",
-    "numOfTiers": "5",
-    "tier1": "10",
-    "tier2": "50",
-    "tier3": "200",
-    "tier4": "500",
-    "tier5": "1000",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Shell-Grabbing",
-    "tier1Noun": "Shell Fan",
-    "tier2Modifier": "Seashore",
-    "tier2Noun": "Seashell Seller",
-    "tier3Modifier": "Shifty",
-    "tier3Noun": "Shellector",
-    "tier4Modifier": "Over-Shelled",
-    "tier4Noun": "Shell Master",
-    "tier5Modifier": "Shellfish",
-    "tier5Noun": "Shellaborator; Shellarina",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "eycL6Ntub97uvKwgB"
+    "uniqueEntryId": "eycL6Ntub97uvKwgB",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 300,
+        "modifier": "Shell-Grabbing",
+        "Noun": "Shell Fan"
+      },
+      {
+        "qty": 50,
+        "reward": 500,
+        "modifier": "Seashore",
+        "Noun": "Seashell Seller"
+      },
+      {
+        "qty": 200,
+        "reward": 1000,
+        "modifier": "Shifty",
+        "Noun": "Shellector"
+      },
+      {
+        "qty": 500,
+        "reward": 2000,
+        "modifier": "Over-Shelled",
+        "Noun": "Shell Master"
+      },
+      {
+        "qty": 1000,
+        "reward": 3000,
+        "modifier": "Shellfish",
+        "Noun": "Shellaborator; Shellarina"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1186,34 +1265,41 @@
     "internalId": "63",
     "internalName": "DigShell",
     "internalCategory": "Fish",
-    "numOfTiers": "5",
-    "tier1": "5",
-    "tier2": "20",
-    "tier3": "50",
-    "tier4": "100",
-    "tier5": "200",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Tidal",
-    "tier1Noun": "Season",
-    "tier2Modifier": "Ready",
-    "tier2Noun": "Coast Dweller",
-    "tier3Modifier": "Buried",
-    "tier3Noun": "Genius",
-    "tier4Modifier": "Rare",
-    "tier4Noun": "Prodigy",
-    "tier5Modifier": "Water's Edge",
-    "tier5Noun": "Mermaid",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "MsKyNAx2BBitXF4SQ"
+    "uniqueEntryId": "MsKyNAx2BBitXF4SQ",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Tidal",
+        "Noun": "Season"
+      },
+      {
+        "qty": 20,
+        "reward": 500,
+        "modifier": "Ready",
+        "Noun": "Coast Dweller"
+      },
+      {
+        "qty": 50,
+        "reward": 1000,
+        "modifier": "Buried",
+        "Noun": "Genius"
+      },
+      {
+        "qty": 100,
+        "reward": 2000,
+        "modifier": "Rare",
+        "Noun": "Prodigy"
+      },
+      {
+        "qty": 200,
+        "reward": 3000,
+        "modifier": "Water's Edge",
+        "Noun": "Mermaid"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1224,34 +1310,29 @@
     "internalId": "32",
     "internalName": "CatchTrash",
     "internalCategory": "Fish",
-    "numOfTiers": "3",
-    "tier1": "3",
-    "tier2": "10",
-    "tier3": "20",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Untossable",
-    "tier1Noun": "Trash",
-    "tier2Modifier": "Eco-Friendly",
-    "tier2Noun": "Ecologist",
-    "tier3Modifier": "Waterway",
-    "tier3Noun": "Cleaner",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "gYpEcg4qf7X46Svfz"
+    "uniqueEntryId": "gYpEcg4qf7X46Svfz",
+    "tiers": [
+      {
+        "qty": 3,
+        "reward": 300,
+        "modifier": "Untossable",
+        "Noun": "Trash"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Eco-Friendly",
+        "Noun": "Ecologist"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Waterway",
+        "Noun": "Cleaner"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1262,34 +1343,29 @@
     "internalId": "2",
     "internalName": "CatchFishContinuously",
     "internalCategory": "Fish",
-    "numOfTiers": "3",
-    "tier1": "10",
-    "tier2": "50",
-    "tier3": "100",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Mistakenly Caught",
-    "tier1Noun": "Fish",
-    "tier2Modifier": "Bait-Snatching",
-    "tier2Noun": "Frenzy",
-    "tier3Modifier": "Wave-Tossed",
-    "tier3Noun": "Life-Form",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "PcXyzjRR7mMRJMpWA"
+    "uniqueEntryId": "PcXyzjRR7mMRJMpWA",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 300,
+        "modifier": "Mistakenly Caught",
+        "Noun": "Fish"
+      },
+      {
+        "qty": 50,
+        "reward": 500,
+        "modifier": "Bait-Snatching",
+        "Noun": "Frenzy"
+      },
+      {
+        "qty": 100,
+        "reward": 1000,
+        "modifier": "Wave-Tossed",
+        "Noun": "Life-Form"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1300,34 +1376,41 @@
     "internalId": "82",
     "internalName": "ExtendMyHome",
     "internalCategory": "Event",
-    "numOfTiers": "5",
-    "tier1": "1",
-    "tier2": "2",
-    "tier3": "5",
-    "tier4": "6",
-    "tier5": "7",
-    "tier6": null,
-    "tier1Reward": "500",
-    "tier2Reward": "1000",
-    "tier3Reward": "2000",
-    "tier4Reward": "3000",
-    "tier5Reward": "5000",
-    "tier6Reward": null,
-    "tier1Modifier": "One-Room",
-    "tier1Noun": "Loner",
-    "tier2Modifier": "Single-Occupant",
-    "tier2Noun": "Beginner",
-    "tier3Modifier": "Homey",
-    "tier3Noun": "Sentiment",
-    "tier4Modifier": "Second-Floor",
-    "tier4Noun": "Landlord",
-    "tier5Modifier": "Basement",
-    "tier5Noun": "Backbone",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "FLDPYLE7KWu8S9uPg"
+    "uniqueEntryId": "FLDPYLE7KWu8S9uPg",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 500,
+        "modifier": "One-Room",
+        "Noun": "Loner"
+      },
+      {
+        "qty": 2,
+        "reward": 1000,
+        "modifier": "Single-Occupant",
+        "Noun": "Beginner"
+      },
+      {
+        "qty": 5,
+        "reward": 2000,
+        "modifier": "Homey",
+        "Noun": "Sentiment"
+      },
+      {
+        "qty": 6,
+        "reward": 3000,
+        "modifier": "Second-Floor",
+        "Noun": "Landlord"
+      },
+      {
+        "qty": 7,
+        "reward": 5000,
+        "modifier": "Basement",
+        "Noun": "Backbone"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1338,34 +1421,17 @@
     "internalId": "40",
     "internalName": "GetSRankonHHA",
     "internalCategory": "Event",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "1000",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Happy",
-    "tier1Noun": "Overachiever",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "kzJaqFiCaRivejX2x"
+    "uniqueEntryId": "kzJaqFiCaRivejX2x",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 1000,
+        "modifier": "Happy",
+        "Noun": "Overachiever"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1376,34 +1442,41 @@
     "internalId": "78",
     "internalName": "PlaceFurnitureMyHouse",
     "internalCategory": "Event",
-    "numOfTiers": "5",
-    "tier1": "5",
-    "tier2": "15",
-    "tier3": "30",
-    "tier4": "100",
-    "tier5": "150",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "1000",
-    "tier3Reward": "2000",
-    "tier4Reward": "3000",
-    "tier5Reward": "5000",
-    "tier6Reward": null,
-    "tier1Modifier": "Interior",
-    "tier1Noun": "Sort",
-    "tier2Modifier": "Tentative",
-    "tier2Noun": "Remodeler",
-    "tier3Modifier": "Comparative",
-    "tier3Noun": "Sundries Fan",
-    "tier4Modifier": "Assumed",
-    "tier4Noun": "Appliance Fan",
-    "tier5Modifier": "Abounding",
-    "tier5Noun": "Interior-Design Fan",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "k6RF4XJhEdk3DWupM"
+    "uniqueEntryId": "k6RF4XJhEdk3DWupM",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Interior",
+        "Noun": "Sort"
+      },
+      {
+        "qty": 15,
+        "reward": 1000,
+        "modifier": "Tentative",
+        "Noun": "Remodeler"
+      },
+      {
+        "qty": 30,
+        "reward": 2000,
+        "modifier": "Comparative",
+        "Noun": "Sundries Fan"
+      },
+      {
+        "qty": 100,
+        "reward": 3000,
+        "modifier": "Assumed",
+        "Noun": "Appliance Fan"
+      },
+      {
+        "qty": 150,
+        "reward": 5000,
+        "modifier": "Abounding",
+        "Noun": "Interior-Design Fan"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1414,34 +1487,41 @@
     "internalId": "77",
     "internalName": "HouseStorageItem",
     "internalCategory": "Event",
-    "numOfTiers": "5",
-    "tier1": "20",
-    "tier2": "50",
-    "tier3": "100",
-    "tier4": "200",
-    "tier5": "300",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "1000",
-    "tier3Reward": "2000",
-    "tier4Reward": "3000",
-    "tier5Reward": "5000",
-    "tier6Reward": null,
-    "tier1Modifier": "Overstuffed",
-    "tier1Noun": "Stylist",
-    "tier2Modifier": "Partially Obscured",
-    "tier2Noun": "Talent",
-    "tier3Modifier": "At-Capacity",
-    "tier3Noun": "Manager",
-    "tier4Modifier": "Self-Possessed",
-    "tier4Noun": "Coordinator",
-    "tier5Modifier": "Invulnerable",
-    "tier5Noun": "Life Hacker",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "vmFkmQFGyKNS6gPdo"
+    "uniqueEntryId": "vmFkmQFGyKNS6gPdo",
+    "tiers": [
+      {
+        "qty": 20,
+        "reward": 300,
+        "modifier": "Overstuffed",
+        "Noun": "Stylist"
+      },
+      {
+        "qty": 50,
+        "reward": 1000,
+        "modifier": "Partially Obscured",
+        "Noun": "Talent"
+      },
+      {
+        "qty": 100,
+        "reward": 2000,
+        "modifier": "At-Capacity",
+        "Noun": "Manager"
+      },
+      {
+        "qty": 200,
+        "reward": 3000,
+        "modifier": "Self-Possessed",
+        "Noun": "Coordinator"
+      },
+      {
+        "qty": 300,
+        "reward": 5000,
+        "modifier": "Invulnerable",
+        "Noun": "Life Hacker"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1452,34 +1532,29 @@
     "internalId": "81",
     "internalName": "ReformMyHome",
     "internalCategory": "Event",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "3",
-    "tier3": "5",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "500",
-    "tier2Reward": "1000",
-    "tier3Reward": "2000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Home",
-    "tier1Noun": "Transformer",
-    "tier2Modifier": "Dreamy",
-    "tier2Noun": "Dreamer",
-    "tier3Modifier": "Quintessential",
-    "tier3Noun": "Space",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "ZqLiA9gGSKTBGZQgZ"
+    "uniqueEntryId": "ZqLiA9gGSKTBGZQgZ",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 500,
+        "modifier": "Home",
+        "Noun": "Transformer"
+      },
+      {
+        "qty": 3,
+        "reward": 1000,
+        "modifier": "Dreamy",
+        "Noun": "Dreamer"
+      },
+      {
+        "qty": 5,
+        "reward": 2000,
+        "modifier": "Quintessential",
+        "Noun": "Space"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1490,34 +1565,41 @@
     "internalId": "59",
     "internalName": "AchieveVillagersQuest",
     "internalCategory": "Communication",
-    "numOfTiers": "5",
-    "tier1": "1",
-    "tier2": "10",
-    "tier3": "50",
-    "tier4": "100",
-    "tier5": "300",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Kindly",
-    "tier1Noun": "Standard",
-    "tier2Modifier": "Reliable",
-    "tier2Noun": "Ally",
-    "tier3Modifier": "Generous",
-    "tier3Noun": "Supervisor",
-    "tier4Modifier": "Exalted",
-    "tier4Noun": "Savior",
-    "tier5Modifier": "Foolhardy",
-    "tier5Noun": "Hero; Heroine",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "2Cf5yBG3NFSeozMg2"
+    "uniqueEntryId": "2Cf5yBG3NFSeozMg2",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Kindly",
+        "Noun": "Standard"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Reliable",
+        "Noun": "Ally"
+      },
+      {
+        "qty": 50,
+        "reward": 1000,
+        "modifier": "Generous",
+        "Noun": "Supervisor"
+      },
+      {
+        "qty": 100,
+        "reward": 2000,
+        "modifier": "Exalted",
+        "Noun": "Savior"
+      },
+      {
+        "qty": 300,
+        "reward": 3000,
+        "modifier": "Foolhardy",
+        "Noun": "Hero; Heroine"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1528,34 +1610,41 @@
     "internalId": "31",
     "internalName": "FillReactionList",
     "internalCategory": "Communication",
-    "numOfTiers": "5",
-    "tier1": "1",
-    "tier2": "10",
-    "tier3": "20",
-    "tier4": "30",
-    "tier5": "42",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Overacting",
-    "tier1Noun": "Neophyte",
-    "tier2Modifier": "Apprentice",
-    "tier2Noun": "Dancer",
-    "tier3Modifier": "Dad-Joking",
-    "tier3Noun": "Semiprofessional",
-    "tier4Modifier": "Solo",
-    "tier4Noun": "Comedian",
-    "tier5Modifier": "Super-Popular",
-    "tier5Noun": "Mega Star",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "GRKenaH9cZf7SF3io"
+    "uniqueEntryId": "GRKenaH9cZf7SF3io",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Overacting",
+        "Noun": "Neophyte"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Apprentice",
+        "Noun": "Dancer"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Dad-Joking",
+        "Noun": "Semiprofessional"
+      },
+      {
+        "qty": 30,
+        "reward": 2000,
+        "modifier": "Solo",
+        "Noun": "Comedian"
+      },
+      {
+        "qty": 42,
+        "reward": 3000,
+        "modifier": "Super-Popular",
+        "Noun": "Mega Star"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1566,34 +1655,17 @@
     "internalId": "75",
     "internalName": "TakePicture",
     "internalCategory": "Smartphone",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Photogenic",
-    "tier1Noun": "Photographer",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "amPim5PB25MTaEnZH"
+    "uniqueEntryId": "amPim5PB25MTaEnZH",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Photogenic",
+        "Noun": "Photographer"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1604,34 +1676,17 @@
     "internalId": "87",
     "internalName": "UpdatePassport",
     "internalCategory": "Smartphone",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Future",
-    "tier1Noun": "Traveler",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "97AnkL7nAoQsXaCR8"
+    "uniqueEntryId": "97AnkL7nAoQsXaCR8",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Future",
+        "Noun": "Traveler"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1642,34 +1697,17 @@
     "internalId": "76",
     "internalName": "BootPhoneBeginner",
     "internalCategory": "Smartphone",
-    "numOfTiers": "1",
-    "tier1": "10",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Smartphone",
-    "tier1Noun": "Savant",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "38g3QBF9r9HdzdhA5"
+    "uniqueEntryId": "38g3QBF9r9HdzdhA5",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 300,
+        "modifier": "Smartphone",
+        "Noun": "Savant"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1680,34 +1718,17 @@
     "internalId": "56",
     "internalName": "BootPhone",
     "internalCategory": "Smartphone",
-    "numOfTiers": "1",
-    "tier1": "1000",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "1000",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Digital-Age",
-    "tier1Noun": "Child",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "usRtbx9sTQwpwKzT3"
+    "uniqueEntryId": "usRtbx9sTQwpwKzT3",
+    "tiers": [
+      {
+        "qty": 1000,
+        "reward": 1000,
+        "modifier": "Digital-Age",
+        "Noun": "Child"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1718,34 +1739,41 @@
     "internalId": "16",
     "internalName": "BuyItemCatalog",
     "internalCategory": "Smartphone",
-    "numOfTiers": "5",
-    "tier1": "1",
-    "tier2": "20",
-    "tier3": "50",
-    "tier4": "100",
-    "tier5": "200",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Internet",
-    "tier1Noun": "Surfer",
-    "tier2Modifier": "Connected",
-    "tier2Noun": "Reviewer",
-    "tier3Modifier": "Widely Accepted",
-    "tier3Noun": "Connector",
-    "tier4Modifier": "Disconnected",
-    "tier4Noun": "Worrywart",
-    "tier5Modifier": "Always-On",
-    "tier5Noun": "Bigwig",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "7rQbwihnNhEFFZmQo"
+    "uniqueEntryId": "7rQbwihnNhEFFZmQo",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Internet",
+        "Noun": "Surfer"
+      },
+      {
+        "qty": 20,
+        "reward": 500,
+        "modifier": "Connected",
+        "Noun": "Reviewer"
+      },
+      {
+        "qty": 50,
+        "reward": 1000,
+        "modifier": "Widely Accepted",
+        "Noun": "Connector"
+      },
+      {
+        "qty": 100,
+        "reward": 2000,
+        "modifier": "Disconnected",
+        "Noun": "Worrywart"
+      },
+      {
+        "qty": 200,
+        "reward": 3000,
+        "modifier": "Always-On",
+        "Noun": "Bigwig"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1756,34 +1784,41 @@
     "internalId": "15",
     "internalName": "FillCatalog",
     "internalCategory": "Smartphone",
-    "numOfTiers": "5",
-    "tier1": "100",
-    "tier2": "200",
-    "tier3": "300",
-    "tier4": "400",
-    "tier5": "500",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Casual",
-    "tier1Noun": "Materialist",
-    "tier2Modifier": "Curious",
-    "tier2Noun": "Force",
-    "tier3Modifier": "Greedy",
-    "tier3Noun": "Collector",
-    "tier4Modifier": "Materialistic",
-    "tier4Noun": "Avatar",
-    "tier5Modifier": "Legendary",
-    "tier5Noun": "Walking Dictionary",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "nbEPYsfFJzwG8bozx"
+    "uniqueEntryId": "nbEPYsfFJzwG8bozx",
+    "tiers": [
+      {
+        "qty": 100,
+        "reward": 300,
+        "modifier": "Casual",
+        "Noun": "Materialist"
+      },
+      {
+        "qty": 200,
+        "reward": 500,
+        "modifier": "Curious",
+        "Noun": "Force"
+      },
+      {
+        "qty": 300,
+        "reward": 1000,
+        "modifier": "Greedy",
+        "Noun": "Collector"
+      },
+      {
+        "qty": 400,
+        "reward": 2000,
+        "modifier": "Materialistic",
+        "Noun": "Avatar"
+      },
+      {
+        "qty": 500,
+        "reward": 3000,
+        "modifier": "Legendary",
+        "Noun": "Walking Dictionary"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1794,34 +1829,41 @@
     "internalId": "58",
     "internalName": "AchieveAppQuest",
     "internalCategory": "Smartphone",
-    "numOfTiers": "5",
-    "tier1": "5",
-    "tier2": "50",
-    "tier3": "200",
-    "tier4": "1000",
-    "tier5": "3000",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "So-Called",
-    "tier1Noun": "Ground Traveler",
-    "tier2Modifier": "Novice",
-    "tier2Noun": "Rookie",
-    "tier3Modifier": "Wide-Ranging",
-    "tier3Noun": "Hobbyist",
-    "tier4Modifier": "Perfectionist",
-    "tier4Noun": "Go-Getter",
-    "tier5Modifier": "Year-Round",
-    "tier5Noun": "Dynamo",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "6Qsg6ca6qcXfQJvd9"
+    "uniqueEntryId": "6Qsg6ca6qcXfQJvd9",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "So-Called",
+        "Noun": "Ground Traveler"
+      },
+      {
+        "qty": 50,
+        "reward": 500,
+        "modifier": "Novice",
+        "Noun": "Rookie"
+      },
+      {
+        "qty": 200,
+        "reward": 1000,
+        "modifier": "Wide-Ranging",
+        "Noun": "Hobbyist"
+      },
+      {
+        "qty": 1000,
+        "reward": 2000,
+        "modifier": "Perfectionist",
+        "Noun": "Go-Getter"
+      },
+      {
+        "qty": 3000,
+        "reward": 3000,
+        "modifier": "Year-Round",
+        "Noun": "Dynamo"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1832,34 +1874,17 @@
     "internalId": "12",
     "internalName": "BuyItemRcm",
     "internalCategory": "Money",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Full-Fledged",
-    "tier1Noun": "Consumer",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "dRgaFTqnG9WJ3nDPj"
+    "uniqueEntryId": "dRgaFTqnG9WJ3nDPj",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Full-Fledged",
+        "Noun": "Consumer"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1870,34 +1895,17 @@
     "internalId": "13",
     "internalName": "SellItemRcm",
     "internalCategory": "Money",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Down-And-Out",
-    "tier1Noun": "Eventuality",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "SaJbYEBdon4j2HiML"
+    "uniqueEntryId": "SaJbYEBdon4j2HiML",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Down-And-Out",
+        "Noun": "Eventuality"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1908,34 +1916,17 @@
     "internalId": "33",
     "internalName": "PayImmigrationCost",
     "internalCategory": "Money",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "500",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Autonomous",
-    "tier1Noun": "Life",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "rQJoK5E25RSskQeW5"
+    "uniqueEntryId": "rQJoK5E25RSskQeW5",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 500,
+        "modifier": "Autonomous",
+        "Noun": "Life"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1946,34 +1937,41 @@
     "internalId": "11",
     "internalName": "HowmuchBuyItem",
     "internalCategory": "Money",
-    "numOfTiers": "5",
-    "tier1": "5000",
-    "tier2": "50000",
-    "tier3": "500000",
-    "tier4": "2000000",
-    "tier5": "5000000",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Invested",
-    "tier1Noun": "Shopaholic",
-    "tier2Modifier": "Thrifty",
-    "tier2Noun": "Family Member",
-    "tier3Modifier": "Covetous",
-    "tier3Noun": "Personality",
-    "tier4Modifier": "Wasteful",
-    "tier4Noun": "Celebrity",
-    "tier5Modifier": "Name-Dropping",
-    "tier5Noun": "VIP",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "r5mJC5k8vYuZRkXJT"
+    "uniqueEntryId": "r5mJC5k8vYuZRkXJT",
+    "tiers": [
+      {
+        "qty": 5000,
+        "reward": 300,
+        "modifier": "Invested",
+        "Noun": "Shopaholic"
+      },
+      {
+        "qty": 50000,
+        "reward": 500,
+        "modifier": "Thrifty",
+        "Noun": "Family Member"
+      },
+      {
+        "qty": 500000,
+        "reward": 1000,
+        "modifier": "Covetous",
+        "Noun": "Personality"
+      },
+      {
+        "qty": 2000000,
+        "reward": 2000,
+        "modifier": "Wasteful",
+        "Noun": "Celebrity"
+      },
+      {
+        "qty": 5000000,
+        "reward": 3000,
+        "modifier": "Name-Dropping",
+        "Noun": "VIP"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -1984,34 +1982,17 @@
     "internalId": "9",
     "internalName": "BuyKabu",
     "internalCategory": "Money",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Weekend",
-    "tier1Noun": "Stalkholder",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "AzYYmDqvumcZwmqFf"
+    "uniqueEntryId": "AzYYmDqvumcZwmqFf",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Weekend",
+        "Noun": "Stalkholder"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2022,34 +2003,41 @@
     "internalId": "10",
     "internalName": "HowmuchSellKabu",
     "internalCategory": "Money",
-    "numOfTiers": "5",
-    "tier1": "1000",
-    "tier2": "10000",
-    "tier3": "100000",
-    "tier4": "1000000",
-    "tier5": "10000000",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Status-Minded",
-    "tier1Noun": "Speculator",
-    "tier2Modifier": "Avaricious",
-    "tier2Noun": "Moneybags",
-    "tier3Modifier": "Upstart",
-    "tier3Noun": "Trader",
-    "tier4Modifier": "Worldwide",
-    "tier4Noun": "Bellionaire",
-    "tier5Modifier": "Shadowy",
-    "tier5Noun": "Fixer",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "gvMPEpKkGPLmEeDPe"
+    "uniqueEntryId": "gvMPEpKkGPLmEeDPe",
+    "tiers": [
+      {
+        "qty": 1000,
+        "reward": 300,
+        "modifier": "Status-Minded",
+        "Noun": "Speculator"
+      },
+      {
+        "qty": 10000,
+        "reward": 500,
+        "modifier": "Avaricious",
+        "Noun": "Moneybags"
+      },
+      {
+        "qty": 100000,
+        "reward": 1000,
+        "modifier": "Upstart",
+        "Noun": "Trader"
+      },
+      {
+        "qty": 1000000,
+        "reward": 2000,
+        "modifier": "Worldwide",
+        "Noun": "Bellionaire"
+      },
+      {
+        "qty": 10000000,
+        "reward": 3000,
+        "modifier": "Shadowy",
+        "Noun": "Fixer"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2060,34 +2048,17 @@
     "internalId": "34",
     "internalName": "RepayLoan",
     "internalCategory": "Money",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "1000",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Responsible",
-    "tier1Noun": "Bill Payer",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "uhbojHTBeM2Cnfkuh"
+    "uniqueEntryId": "uhbojHTBeM2Cnfkuh",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 1000,
+        "modifier": "Responsible",
+        "Noun": "Bill Payer"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2098,34 +2069,17 @@
     "internalId": "83",
     "internalName": "PostMessageBoard",
     "internalCategory": "Communication",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Rumormongering",
-    "tier1Noun": "Influencer",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "rZLyEe6QGk9G7sLTP"
+    "uniqueEntryId": "rZLyEe6QGk9G7sLTP",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Rumormongering",
+        "Noun": "Influencer"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2136,34 +2090,41 @@
     "internalId": "50",
     "internalName": "SendLetter",
     "internalCategory": "Communication",
-    "numOfTiers": "5",
-    "tier1": "5",
-    "tier2": "20",
-    "tier3": "50",
-    "tier4": "100",
-    "tier5": "200",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Art-School",
-    "tier1Noun": "Boy; Girl",
-    "tier2Modifier": "Science-y",
-    "tier2Noun": "Student",
-    "tier3Modifier": "Liberal-Arts",
-    "tier3Noun": "Poet",
-    "tier4Modifier": "Subculture",
-    "tier4Noun": "Denizen",
-    "tier5Modifier": "Deadline",
-    "tier5Noun": "Writer",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "EJMKZDs8N5xGkfduP"
+    "uniqueEntryId": "EJMKZDs8N5xGkfduP",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Art-School",
+        "Noun": "Boy; Girl"
+      },
+      {
+        "qty": 20,
+        "reward": 500,
+        "modifier": "Science-y",
+        "Noun": "Student"
+      },
+      {
+        "qty": 50,
+        "reward": 1000,
+        "modifier": "Liberal-Arts",
+        "Noun": "Poet"
+      },
+      {
+        "qty": 100,
+        "reward": 2000,
+        "modifier": "Subculture",
+        "Noun": "Denizen"
+      },
+      {
+        "qty": 200,
+        "reward": 3000,
+        "modifier": "Deadline",
+        "Noun": "Writer"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2174,34 +2135,29 @@
     "internalId": "26",
     "internalName": "CatchNomi",
     "internalCategory": "Insect",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "5",
-    "tier3": "10",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Tidy",
-    "tier1Noun": "Wild Child",
-    "tier2Modifier": "Highly Aware",
-    "tier2Noun": "Neatnik",
-    "tier3Modifier": "Fastidious",
-    "tier3Noun": "Character",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "WRvG4EsvYQbqJupxi"
+    "uniqueEntryId": "WRvG4EsvYQbqJupxi",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Tidy",
+        "Noun": "Wild Child"
+      },
+      {
+        "qty": 5,
+        "reward": 500,
+        "modifier": "Highly Aware",
+        "Noun": "Neatnik"
+      },
+      {
+        "qty": 10,
+        "reward": 1000,
+        "modifier": "Fastidious",
+        "Noun": "Character"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2212,34 +2168,17 @@
     "internalId": "25",
     "internalName": "CatchSeminonukegara",
     "internalCategory": "Insect",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "1000",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Shell-Less",
-    "tier1Noun": "Being",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "t9vayZu88rPHrY79j"
+    "uniqueEntryId": "t9vayZu88rPHrY79j",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 1000,
+        "modifier": "Shell-Less",
+        "Noun": "Being"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2250,34 +2189,17 @@
     "internalId": "71",
     "internalName": "CatchBeeContinuously",
     "internalCategory": "Insect",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "1000",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Accurate",
-    "tier1Noun": "Deadeye",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "ojjJY4tQvSCs3BYda"
+    "uniqueEntryId": "ojjJY4tQvSCs3BYda",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 1000,
+        "modifier": "Accurate",
+        "Noun": "Deadeye"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2288,34 +2210,17 @@
     "internalId": "51",
     "internalName": "MakePitfall",
     "internalCategory": "HHA",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Wild-Child",
-    "tier1Noun": "Troublemaker",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "MwQQ43gFXFky4Z2hG"
+    "uniqueEntryId": "MwQQ43gFXFky4Z2hG",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Wild-Child",
+        "Noun": "Troublemaker"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2326,34 +2231,17 @@
     "internalId": "24",
     "internalName": "BeStungbyWasp",
     "internalCategory": "Negative",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Teary-Eyed",
-    "tier1Noun": "Crybaby",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "P82MkAcpWY9ZAQTnD"
+    "uniqueEntryId": "P82MkAcpWY9ZAQTnD",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Teary-Eyed",
+        "Noun": "Crybaby"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2364,34 +2252,17 @@
     "internalId": "27",
     "internalName": "BeStungbyPoisonousInsect",
     "internalCategory": "Negative",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Risen",
-    "tier1Noun": "Phoenix",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "NwntrWkuaxtB8NoL9"
+    "uniqueEntryId": "NwntrWkuaxtB8NoL9",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Risen",
+        "Noun": "Phoenix"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2402,34 +2273,17 @@
     "internalId": "52",
     "internalName": "FallintoPitfall",
     "internalCategory": "Negative",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Trapped",
-    "tier1Noun": "Reckless One",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "DhKzQBem5HZytprbC"
+    "uniqueEntryId": "DhKzQBem5HZytprbC",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Trapped",
+        "Noun": "Reckless One"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2440,34 +2294,17 @@
     "internalId": "90",
     "internalName": "DonateFake",
     "internalCategory": "Negative",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "500",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Plausible",
-    "tier1Noun": "Fake",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.2.0",
-    "uniqueEntryId": "vakbzK5ihWAQR2aux"
+    "uniqueEntryId": "vakbzK5ihWAQR2aux",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 500,
+        "modifier": "Plausible",
+        "Noun": "Fake"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2478,34 +2315,17 @@
     "internalId": "80",
     "internalName": "DropPresentinWater",
     "internalCategory": "Negative",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "500",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Catchable",
-    "tier1Noun": "Klutz",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "Y2kKBHN6kT7zxkTbm"
+    "uniqueEntryId": "Y2kKBHN6kT7zxkTbm",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 500,
+        "modifier": "Catchable",
+        "Noun": "Klutz"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2516,34 +2336,41 @@
     "internalId": "5",
     "internalName": "ShootDownBalloon",
     "internalCategory": "LandMaking",
-    "numOfTiers": "5",
-    "tier1": "5",
-    "tier2": "20",
-    "tier3": "50",
-    "tier4": "100",
-    "tier5": "300",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Easy-Breezy",
-    "tier1Noun": "Slingshot Ace",
-    "tier2Modifier": "Atmospheric",
-    "tier2Noun": "Floaty Thing",
-    "tier3Modifier": "Restless",
-    "tier3Noun": "Hunter",
-    "tier4Modifier": "Flying",
-    "tier4Noun": "Paradise",
-    "tier5Modifier": "Elusive",
-    "tier5Noun": "Vagabond",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "EEocBnCSkNM9ukMic"
+    "uniqueEntryId": "EEocBnCSkNM9ukMic",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Easy-Breezy",
+        "Noun": "Slingshot Ace"
+      },
+      {
+        "qty": 20,
+        "reward": 500,
+        "modifier": "Atmospheric",
+        "Noun": "Floaty Thing"
+      },
+      {
+        "qty": 50,
+        "reward": 1000,
+        "modifier": "Restless",
+        "Noun": "Hunter"
+      },
+      {
+        "qty": 100,
+        "reward": 2000,
+        "modifier": "Flying",
+        "Noun": "Paradise"
+      },
+      {
+        "qty": 300,
+        "reward": 3000,
+        "modifier": "Elusive",
+        "Noun": "Vagabond"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2554,34 +2381,17 @@
     "internalId": "89",
     "internalName": "BuildFence",
     "internalCategory": "LandMaking",
-    "numOfTiers": "1",
-    "tier1": "20",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "500",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Efficient",
-    "tier1Noun": "Partitioner",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "fNCiNgcTMxFwqAzxN"
+    "uniqueEntryId": "fNCiNgcTMxFwqAzxN",
+    "tiers": [
+      {
+        "qty": 20,
+        "reward": 500,
+        "modifier": "Efficient",
+        "Noun": "Partitioner"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2592,34 +2402,29 @@
     "internalId": "45",
     "internalName": "MakePerfectSnowball",
     "internalCategory": "LandMaking",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "10",
-    "tier3": "20",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Cold-Sensitive",
-    "tier1Noun": "Sprite",
-    "tier2Modifier": "Snow",
-    "tier2Noun": "Angel",
-    "tier3Modifier": "Cool",
-    "tier3Noun": "Imp",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "XcwvgbKXNWiLjmJDX"
+    "uniqueEntryId": "XcwvgbKXNWiLjmJDX",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Cold-Sensitive",
+        "Noun": "Sprite"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Snow",
+        "Noun": "Angel"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Cool",
+        "Noun": "Imp"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2630,34 +2435,29 @@
     "internalId": "85",
     "internalName": "PrayShootingStar",
     "internalCategory": "LandMaking",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "30",
-    "tier3": "200",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "1000",
-    "tier3Reward": "2000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Late-Night",
-    "tier1Noun": "Meteorite",
-    "tier2Modifier": "Wishful",
-    "tier2Noun": "Legend",
-    "tier3Modifier": "Overnight",
-    "tier3Noun": "Superstar",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "WcKhJsbYhwKKkCLqd"
+    "uniqueEntryId": "WcKhJsbYhwKKkCLqd",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Late-Night",
+        "Noun": "Meteorite"
+      },
+      {
+        "qty": 30,
+        "reward": 1000,
+        "modifier": "Wishful",
+        "Noun": "Legend"
+      },
+      {
+        "qty": 200,
+        "reward": 2000,
+        "modifier": "Overnight",
+        "Noun": "Superstar"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2668,34 +2468,17 @@
     "internalId": "64",
     "internalName": "PutFurnitureOutside",
     "internalCategory": "LandMaking",
-    "numOfTiers": "1",
-    "tier1": "10",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Outdoor-Loving",
-    "tier1Noun": "Decorating Fiend",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "TW2jrhLDvtDhjZAKx"
+    "uniqueEntryId": "TW2jrhLDvtDhjZAKx",
+    "tiers": [
+      {
+        "qty": 10,
+        "reward": 300,
+        "modifier": "Outdoor-Loving",
+        "Noun": "Decorating Fiend"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2706,34 +2489,23 @@
     "internalId": "86",
     "internalName": "ChangeSymbol",
     "internalCategory": "LandMaking",
-    "numOfTiers": "2",
-    "tier1": "0",
-    "tier2": "0",
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "500",
-    "tier2Reward": "500",
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Flapping",
-    "tier1Noun": "Flag Waver",
-    "tier2Modifier": "Humming",
-    "tier2Noun": "Musician",
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": false,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "umpcvH5jtsWEir4rR"
+    "uniqueEntryId": "umpcvH5jtsWEir4rR",
+    "tiers": [
+      {
+        "qty": 0,
+        "reward": 500,
+        "modifier": "Flapping",
+        "Noun": "Flag Waver"
+      },
+      {
+        "qty": 0,
+        "reward": 500,
+        "modifier": "Humming",
+        "Noun": "Musician"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2744,34 +2516,29 @@
     "internalId": "88",
     "internalName": "ModifyIsland",
     "internalCategory": "LandMaking",
-    "numOfTiers": "3",
-    "tier1": "0",
-    "tier2": "0",
-    "tier3": "0",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "500",
-    "tier2Reward": "1000",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Trailblazing",
-    "tier1Noun": "Runner",
-    "tier2Modifier": "Swept-Away",
-    "tier2Noun": "Pioneer",
-    "tier3Modifier": "Cliffhanging",
-    "tier3Noun": "Creator",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": false,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "NyFc3PaM4omZLfuic"
+    "uniqueEntryId": "NyFc3PaM4omZLfuic",
+    "tiers": [
+      {
+        "qty": 0,
+        "reward": 500,
+        "modifier": "Trailblazing",
+        "Noun": "Runner"
+      },
+      {
+        "qty": 0,
+        "reward": 1000,
+        "modifier": "Swept-Away",
+        "Noun": "Pioneer"
+      },
+      {
+        "qty": 0,
+        "reward": 1000,
+        "modifier": "Cliffhanging",
+        "Noun": "Creator"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2782,34 +2549,29 @@
     "internalId": "44",
     "internalName": "HelpGst",
     "internalCategory": "Communication",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "10",
-    "tier3": "20",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Cowardly",
-    "tier1Noun": "Ghost",
-    "tier2Modifier": "Supernatural",
-    "tier2Noun": "Soul",
-    "tier3Modifier": "Soulful",
-    "tier3Noun": "Soul Mate",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "nSkcG8gSanouEFg9x"
+    "uniqueEntryId": "nSkcG8gSanouEFg9x",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Cowardly",
+        "Noun": "Ghost"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Supernatural",
+        "Noun": "Soul"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Soulful",
+        "Noun": "Soul Mate"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2820,34 +2582,29 @@
     "internalId": "43",
     "internalName": "HelpGul",
     "internalCategory": "Communication",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "10",
-    "tier3": "20",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Flightless",
-    "tier1Noun": "Fowl",
-    "tier2Modifier": "Perennial",
-    "tier2Noun": "Lost One",
-    "tier3Modifier": "Off-Season",
-    "tier3Noun": "Migratory Bird",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "GfHAM2edJCAAN9xsF"
+    "uniqueEntryId": "GfHAM2edJCAAN9xsF",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Flightless",
+        "Noun": "Fowl"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Perennial",
+        "Noun": "Lost One"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Off-Season",
+        "Noun": "Migratory Bird"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2858,34 +2615,41 @@
     "internalId": "17",
     "internalName": "GotoTotakekeShow",
     "internalCategory": "Communication",
-    "numOfTiers": "5",
-    "tier1": "1",
-    "tier2": "10",
-    "tier3": "30",
-    "tier4": "60",
-    "tier5": "100",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Fickle",
-    "tier1Noun": "Music-Lover",
-    "tier2Modifier": "Covert",
-    "tier2Noun": "Supporter",
-    "tier3Modifier": "Regular",
-    "tier3Noun": "Fan",
-    "tier4Modifier": "The Definition of",
-    "tier4Noun": "Pop Star",
-    "tier5Modifier": "Longtime",
-    "tier5Noun": "Follower",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "aNZ2t8CH7dgpRefc3"
+    "uniqueEntryId": "aNZ2t8CH7dgpRefc3",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Fickle",
+        "Noun": "Music-Lover"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Covert",
+        "Noun": "Supporter"
+      },
+      {
+        "qty": 30,
+        "reward": 1000,
+        "modifier": "Regular",
+        "Noun": "Fan"
+      },
+      {
+        "qty": 60,
+        "reward": 2000,
+        "modifier": "The Definition of",
+        "Noun": "Pop Star"
+      },
+      {
+        "qty": 100,
+        "reward": 3000,
+        "modifier": "Longtime",
+        "Noun": "Follower"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2896,34 +2660,29 @@
     "internalId": "91",
     "internalName": "BuyatTsunekichiShop",
     "internalCategory": "Communication",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "10",
-    "tier3": "20",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Shady",
-    "tier1Noun": "Seller",
-    "tier2Modifier": "Discerning",
-    "tier2Noun": "Aficionado",
-    "tier3Modifier": "Bold",
-    "tier3Noun": "Artistic Statement",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.2.0",
-    "uniqueEntryId": "YTpzbNPue2fAe3FdS"
+    "uniqueEntryId": "YTpzbNPue2fAe3FdS",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Shady",
+        "Noun": "Seller"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Discerning",
+        "Noun": "Aficionado"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Bold",
+        "Noun": "Artistic Statement"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2934,34 +2693,29 @@
     "internalId": "96",
     "internalName": "GiveScallopsToSeo",
     "internalCategory": "Communication",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "10",
-    "tier3": "20",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Kind",
-    "tier1Noun": "Cynic",
-    "tier2Modifier": "Hungry",
-    "tier2Noun": "Philosopher",
-    "tier3Modifier": "Oceanic",
-    "tier3Noun": "Existentialist",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.3.0",
-    "uniqueEntryId": "3MuQkFrRQLkSioSDh"
+    "uniqueEntryId": "3MuQkFrRQLkSioSDh",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Kind",
+        "Noun": "Cynic"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Hungry",
+        "Noun": "Philosopher"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Oceanic",
+        "Noun": "Existentialist"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -2972,34 +2726,41 @@
     "internalId": 103,
     "internalName": "VisitKappeiTour",
     "internalCategory": "Communication",
-    "numOfTiers": 5,
-    "tier1": 3,
-    "tier2": 10,
-    "tier3": 20,
-    "tier4": 30,
-    "tier5": 50,
-    "tier6": null,
-    "tier1Reward": 300,
-    "tier2Reward": 500,
-    "tier3Reward": 1000,
-    "tier4Reward": 2000,
-    "tier5Reward": 3000,
-    "tier6Reward": null,
-    "tier1Modifier": "Sun-Kissed",
-    "tier1Noun": "Boater",
-    "tier2Modifier": "Household",
-    "tier2Noun": "Provider",
-    "tier3Modifier": "Voyaging",
-    "tier3Noun": "Explorer",
-    "tier4Modifier": "Family-Minded",
-    "tier4Noun": "Parent",
-    "tier5Modifier": "Impressive",
-    "tier5Noun": "Family",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "2.0.0",
-    "uniqueEntryId": "judErgtZiRvPKTjjt"
+    "uniqueEntryId": "judErgtZiRvPKTjjt",
+    "tiers": [
+      {
+        "qty": 3,
+        "reward": 300,
+        "modifier": "Sun-Kissed",
+        "Noun": "Boater"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Household",
+        "Noun": "Provider"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Voyaging",
+        "Noun": "Explorer"
+      },
+      {
+        "qty": 30,
+        "reward": 2000,
+        "modifier": "Family-Minded",
+        "Noun": "Parent"
+      },
+      {
+        "qty": 50,
+        "reward": 3000,
+        "modifier": "Impressive",
+        "Noun": "Family"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3010,34 +2771,41 @@
     "internalId": 108,
     "internalName": "DrinkCoffee",
     "internalCategory": "Communication",
-    "numOfTiers": 5,
-    "tier1": 5,
-    "tier2": 10,
-    "tier3": 20,
-    "tier4": 30,
-    "tier5": 50,
-    "tier6": null,
-    "tier1Reward": 300,
-    "tier2Reward": 500,
-    "tier3Reward": 1000,
-    "tier4Reward": 2000,
-    "tier5Reward": 3000,
-    "tier6Reward": null,
-    "tier1Modifier": "Aromatic",
-    "tier1Noun": "Beans",
-    "tier2Modifier": "Caffeinated",
-    "tier2Noun": "Regular",
-    "tier3Modifier": "Fragrant",
-    "tier3Noun": "Break",
-    "tier4Modifier": "Rich",
-    "tier4Noun": "Blend",
-    "tier5Modifier": "Acidic",
-    "tier5Noun": "Barista",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "2.0.0",
-    "uniqueEntryId": "8oRXQPAagmG5Ma3x8"
+    "uniqueEntryId": "8oRXQPAagmG5Ma3x8",
+    "tiers": [
+      {
+        "qty": 5,
+        "reward": 300,
+        "modifier": "Aromatic",
+        "Noun": "Beans"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Caffeinated",
+        "Noun": "Regular"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Fragrant",
+        "Noun": "Break"
+      },
+      {
+        "qty": 30,
+        "reward": 2000,
+        "modifier": "Rich",
+        "Noun": "Blend"
+      },
+      {
+        "qty": 50,
+        "reward": 3000,
+        "modifier": "Acidic",
+        "Noun": "Barista"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3048,34 +2816,41 @@
     "internalId": 109,
     "internalName": "JoinRadioGymnastics",
     "internalCategory": "Communication",
-    "numOfTiers": 5,
-    "tier1": 3,
-    "tier2": 10,
-    "tier3": 20,
-    "tier4": 30,
-    "tier5": 50,
-    "tier6": null,
-    "tier1Reward": 300,
-    "tier2Reward": 500,
-    "tier3Reward": 1000,
-    "tier4Reward": 2000,
-    "tier5Reward": 3000,
-    "tier6Reward": null,
-    "tier1Modifier": "Peppy",
-    "tier1Noun": "Kids",
-    "tier2Modifier": "Athletic",
-    "tier2Noun": "Fitness Fan",
-    "tier3Modifier": "Sporty",
-    "tier3Noun": "Athlete",
-    "tier4Modifier": "Peak-Performing",
-    "tier4Noun": "Bodybuilder",
-    "tier5Modifier": "Stoic",
-    "tier5Noun": "Health Nut",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "2.0.0",
-    "uniqueEntryId": "QXEGWCTvbqLrHXaBm"
+    "uniqueEntryId": "QXEGWCTvbqLrHXaBm",
+    "tiers": [
+      {
+        "qty": 3,
+        "reward": 300,
+        "modifier": "Peppy",
+        "Noun": "Kids"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Athletic",
+        "Noun": "Fitness Fan"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Sporty",
+        "Noun": "Athlete"
+      },
+      {
+        "qty": 30,
+        "reward": 2000,
+        "modifier": "Peak-Performing",
+        "Noun": "Bodybuilder"
+      },
+      {
+        "qty": 50,
+        "reward": 3000,
+        "modifier": "Stoic",
+        "Noun": "Health Nut"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3086,34 +2861,29 @@
     "internalId": "54",
     "internalName": "BeFriendwithVillager",
     "internalCategory": "Communication",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "2",
-    "tier3": "3",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Soothing",
-    "tier1Noun": "Pal",
-    "tier2Modifier": "Friendly",
-    "tier2Noun": "Buddy",
-    "tier3Modifier": "Friendship",
-    "tier3Noun": "Seeker",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "ZD7xtJZTo9mGk9tTk"
+    "uniqueEntryId": "ZD7xtJZTo9mGk9tTk",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Soothing",
+        "Noun": "Pal"
+      },
+      {
+        "qty": 2,
+        "reward": 500,
+        "modifier": "Friendly",
+        "Noun": "Buddy"
+      },
+      {
+        "qty": 3,
+        "reward": 1000,
+        "modifier": "Friendship",
+        "Noun": "Seeker"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3124,34 +2894,29 @@
     "internalId": "47",
     "internalName": "CelebrateVillagersBithday",
     "internalCategory": "Communication",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "10",
-    "tier3": "20",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Untamed",
-    "tier1Noun": "Party Animal",
-    "tier2Modifier": "Growing",
-    "tier2Noun": "Youth",
-    "tier3Modifier": "Grown",
-    "tier3Noun": "Adult",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "5TKJXZPvrkPLiQ6XC"
+    "uniqueEntryId": "5TKJXZPvrkPLiQ6XC",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Untamed",
+        "Noun": "Party Animal"
+      },
+      {
+        "qty": 10,
+        "reward": 500,
+        "modifier": "Growing",
+        "Noun": "Youth"
+      },
+      {
+        "qty": 20,
+        "reward": 1000,
+        "modifier": "Grown",
+        "Noun": "Adult"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3162,34 +2927,17 @@
     "internalId": "46",
     "internalName": "ReachMyBirthday",
     "internalCategory": "Event",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "2000",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Celebratory",
-    "tier1Noun": "Birthday Boy; Birthday Girl",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "6vc2Rm2s3rE9EFZoM"
+    "uniqueEntryId": "6vc2Rm2s3rE9EFZoM",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 2000,
+        "modifier": "Celebratory",
+        "Noun": "Birthday Boy; Birthday Girl"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3200,34 +2948,35 @@
     "internalId": "41",
     "internalName": "AttendFishingConvention",
     "internalCategory": "Fish",
-    "numOfTiers": "4",
-    "tier1": "0",
-    "tier2": "0",
-    "tier3": "0",
-    "tier4": "0",
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Spring-Born",
-    "tier1Noun": "Free Spirit",
-    "tier2Modifier": "Summer-Born",
-    "tier2Noun": "Chiller",
-    "tier3Modifier": "Fall-Born",
-    "tier3Noun": "Free-Wheeler",
-    "tier4Modifier": "Winter-Born",
-    "tier4Noun": "Overheater",
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": false,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "Z2C4JGKnsPJqhyDFM"
+    "uniqueEntryId": "Z2C4JGKnsPJqhyDFM",
+    "tiers": [
+      {
+        "qty": 0,
+        "reward": 300,
+        "modifier": "Spring-Born",
+        "Noun": "Free Spirit"
+      },
+      {
+        "qty": 0,
+        "reward": 500,
+        "modifier": "Summer-Born",
+        "Noun": "Chiller"
+      },
+      {
+        "qty": 0,
+        "reward": 1000,
+        "modifier": "Fall-Born",
+        "Noun": "Free-Wheeler"
+      },
+      {
+        "qty": 0,
+        "reward": 2000,
+        "modifier": "Winter-Born",
+        "Noun": "Overheater"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3238,34 +2987,35 @@
     "internalId": "42",
     "internalName": "AttendInsectConvention",
     "internalCategory": "Insect",
-    "numOfTiers": "4",
-    "tier1": "0",
-    "tier2": "0",
-    "tier3": "0",
-    "tier4": "0",
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Adolescent",
-    "tier1Noun": "Youngster",
-    "tier2Modifier": "Rebellious",
-    "tier2Noun": "Rebel",
-    "tier3Modifier": "Solitary",
-    "tier3Noun": "Lone Wolf",
-    "tier4Modifier": "Standoffish",
-    "tier4Noun": "Individual",
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": false,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "HQJJaicSZQ79LstpA"
+    "uniqueEntryId": "HQJJaicSZQ79LstpA",
+    "tiers": [
+      {
+        "qty": 0,
+        "reward": 300,
+        "modifier": "Adolescent",
+        "Noun": "Youngster"
+      },
+      {
+        "qty": 0,
+        "reward": 500,
+        "modifier": "Rebellious",
+        "Noun": "Rebel"
+      },
+      {
+        "qty": 0,
+        "reward": 1000,
+        "modifier": "Solitary",
+        "Noun": "Lone Wolf"
+      },
+      {
+        "qty": 0,
+        "reward": 2000,
+        "modifier": "Standoffish",
+        "Noun": "Individual"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3276,34 +3026,17 @@
     "internalId": "48",
     "internalName": "AttendCountdownParty",
     "internalCategory": "Event",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "1000",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Countdown",
-    "tier1Noun": "Merrymaker",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "PTMwJTvnX3A4gxjN9"
+    "uniqueEntryId": "PTMwJTvnX3A4gxjN9",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 1000,
+        "modifier": "Countdown",
+        "Noun": "Merrymaker"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3314,34 +3047,17 @@
     "internalId": "84",
     "internalName": "UseCloset",
     "internalCategory": "MyDesign",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "500",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Trendy",
-    "tier1Noun": "Model",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "NBmsw6tCLZzWXcGcK"
+    "uniqueEntryId": "NBmsw6tCLZzWXcGcK",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 500,
+        "modifier": "Trendy",
+        "Noun": "Model"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3352,34 +3068,17 @@
     "internalId": "35",
     "internalName": "UseMydesign",
     "internalCategory": "MyDesign",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "500",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Aspiring",
-    "tier1Noun": "Artist",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "44KNAwCSGuatXHYeh"
+    "uniqueEntryId": "44KNAwCSGuatXHYeh",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 500,
+        "modifier": "Aspiring",
+        "Noun": "Artist"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3390,34 +3089,17 @@
     "internalId": "36",
     "internalName": "UseMydesignPRO",
     "internalCategory": "MyDesign",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Pro",
-    "tier1Noun": "Designer",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "ch29owdtPq5Jd73xx"
+    "uniqueEntryId": "ch29owdtPq5Jd73xx",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Pro",
+        "Noun": "Designer"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3428,34 +3110,17 @@
     "internalId": "60",
     "internalName": "DigBell",
     "internalCategory": "Money",
-    "numOfTiers": "1",
-    "tier1": "1",
-    "tier2": null,
-    "tier3": null,
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": null,
-    "tier3Reward": null,
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Lucky",
-    "tier1Noun": "Type",
-    "tier2Modifier": null,
-    "tier2Noun": null,
-    "tier3Modifier": null,
-    "tier3Noun": null,
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "ps4e4DFg2pnHvdvRm"
+    "uniqueEntryId": "ps4e4DFg2pnHvdvRm",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Lucky",
+        "Noun": "Type"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3466,34 +3131,41 @@
     "internalId": "79",
     "internalName": "FallFurnitureLeaf",
     "internalCategory": "Plant",
-    "numOfTiers": "5",
-    "tier1": "1",
-    "tier2": "10",
-    "tier3": "20",
-    "tier4": "50",
-    "tier5": "100",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "1000",
-    "tier3Reward": "2000",
-    "tier4Reward": "3000",
-    "tier5Reward": "5000",
-    "tier6Reward": null,
-    "tier1Modifier": "Carefree",
-    "tier1Noun": "Figure",
-    "tier2Modifier": "Jovial",
-    "tier2Noun": "Brute",
-    "tier3Modifier": "Spirited",
-    "tier3Noun": "Gifted One",
-    "tier4Modifier": "Factual",
-    "tier4Noun": "Outlaw",
-    "tier5Modifier": "Inspirational",
-    "tier5Noun": "Statement",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "o37WLZhgDMnMbDbPx"
+    "uniqueEntryId": "o37WLZhgDMnMbDbPx",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Carefree",
+        "Noun": "Figure"
+      },
+      {
+        "qty": 10,
+        "reward": 1000,
+        "modifier": "Jovial",
+        "Noun": "Brute"
+      },
+      {
+        "qty": 20,
+        "reward": 2000,
+        "modifier": "Spirited",
+        "Noun": "Gifted One"
+      },
+      {
+        "qty": 50,
+        "reward": 3000,
+        "modifier": "Factual",
+        "Noun": "Outlaw"
+      },
+      {
+        "qty": 100,
+        "reward": 5000,
+        "modifier": "Inspirational",
+        "Noun": "Statement"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3504,34 +3176,47 @@
     "internalId": "39",
     "internalName": "CollectGoldTool",
     "internalCategory": "HHA",
-    "numOfTiers": "6",
-    "tier1": "0",
-    "tier2": "0",
-    "tier3": "0",
-    "tier4": "0",
-    "tier5": "0",
-    "tier6": "0",
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": "5000",
-    "tier1Modifier": "Shining",
-    "tier1Noun": "Jewel",
-    "tier2Modifier": "Top-Notch",
-    "tier2Noun": "Luminary",
-    "tier3Modifier": "Ultimate",
-    "tier3Noun": "Miracle",
-    "tier4Modifier": "Royal",
-    "tier4Noun": "Prince; Princess",
-    "tier5Modifier": "Glittering",
-    "tier5Noun": "Emperor; Empress",
-    "tier6Modifier": "Radiant",
-    "tier6Noun": "Supreme Being",
     "sequential": false,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "B9uYNJkiP5jqkn3SX"
+    "uniqueEntryId": "B9uYNJkiP5jqkn3SX",
+    "tiers": [
+      {
+        "qty": 0,
+        "reward": 300,
+        "modifier": "Shining",
+        "Noun": "Jewel"
+      },
+      {
+        "qty": 0,
+        "reward": 500,
+        "modifier": "Top-Notch",
+        "Noun": "Luminary"
+      },
+      {
+        "qty": 0,
+        "reward": 1000,
+        "modifier": "Ultimate",
+        "Noun": "Miracle"
+      },
+      {
+        "qty": 0,
+        "reward": 2000,
+        "modifier": "Royal",
+        "Noun": "Prince; Princess"
+      },
+      {
+        "qty": 0,
+        "reward": 3000,
+        "modifier": "Glittering",
+        "Noun": "Emperor; Empress"
+      },
+      {
+        "qty": 0,
+        "reward": 5000,
+        "modifier": "Radiant",
+        "Noun": "Supreme Being"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3542,34 +3227,29 @@
     "internalId": "18",
     "internalName": "VisitAnotherIsland",
     "internalCategory": "Communication",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "5",
-    "tier3": "10",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Traveling",
-    "tier1Noun": "Person",
-    "tier2Modifier": "Occasional",
-    "tier2Noun": "Tourist",
-    "tier3Modifier": "Global",
-    "tier3Noun": "Wanderer",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "JofcHyqspqdvy92rH"
+    "uniqueEntryId": "JofcHyqspqdvy92rH",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Traveling",
+        "Noun": "Person"
+      },
+      {
+        "qty": 5,
+        "reward": 500,
+        "modifier": "Occasional",
+        "Noun": "Tourist"
+      },
+      {
+        "qty": 10,
+        "reward": 1000,
+        "modifier": "Global",
+        "Noun": "Wanderer"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3580,34 +3260,29 @@
     "internalId": "19",
     "internalName": "InviteFriend",
     "internalCategory": "Communication",
-    "numOfTiers": "3",
-    "tier1": "1",
-    "tier2": "5",
-    "tier3": "10",
-    "tier4": null,
-    "tier5": null,
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": null,
-    "tier5Reward": null,
-    "tier6Reward": null,
-    "tier1Modifier": "Hospitable",
-    "tier1Noun": "Friend",
-    "tier2Modifier": "Lonely",
-    "tier2Noun": "Chum",
-    "tier3Modifier": "Well-Known",
-    "tier3Noun": "Partier",
-    "tier4Modifier": null,
-    "tier4Noun": null,
-    "tier5Modifier": null,
-    "tier5Noun": null,
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "YdeZW248LnovzB7EB"
+    "uniqueEntryId": "YdeZW248LnovzB7EB",
+    "tiers": [
+      {
+        "qty": 1,
+        "reward": 300,
+        "modifier": "Hospitable",
+        "Noun": "Friend"
+      },
+      {
+        "qty": 5,
+        "reward": 500,
+        "modifier": "Lonely",
+        "Noun": "Chum"
+      },
+      {
+        "qty": 10,
+        "reward": 1000,
+        "modifier": "Well-Known",
+        "Noun": "Partier"
+      }
+    ]
   },
   {
     "sourceSheet": "Achievements",
@@ -3618,33 +3293,40 @@
     "internalId": "21",
     "internalName": "DayPlayed",
     "internalCategory": "Event",
-    "numOfTiers": "5",
-    "tier1": "3",
-    "tier2": "20",
-    "tier3": "50",
-    "tier4": "100",
-    "tier5": "300",
-    "tier6": null,
-    "tier1Reward": "300",
-    "tier2Reward": "500",
-    "tier3Reward": "1000",
-    "tier4Reward": "2000",
-    "tier5Reward": "3000",
-    "tier6Reward": null,
-    "tier1Modifier": "Self-Paced",
-    "tier1Noun": "Chill Soul",
-    "tier2Modifier": "Active",
-    "tier2Noun": "Specialist",
-    "tier3Modifier": "Sleepless",
-    "tier3Noun": "Adventurer",
-    "tier4Modifier": "Nicknamed",
-    "tier4Noun": "Gamer",
-    "tier5Modifier": "Ready-Made",
-    "tier5Noun": "MVP",
-    "tier6Modifier": null,
-    "tier6Noun": null,
     "sequential": true,
     "versionAdded": "1.0.0",
-    "uniqueEntryId": "QgGe5XTYJhjfgbMHW"
+    "uniqueEntryId": "QgGe5XTYJhjfgbMHW",
+    "tiers": [
+      {
+        "qty": 3,
+        "reward": 300,
+        "modifier": "Self-Paced",
+        "Noun": "Chill Soul"
+      },
+      {
+        "qty": 20,
+        "reward": 500,
+        "modifier": "Active",
+        "Noun": "Specialist"
+      },
+      {
+        "qty": 50,
+        "reward": 1000,
+        "modifier": "Sleepless",
+        "Noun": "Adventurer"
+      },
+      {
+        "qty": 100,
+        "reward": 2000,
+        "modifier": "Nicknamed",
+        "Noun": "Gamer"
+      },
+      {
+        "qty": 300,
+        "reward": 3000,
+        "modifier": "Ready-Made",
+        "Noun": "MVP"
+      }
+    ]
   }
 ]

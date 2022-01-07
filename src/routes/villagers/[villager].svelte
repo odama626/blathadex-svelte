@@ -22,7 +22,7 @@
 	import Checkbox from '$lib/checkbox.svelte';
 	import QuoteAfter from '$lib/vectors/quoteAfter.svg';
 	import QuoteBefore from '$lib/vectors/quoteBefore.svg';
-	import type { Villagers } from '$lib/data/villagers';
+	import type { Villager } from '$lib/data/villagers';
 	import Image from '$lib/image/index.svelte';
 
 	import Header from '$lib/header.svelte';
@@ -34,7 +34,7 @@
 	import { slide } from 'svelte/transition';
 	import BottomNav from '$lib/bottom-nav.svelte';
 
-	export let villager: Villagers;
+	export let villager: Villager;
 	export let similarSpecies;
 </script>
 

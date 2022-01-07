@@ -1,4 +1,4 @@
-export interface Creatures {
+export interface Creature {
   sourceSheet: SourceSheet;
   num: number;
   name: string;
@@ -115,7 +115,7 @@ export enum Size {
 export enum SourceSheet {
   Fish = 'Fish',
   Insects = 'Insects',
-  SeaCreatures = 'Sea Creatures',
+  SeaCreatures = 'SeaCreatures',
 }
 
 export enum VersionAdded {

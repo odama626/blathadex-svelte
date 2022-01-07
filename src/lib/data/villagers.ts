@@ -1,4 +1,4 @@
-export interface Villagers {
+export interface Villager {
   sourceSheet: SourceSheet;
   name: string;
   iconImage: string;
@@ -17,10 +17,10 @@ export interface Villagers {
   defaultUmbrella: string;
   wallpaper: string;
   flooring: string;
-  furnitureList: null | string;
-  furnitureNameList: null | string;
-  diyWorkbench: number | string;
-  kitchenEquipment: string;
+  furnitureList: string;
+  furnitureNameList: string;
+  diyWorkbench: string;
+  kitchenEquipment: number | string;
   versionAdded: VersionAdded;
   nameColor: string;
   bubbleColor: string;
@@ -93,4 +93,5 @@ export enum Subtype {
 export enum VersionAdded {
   The100 = '1.0.0',
   The190 = '1.9.0',
+  The200 = '2.0.0',
 }
