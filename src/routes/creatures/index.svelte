@@ -25,7 +25,7 @@
 	import SettingsIcon from '$lib/vectors/settings.svg';
 	import SortIcon from '$lib/vectors/sort.svg';
 	import AllSvg from '$lib/vectors/all.svg';
-	import Location from '$lib/vectors/locationIcon.svg';
+	import Live from '$lib/vectors/live.svg';
 	import WarningIcon from '$lib/vectors/warningIcon.svg';
 	import { fade, slide } from 'svelte/transition';
 	import { acquired, selected } from './_store';
@@ -98,7 +98,7 @@
 		if ($store.groupBy === 'day') {
 			sections = adjustedHours.map((hour, i) => {
 				hour.header =
-					i === 0 ? 'Available now' : `Available at ${getLocaleTime((i + currentHour) % 24)}`;
+					i === 0 ? 'Available today' : `Available at ${getLocaleTime((i + currentHour) % 24)}`;
 				return hour;
 			});
 		} else if ($store.groupBy === 'all') {
@@ -170,7 +170,7 @@
 				class:active={$store.groupBy === 'live'}
 				on:click={() => store.set('live', 'groupBy')}
 			>
-				<Location /> Live
+				<Live /> Live
 			</div>
 		</section>
 		{#each sections as section, i}
