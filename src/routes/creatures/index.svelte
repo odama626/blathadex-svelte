@@ -98,7 +98,7 @@
 		if ($store.groupBy === 'day') {
 			sections = adjustedHours.map((hour, i) => {
 				hour.header =
-					i === 0 ? 'Available today' : `Available at ${getLocaleTime((i + currentHour) % 24)}`;
+					i === 0 ? 'Available now' : `Available at ${getLocaleTime((i + currentHour) % 24)}`;
 				return hour;
 			});
 		} else if ($store.groupBy === 'all') {
