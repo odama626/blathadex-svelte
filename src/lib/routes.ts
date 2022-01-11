@@ -12,8 +12,8 @@ import itemsIcon from '$lib/vectors/sections/items.svelte';
 
 export const DASHBOARD_LINKS = [
   { name: 'Creatures', href: '/creatures', icon: creaturesIcon },
-  // { name: 'Flowers', href: '/flowers', icon: flowersIcon },
-  // { name: 'Gyroids', href: '/gyroids', icon: gyroidsIcon },
+  { name: 'Flowers', href: '/flowers', icon: flowersIcon },
+  { name: 'Gyroids', href: '/gyroids', icon: gyroidsIcon },
   // { name: 'Construction', href: '/construction', icon: constructionIcon },
   // { name: 'Recipes', href: '/recipes', icon: recipesIcon },
   // { name: 'Achievements', href: '/achievements', icon: achievementsIcon },

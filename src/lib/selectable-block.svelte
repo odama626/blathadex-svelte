@@ -5,9 +5,10 @@
 	import longPress from './long-press';
 
 	export let id;
-	export let href;
+	export let href = undefined;
 	export let image;
 	export let label;
+	export let active = false;
 	export let acquired = false;
 	export let selected = false;
 	export let loading = false;
@@ -22,6 +23,7 @@
 	on:long-press
 	on:click
 	data-selected={selected}
+	class:active
 	class:loading
 	data-id={id}
 	{...$$restProps}

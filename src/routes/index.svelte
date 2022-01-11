@@ -4,6 +4,7 @@
 	import Search from '$lib/search.svelte';
 
 	// TODO: add recent searches as options to empty search state
+	// TODO: get rid of southern / northern in creature json and have active months / active hours at root level
 	// TODO: add paging for items
 	// TODO: add FAQ to about page
 	// TODO: add dismissable hints for different pages, dismissed state should be saved in localstorage

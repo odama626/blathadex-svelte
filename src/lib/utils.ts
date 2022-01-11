@@ -1,5 +1,8 @@
-import type { Variant } from './data/items';
-
+export function getAcquiredLabel(item) {
+	if (item?.variants?.[0]?.source?.[0] === 'Picking flowers') return 'Grown';
+	if (item.sourceSheet === 'Gyroids') return 'Acquired';
+	return 'Collected';
+}
 export function getSetFromArray(set) {
 	return Object.entries(set)
 		.filter(([_, value]) => value)

@@ -10,7 +10,7 @@ function percentageMatch(test, str) {
 function getRelevance(query, item) {
 	if (!query?.length) return 0;
   const q = query.toLowerCase().trim();
-	if (item.sourceSheet === 'Recipe') return 0;
+	if (item.sourceSheet === 'Recipes') return 0;
 	let rel = 0;
 	rel += percentageMatch(q, item.name);
 	rel += percentageMatch(q, item.species);

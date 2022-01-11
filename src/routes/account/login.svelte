@@ -12,6 +12,14 @@
 
 	export let account;
 	export let sent;
+
+	let verifier;
+
+	async function openNintendoLink() {
+		const props = await fetch(`/api/v1/account/nintendo/oauth`).then((r) => r.json());
+		verifier = props.verifier;
+		window.open(props.url, null, 'popup=yes');
+	}
 </script>
 
 <Header />
@@ -52,6 +60,35 @@
 				{/if}
 			</div>
 		</section>
+		<!-- <section>
+			<h3>Link Nintendo Account</h3>
+			<p>
+				This will allow you to sync up your current game catalog along with your villagers with
+				blathadex
+			</p>
+			<p>
+				We aren't able to 100% automate the account linking process so it requires a couple steps
+			</p>
+			<ol style="text-align: left;">
+				<li>Click <button on:click={openNintendoLink}>Login</button></li>
+				<li>Login to your account</li>
+				<li>
+					On link account page find the account you want to link and right click / or long press on
+					"select this account" button and click "copy link"
+				</li>
+				<li>paste the link in the account link field below and click continue</li>
+				<li>
+					<form action="/api/v1/account/nintendo/oauth" method="post">
+						<input type="hidden" name="verifier" value={verifier} />
+						<label>
+							Account Link
+							<input name="account_link" placeholder="account link" />
+						</label>
+						<button>continue</button>
+					</form>
+				</li>
+			</ol>
+		</section> -->
 	</main>
 </div>
 

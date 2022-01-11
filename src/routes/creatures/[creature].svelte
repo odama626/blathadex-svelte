@@ -22,19 +22,19 @@
 	import { getDayAvailability, getMonthAvailability } from '$lib/availability';
 	import BottomNav from '$lib/bottom-nav.svelte';
 	import Checkbox from '$lib/checkbox.svelte';
-	import CreatureBlock from '$lib/creature-block.svelte';
 	import Header from '$lib/header.svelte';
 	import Image from '$lib/image/index.svelte';
 	import Search from '$lib/search.svelte';
 	import { store } from '$lib/store';
 	import { acquired } from './_store';
-	import { getCreatureId, getLocaleTime, MONTH_NAMES, titleCase } from '$lib/utils';
+	import { getCreatureId, getLocaleTime, MONTH_NAMES, sanitizeName, titleCase } from '$lib/utils';
 	import Bells from '$lib/vectors/bagOfBells.svg';
 	import LocationIcon from '$lib/vectors/locationIcon.svg';
 	import QuoteAfter from '$lib/vectors/quoteAfter.svg';
 	import QuoteBefore from '$lib/vectors/quoteBefore.svg';
 	import RarityIcon from '$lib/vectors/rarityIcon.svg';
 	import { slide } from 'svelte/transition';
+	import SelectableBlock from '$lib/selectable-block.svelte';
 
 	export let creature;
 	export let similar;
@@ -90,7 +90,7 @@
 						label="Caught"
 						checked={isCaught}
 					/>
-					<LocationIcon style='color: var(--primary); place-self: center;' />
+					<LocationIcon style="color: var(--primary); place-self: center;" />
 					<span class="location">{creature.whereHow || creature.sourceSheet}</span>
 				</div>
 			</section>
@@ -161,7 +161,12 @@
 				<h3>Similar Creatures</h3>
 				<div class="grid">
 					{#each similar as creature (creature.name)}
-						<CreatureBlock {creature} />
+						<SelectableBlock
+							href="/creatures/{sanitizeName(creature.name)}"
+							label={creature.name}
+							id={creature.name}
+							image={creature.iconImage}
+						/>
 					{/each}
 				</div>
 			</section>

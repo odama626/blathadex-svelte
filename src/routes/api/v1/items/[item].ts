@@ -1,7 +1,9 @@
 import itemJson from '$lib/data/items.json';
+import recipeJson from '$lib/data/recipes.json';
+import flowersJson from '$lib/data/flowers.json';
+
 import type { Item } from '$lib/data/items';
 import { getItemImage, sanitizeName } from '$lib/utils';
-import recipeJson from '$lib/data/recipes.json';
 import type { Recipe } from '$lib/recipes';
 
 const items = itemJson as Item[];
@@ -75,19 +77,30 @@ function getRecipe(name) {
 	return recipe;
 }
 
+function getFlower(item) {
+	return flowersJson.find((f) => f.name === item.name);
+}
+
 export function get({ params }) {
 	try {
 		const itemName = encodeURIComponent(params.item.toLowerCase());
 
 		const item = items.find((i) => sanitizeName(i.name) === itemName);
-		const similar = getSimilar(item);
+		let similar = getSimilar(item);
 		const recipe = item.diy ? getRecipe(item.name) : null;
 		const setItems = item.set && getSetItems(item);
+		const isFlower = item?.variants?.[0]?.source?.[0] === 'Picking flowers';
+		let flower;
+		if (isFlower) {
+			flower = getFlower(item);
+			similar = flowersJson.filter((f) => f.name !== flower.name && f.genus === flower.genus);
+		}
 
 		return {
 			body: {
 				item,
 				recipe,
+				flower,
 				similar,
 				setItems
 			}

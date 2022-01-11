@@ -1,6 +1,7 @@
 <script lang="ts">
 	import creatureJson from '$lib/data/creatures.json';
 	import itemJson from '$lib/data/items.json';
+	import flowersJson from '$lib/data/flowers';
 	import Header from '$lib/header.svelte';
 	import Search from '$lib/search.svelte';
 	import { grownFlowers } from '$lib/store';
@@ -19,7 +20,7 @@
 	}
 
 	function getMigratedFlowerId(flower) {
-		return `${flower.genus}-${flower.color}`;
+		return flowers.find(f => f.genus === flower.genus && f.color === flower.color).name;
 	}
 
 	let creatures = [];
@@ -31,8 +32,7 @@
 
 	function importData() {
 		acquiredCreatures.update((cur) => ({ ...cur, ...selectedCreatures }));
-		acquiredItems.update((cur) => ({ ...cur, ...selectedItems }));
-		grownFlowers.update((cur) => ({ ...cur, ...selectedFlowers }));
+		acquiredItems.update((cur) => ({ ...cur, ...selectedItems, ...selectedFlowers }));
 		indexedDB.deleteDatabase('critterDb');
 		goto(`/creatures`);
 	}

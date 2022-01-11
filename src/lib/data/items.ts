@@ -61,6 +61,7 @@ export interface Item {
   category?: Category;
   realArtworkTitle?: string;
   artist?: string;
+  soundType?: string;
   inventoryFilename?: string;
   storageFilename?: string;
   request?: string;
@@ -88,6 +89,7 @@ export enum Category {
   Fencing = 'Fencing',
   Floors = 'Floors',
   Fossils = 'Fossils',
+  Gyroids = 'Gyroids',
   Headwear = 'Headwear',
   Housewares = 'Housewares',
   InteriorStructures = 'Interior Structures',

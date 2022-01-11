@@ -368,6 +368,10 @@ nav.bottom[data-mobile] {
     animation-direction: alternate;
     transform-origin: 30% 5%;
   }
+
+  &.active {
+    border-color: var(--active-border-color);
+  }
 }
 
 .checkbox {

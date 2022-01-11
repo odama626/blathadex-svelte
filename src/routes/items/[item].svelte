@@ -19,21 +19,21 @@
 
 <script lang="ts">
 	import { browser } from '$app/env';
-
 	import Checkbox from '$lib/checkbox.svelte';
 	import Image from '$lib/image/index.svelte';
-	import ItemBlock from '$lib/item-block.svelte';
-	import { acquired } from './_store';
-	import { getLargeVariantImage, sanitizeName, titleCase } from '$lib/utils';
+	import SelectableBlock from '$lib/selectable-block.svelte';
+	import { getAcquiredLabel, getItemImage, getLargeVariantImage, sanitizeName, titleCase } from '$lib/utils';
 	import Bells from '$lib/vectors/bagOfBells.svg';
 	import LocationIcon from '$lib/vectors/locationIcon.svg';
 	import Pattern from '$lib/vectors/pattern.svg';
-	import SelectableBlock from '$lib/selectable-block.svelte';
+	import { acquired } from './_store';
+	import Plus from '$lib/vectors/plus.svg';
 
 	export let item;
 	export let recipe;
 	export let similar;
 	export let setItems;
+	export let flower;
 
 	$: variant = item?.variants?.[0];
 	$: image = getLargeVariantImage(variant);
@@ -73,7 +73,7 @@
 					});
 				}}
 				style="justify-self: flex-end"
-				label="Collected"
+				label={getAcquiredLabel(item)}
 			/>
 			{#if variant.source}
 				<LocationIcon style="place-self: center;" />
@@ -83,11 +83,54 @@
 			{/if}
 		</div>
 	</section>
+	{#if flower?.breed?.length}
+		<section>
+			<h3>Breed from</h3>
+			<div class="grid">
+				{#each flower.breed as breed}
+					<div class="breed-group">
+						{#each breed as flower, i}
+							<SelectableBlock
+								href={sanitizeName(flower.name)}
+								label={flower.name}
+								id={flower.name}
+								image={flower.image}
+								acquired={$acquired[flower.name.toLowerCase()]}
+							/>
+						{/each}
+						<Plus style="position: absolute; margin: auto; left: 0; right: 0; top: 0; bottom: 0;" />
+					</div>
+				{/each}
+			</div>
+		</section>
+	{/if}
+	{#if item.variants.length > 1}
+		<section>
+			<h3>Variants</h3>
+			<div class="grid">
+				{#each item.variants as variant (variant.uniqueEntryId)}
+					<SelectableBlock
+						on:click={() => (image = variant.image)}
+						active={image === variant.image}
+						id={variant.internalId}
+						image={variant.image}
+						label={variant.internalId}
+					/>
+				{/each}
+			</div>
+		</section>
+	{/if}
 	{#if recipe?.materials}
 		<section>
+			<h3 >Recipe</h3>
 			<div class="detail grid">
-				<h3 class="ingredients-header">Ingredients</h3>
-				<h3 class="space-header">Required Recipes</h3>
+				{#if recipe.source}
+				<LocationIcon style="place-self: center;" />
+				{#each recipe.source as source}
+					<span style="grid-column: 2 / 4">{source}</span>
+				{/each}
+			{/if}
+				<h4 class="ingredients-header">Ingredients</h4>
 				{#if recipe?.materials}
 					{#each recipe.materialDetails as detail (detail.name)}
 						<div class="block primary detail" style="grid-column: 1; place-self: center">
@@ -101,7 +144,7 @@
 						</a>
 					{/each}
 				{/if}
-				{#if recipe?.hasDiy}
+				<!-- {#if recipe?.hasDiy}
 					<h3 class="ingredients-header">Total Ingredients</h3>
 					{#each recipe.extendedMaterialDetails as detail (detail.name)}
 						<div class="block primary detail" style="grid-column: 1; place-self: center">
@@ -114,57 +157,49 @@
 							</div>
 						</a>
 					{/each}
-				{/if}
-				<div
-					class="additional-recipes grid"
-					style="--grid-row-end: {3 +
-						recipe?.materialDetails.length +
-						recipe?.extendedMaterialDetails?.length};"
-				>
-					{#if recipe?.additionalRecipes}
-						{#each recipe?.additionalRecipes as recipe (recipe.name)}
-							<SelectableBlock
-								acquired={$acquired[recipe.name.toLowerCase()]}
-								href="/items/{sanitizeName(recipe.name)}"
-								image={recipe.image}
-							/>
-						{/each}
-					{/if}
-				</div>
+				{/if} -->
 			</div>
+			{#if recipe?.additionalRecipes?.length}
+				<h3 style="text-align: left;">Required Recipes</h3>
+				<div class="grid">
+					{#each recipe?.additionalRecipes as recipe (recipe.name)}
+						<SelectableBlock
+							id={recipe.name}
+							label={recipe.name}
+							acquired={$acquired[recipe.name.toLowerCase()]}
+							href="/items/{sanitizeName(recipe.name)}"
+							image={recipe.image}
+						/>
+					{/each}
+				</div>
+			{/if}
 		</section>
 	{/if}
 	{#if item.size}
 		<section>
-			<div class="detail grid">
-				{#if item.size}
-					<div class="size-image">
-						<img src="/object-sizes/{item.size}.svg" />
-					</div>
-				{/if}
+			<div class="item-size">
+				<div style="text-align: left;">
+					<h3 style="margin-bottom: 0;">Dimensions</h3>
+					<p>{item.size}</p>
+				</div>
+				<div class="size-image">
+					<img src="/object-sizes/{item.size}.svg" />
+				</div>
 			</div>
 		</section>
 	{/if}
-	<!-- {#if recipe?.additionalRecipes?.length > 0}
-		<section>
-			<h3>Additional Recipes</h3>
-			<div class="grid">
-				{#each recipe?.additionalRecipes as recipe}
-					<SelectableBlock
-						image={recipe.image}
-						label={recipe.name}
-						href="/items/{sanitizeName(recipe.name)}"
-					/>
-				{/each}
-			</div>
-		</section>
-	{/if} -->
 	{#if setItems?.length > 0}
 		<section>
 			<h3>Other {titleCase(item.set)} Items</h3>
 			<div class="grid">
 				{#each setItems as item (item.name)}
-					<ItemBlock {item} />
+					<SelectableBlock
+						href="/items/{sanitizeName(item.name)}"
+						label={item.name}
+						id={item.name}
+						acquired={$acquired[item.name.toLowerCase()]}
+						image={getItemImage(item)}
+					/>
 				{/each}
 			</div>
 		</section>
@@ -174,7 +209,13 @@
 			<h3>Similar Items</h3>
 			<div class="grid">
 				{#each similar as item (item.name)}
-					<ItemBlock {item} />
+					<SelectableBlock
+						href="/items/{sanitizeName(item.name)}"
+						label={item.name}
+						id={item.name}
+						acquired={$acquired[item.name.toLowerCase()]}
+						image={getItemImage(item)}
+					/>
 				{/each}
 			</div>
 		</section>
@@ -184,6 +225,13 @@
 <style lang="scss">
 	h2.secondary {
 		color: var(--secondary);
+	}
+
+	.breed-group {
+		position: relative;
+		display: flex;
+		gap: 1rem;
+		grid-column: span 2;
 	}
 
 	.additional-recipes {
@@ -200,16 +248,18 @@
 	}
 
 	.size-image {
-		img {
-			height: 95px;
-		}
-		height: 95px;
-		display: flex;
-		aspect-ratio: 1;
-		height: 100%;
-		grid-column: 3;
-		grid-row: 2 / 5;
-		justify-self: flex-start;
+		/* img { */
+		/* height: 95px; */
+		/* } */
+		/* height: 95px; */
+		/* display: flex; */
+		/* aspect-ratio: 1; */
+		/* height: 100%; */
+		/* grid-column: 3; */
+		/* grid-row: 2 / 5; */
+		/* justify-self: flex-start; */
+
+		width: 100%;
 	}
 
 	.detail .image {
@@ -226,6 +276,12 @@
 		align-items: center;
 		text-align: left;
 		display: flex;
+	}
+
+	.item-size {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
 	}
 
 	.image-container {

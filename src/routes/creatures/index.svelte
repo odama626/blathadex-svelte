@@ -181,6 +181,7 @@
 						{#each (i === 0 ? section.available : section.new) || section.items || [] as creature (getCreatureId(creature))}
 							<SelectableBlock
 								{loading}
+								label={creature.name}
 								id={getCreatureId(creature)}
 								selected={$selected[getCreatureId(creature)]}
 								acquired={$acquired[getCreatureId(creature)]}

@@ -1,0 +1,2282 @@
+[
+  {
+    "sourceSheet": "Other",
+    "name": "black cosmos",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Cosmos5",
+    "storageFilename": "FlwCosmosBlack",
+    "variants": [
+      {
+        "uniqueEntryId": "QveR5KriJ63ZvAmQs",
+        "colors": ["Black", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2875,
+        "buy": -1,
+        "sell": 240,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwCosmosBlack.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Cosmos5.png"
+      }
+    ],
+    "color": "black",
+    "genus": "cosmos",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "orange",
+          "name": "orange cosmos",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Cosmos4.png"
+        },
+        {
+          "hybrid": false,
+          "color": "orange",
+          "name": "orange cosmos",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Cosmos4.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "black lilies",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Yuri5",
+    "storageFilename": "FlwYuriBlack",
+    "variants": [
+      {
+        "uniqueEntryId": "GJEkbwJexHSSq3Kvp",
+        "colors": ["Black", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2999,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwYuriBlack.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Yuri5.png"
+      }
+    ],
+    "color": "black",
+    "genus": "lily",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red lilies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Yuri2.png"
+        },
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red lilies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Yuri2.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "black roses",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Rose6",
+    "storageFilename": "FlwRoseBlack",
+    "variants": [
+      {
+        "uniqueEntryId": "RAxXqgdwa6Jb3fKFX",
+        "colors": ["Black", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2955,
+        "buy": -1,
+        "sell": 240,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwRoseBlack.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Rose6.png"
+      }
+    ],
+    "color": "black",
+    "genus": "rose",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red roses",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Rose0.png"
+        },
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red roses",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Rose0.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "black tulips",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Turip5",
+    "storageFilename": "FlwTulipBlack",
+    "variants": [
+      {
+        "uniqueEntryId": "WGvGEjXRYjucLHity",
+        "colors": ["Black", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2903,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwTulipBlack.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Turip5.png"
+      }
+    ],
+    "color": "black",
+    "genus": "tulip",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red tulips",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Turip0.png"
+        },
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red tulips",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Turip0.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "blue hyacinths",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Hyacinth6",
+    "storageFilename": "FlwHyacinthBlue",
+    "variants": [
+      {
+        "uniqueEntryId": "K6yui8FLmJvwNcfL4",
+        "colors": ["Blue", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3748,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwHyacinthBlue.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Hyacinth6.png"
+      }
+    ],
+    "color": "blue",
+    "genus": "hyacinth",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white hyacinths",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Hyacinth0.png"
+        },
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white hyacinths",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Hyacinth0.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "blue pansies",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Pansi5",
+    "storageFilename": "FlwPansyBlue",
+    "variants": [
+      {
+        "uniqueEntryId": "mNBAQ7xCjndP63TW8",
+        "colors": ["Blue", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2927,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwPansyBlue.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Pansi5.png"
+      }
+    ],
+    "color": "blue",
+    "genus": "pansy",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white pansies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Pansi0.png"
+        },
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white pansies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Pansi0.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "blue roses",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Rose7",
+    "storageFilename": "FlwRoseBlue",
+    "variants": [
+      {
+        "uniqueEntryId": "C39ncDcJ44My6qoQm",
+        "colors": ["Blue", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2959,
+        "buy": -1,
+        "sell": 1000,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwRoseBlue.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Rose7.png"
+      }
+    ],
+    "color": "blue",
+    "genus": "rose",
+    "breed": [
+      [
+        {
+          "hybrid": true,
+          "color": "red",
+          "name": "red roses",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Rose0.png"
+        },
+        {
+          "hybrid": true,
+          "color": "red",
+          "name": "red roses",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Rose0.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "blue windflowers",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Anemone5",
+    "storageFilename": "FlwAnemonesBlue",
+    "variants": [
+      {
+        "uniqueEntryId": "JmHWXFZvvgpJYrg8Z",
+        "colors": ["Blue", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3717,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwAnemonesBlue.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Anemone5.png"
+      }
+    ],
+    "color": "blue",
+    "genus": "windflower",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white windflowers",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Anemone0.png"
+        },
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white windflowers",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Anemone0.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "gold roses",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "GoldenRose",
+    "storageFilename": "FlwRoseGold",
+    "variants": [
+      {
+        "uniqueEntryId": "6B9RaLkgxyFA72rdm",
+        "colors": ["Yellow", "Yellow"],
+        "source": ["Picking flowers"],
+        "internalId": 2963,
+        "buy": -1,
+        "sell": 1000,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwRoseGold.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/GoldenRose.png"
+      }
+    ],
+    "color": "gold",
+    "genus": "rose",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "green mums",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Mum4",
+    "storageFilename": "FlwMumGreen",
+    "variants": [
+      {
+        "uniqueEntryId": "iZDGXg9rxMCXkkRXQ",
+        "colors": ["Green", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 5175,
+        "buy": -1,
+        "sell": 240,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwMumGreen.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Mum4.png"
+      }
+    ],
+    "color": "green",
+    "genus": "mum",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "purple",
+          "name": "purple mums",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Mum5.png"
+        },
+        {
+          "hybrid": false,
+          "color": "purple",
+          "name": "purple mums",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Mum5.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "orange cosmos",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Cosmos4",
+    "storageFilename": "FlwCosmosOrange",
+    "variants": [
+      {
+        "uniqueEntryId": "Hvp5sHy7uPHnH2Qda",
+        "colors": ["Orange", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2871,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwCosmosOrange.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Cosmos4.png"
+      }
+    ],
+    "color": "orange",
+    "genus": "cosmos",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red cosmos",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Cosmos1.png"
+        },
+        {
+          "hybrid": false,
+          "color": "yellow",
+          "name": "yellow cosmos",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Cosmos2.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "orange hyacinths",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Hyacinth3",
+    "storageFilename": "FlwHyacinthOrange",
+    "variants": [
+      {
+        "uniqueEntryId": "H7pirF6ynSFrpgLMN",
+        "colors": ["Orange", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3741,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwHyacinthOrange.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Hyacinth3.png"
+      }
+    ],
+    "color": "orange",
+    "genus": "hyacinth",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red hyacinths",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Hyacinth2.png"
+        },
+        {
+          "hybrid": false,
+          "color": "yellow",
+          "name": "yellow hyacinths",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Hyacinth1.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "orange lilies",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Yuri3",
+    "storageFilename": "FlwYuriOrange",
+    "variants": [
+      {
+        "uniqueEntryId": "Y8kaixfp7SEvzCDCd",
+        "colors": ["Orange", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2995,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwYuriOrange.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Yuri3.png"
+      }
+    ],
+    "color": "orange",
+    "genus": "lily",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red lilies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Yuri2.png"
+        },
+        {
+          "hybrid": false,
+          "color": "yellow",
+          "name": "yellow lilies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Yuri1.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "orange pansies",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Pansi4",
+    "storageFilename": "FlwPansyRedYellow",
+    "variants": [
+      {
+        "uniqueEntryId": "atQLxZD4CSqYsaNkM",
+        "colors": ["Red", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2919,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwPansyRedYellow.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Pansi4.png"
+      }
+    ],
+    "color": "orange",
+    "genus": "pansy",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red pansies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Pansi2.png"
+        },
+        {
+          "hybrid": false,
+          "color": "yellow",
+          "name": "yellow pansies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Pansi1.png"
+        }
+      ],
+      [
+        {
+          "hybrid": false,
+          "color": "orange",
+          "name": "orange pansies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Pansi4.png"
+        },
+        {
+          "hybrid": false,
+          "color": "blue",
+          "name": "blue pansies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Pansi5.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "orange roses",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Rose4",
+    "storageFilename": "FlwRoseOrange",
+    "variants": [
+      {
+        "uniqueEntryId": "MsnwoMvrqgeH2ZrG6",
+        "colors": ["Orange", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2947,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwRoseOrange.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Rose4.png"
+      }
+    ],
+    "color": "orange",
+    "genus": "rose",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red roses",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Rose0.png"
+        },
+        {
+          "hybrid": false,
+          "color": "yellow",
+          "name": "yellow roses",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Rose2.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "orange tulips",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Turip6",
+    "storageFilename": "FlwTulipOrange",
+    "variants": [
+      {
+        "uniqueEntryId": "h9SC924x9vkjSAsBC",
+        "colors": ["Orange", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2895,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwTulipOrange.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Turip6.png"
+      }
+    ],
+    "color": "orange",
+    "genus": "tulip",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red tulips",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Turip0.png"
+        },
+        {
+          "hybrid": false,
+          "color": "yellow",
+          "name": "yellow tulips",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Turip2.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "orange windflowers",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Anemone2",
+    "storageFilename": "FlwAnemonesOrange",
+    "variants": [
+      {
+        "uniqueEntryId": "dCQyoCdY9JFYxHXbR",
+        "colors": ["Orange", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3713,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwAnemonesOrange.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Anemone2.png"
+      }
+    ],
+    "color": "orange",
+    "genus": "windflower",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "pink cosmos",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Cosmos3",
+    "storageFilename": "FlwCosmosPink",
+    "variants": [
+      {
+        "uniqueEntryId": "898Ts8bbEr7iNZzGG",
+        "colors": ["Pink", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2867,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwCosmosPink.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Cosmos3.png"
+      }
+    ],
+    "color": "pink",
+    "genus": "cosmos",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red cosmos",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Cosmos1.png"
+        },
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white cosmos",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Cosmos0.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "pink hyacinths",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Hyacinth4",
+    "storageFilename": "FlwHyacinthPink",
+    "variants": [
+      {
+        "uniqueEntryId": "wNbmG4DKhkErfibGX",
+        "colors": ["Pink", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3738,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwHyacinthPink.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Hyacinth4.png"
+      }
+    ],
+    "color": "pink",
+    "genus": "hyacinth",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red hyacinths",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Hyacinth2.png"
+        },
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white hyacinths",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Hyacinth0.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "pink lilies",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Yuri4",
+    "storageFilename": "FlwYuriPink",
+    "variants": [
+      {
+        "uniqueEntryId": "kiCkkhX3PNkfauJXo",
+        "colors": ["Pink", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2991,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwYuriPink.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Yuri4.png"
+      }
+    ],
+    "color": "pink",
+    "genus": "lily",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red lilies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Yuri2.png"
+        },
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white lilies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Yuri0.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "pink mums",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Mum3",
+    "storageFilename": "FlwMumPink",
+    "variants": [
+      {
+        "uniqueEntryId": "xNhBxScQvumKJeYDz",
+        "colors": ["Pink", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3765,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwMumPink.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Mum3.png"
+      }
+    ],
+    "color": "pink",
+    "genus": "mum",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red mums",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Mum2.png"
+        },
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white mums",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Mum0.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "pink roses",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Rose3",
+    "storageFilename": "FlwRosePink",
+    "variants": [
+      {
+        "uniqueEntryId": "Y3XgoGJjbP4FARKP8",
+        "colors": ["Pink", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2943,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwRosePink.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Rose3.png"
+      }
+    ],
+    "color": "pink",
+    "genus": "rose",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red roses",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Rose0.png"
+        },
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white roses",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Rose1.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "pink tulips",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Turip3",
+    "storageFilename": "FlwTulipPink",
+    "variants": [
+      {
+        "uniqueEntryId": "xsXifs2QAihKWQneZ",
+        "colors": ["Pink", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2891,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwTulipPink.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Turip3.png"
+      }
+    ],
+    "color": "pink",
+    "genus": "tulip",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red tulips",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Turip0.png"
+        },
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white tulips",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Turip1.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "pink windflowers",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Anemone3",
+    "storageFilename": "FlwAnemonesPink",
+    "variants": [
+      {
+        "uniqueEntryId": "ap2QtwXRXd3rCw99D",
+        "colors": ["Pink", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3720,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwAnemonesPink.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Anemone3.png"
+      }
+    ],
+    "color": "pink",
+    "genus": "windflower",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red windflowers",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Anemone1.png"
+        },
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white windflowers",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Anemone0.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "purple hyacinths",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Hyacinth5",
+    "storageFilename": "FlwHyacinthPurple",
+    "variants": [
+      {
+        "uniqueEntryId": "9F9TFje8ycfZHtGwb",
+        "colors": ["Purple", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3751,
+        "buy": -1,
+        "sell": 240,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwHyacinthPurple.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Hyacinth5.png"
+      }
+    ],
+    "color": "purple",
+    "genus": "hyacinth",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "orange",
+          "name": "orange hyacinths",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Hyacinth3.png"
+        },
+        {
+          "hybrid": false,
+          "color": "orange",
+          "name": "orange hyacinths",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Hyacinth3.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "purple mums",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Mum5",
+    "storageFilename": "FlwMumPurple",
+    "variants": [
+      {
+        "uniqueEntryId": "Cx4oGE5eG4dByu52t",
+        "colors": ["Purple", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3762,
+        "buy": -1,
+        "sell": 80,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwMumPurple.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Mum5.png"
+      }
+    ],
+    "color": "purple",
+    "genus": "mum",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white mums",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Mum0.png"
+        },
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white mums",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Mum0.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "purple pansies",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Pansi3",
+    "storageFilename": "FlwPansyPurple",
+    "variants": [
+      {
+        "uniqueEntryId": "j7gZeSSTHAcNjGTz7",
+        "colors": ["Purple", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2923,
+        "buy": -1,
+        "sell": 240,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwPansyPurple.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Pansi3.png"
+      }
+    ],
+    "color": "purple",
+    "genus": "pansy",
+    "breed": [
+      [
+        {
+          "hybrid": true,
+          "color": "red",
+          "name": "red pansies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Pansi2.png"
+        },
+        {
+          "hybrid": true,
+          "color": "red",
+          "name": "red pansies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Pansi2.png"
+        }
+      ],
+      [
+        {
+          "hybrid": true,
+          "color": "orange",
+          "name": "orange pansies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Pansi4.png"
+        },
+        {
+          "hybrid": true,
+          "color": "orange",
+          "name": "orange pansies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Pansi4.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "purple roses",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Rose5",
+    "storageFilename": "FlwRosePurple",
+    "variants": [
+      {
+        "uniqueEntryId": "7YDMvyAt4FvfmZzpX",
+        "colors": ["Purple", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2951,
+        "buy": -1,
+        "sell": 240,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwRosePurple.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Rose5.png"
+      }
+    ],
+    "color": "purple",
+    "genus": "rose",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white roses",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Rose1.png"
+        },
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white roses",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Rose1.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "purple tulips",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Turip4",
+    "storageFilename": "FlwTulipPurple",
+    "variants": [
+      {
+        "uniqueEntryId": "ifT7cGFbysTHCWFES",
+        "colors": ["Purple", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2899,
+        "buy": -1,
+        "sell": 240,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwTulipPurple.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Turip4.png"
+      }
+    ],
+    "color": "purple",
+    "genus": "tulip",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "orange",
+          "name": "orange tulips",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Turip6.png"
+        },
+        {
+          "hybrid": false,
+          "color": "orange",
+          "name": "orange tulips",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Turip6.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "purple windflowers",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Anemone4",
+    "storageFilename": "FlwAnemonesPurple",
+    "variants": [
+      {
+        "uniqueEntryId": "k8fi3AsuMB335GrxH",
+        "colors": ["Purple", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3727,
+        "buy": -1,
+        "sell": 240,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwAnemonesPurple.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Anemone4.png"
+      }
+    ],
+    "color": "purple",
+    "genus": "windflower",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "blue",
+          "name": "blue windflowers",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Anemone5.png"
+        },
+        {
+          "hybrid": false,
+          "color": "blue",
+          "name": "blue windflowers",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Anemone5.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "red cosmos",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Cosmos1",
+    "storageFilename": "FlwCosmosRed",
+    "variants": [
+      {
+        "uniqueEntryId": "df2GEMdr8rzF848iG",
+        "colors": ["Red", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2304,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwCosmosRed.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Cosmos1.png"
+      }
+    ],
+    "color": "red",
+    "genus": "cosmos",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "red hyacinths",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Hyacinth2",
+    "storageFilename": "FlwHyacinthRed",
+    "variants": [
+      {
+        "uniqueEntryId": "ch44Hxnuhc4xFnaGq",
+        "colors": ["Red", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3744,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwHyacinthRed.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Hyacinth2.png"
+      }
+    ],
+    "color": "red",
+    "genus": "hyacinth",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "red lilies",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Yuri2",
+    "storageFilename": "FlwYuriRed",
+    "variants": [
+      {
+        "uniqueEntryId": "Ccbkzs9BxFwttCGux",
+        "colors": ["Red", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2983,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwYuriRed.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Yuri2.png"
+      }
+    ],
+    "color": "red",
+    "genus": "lily",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "red mums",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Mum2",
+    "storageFilename": "FlwMumRed",
+    "variants": [
+      {
+        "uniqueEntryId": "YbZtSHeqdMEZfvMSj",
+        "colors": ["Red", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3768,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwMumRed.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Mum2.png"
+      }
+    ],
+    "color": "red",
+    "genus": "mum",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "red pansies",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Pansi2",
+    "storageFilename": "FlwPansyRed",
+    "variants": [
+      {
+        "uniqueEntryId": "nifAbNAEXppAEJ2Rc",
+        "colors": ["Red", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2911,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwPansyRed.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Pansi2.png"
+      }
+    ],
+    "color": "red",
+    "genus": "pansy",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "red",
+          "name": "red pansies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Pansi2.png"
+        },
+        {
+          "hybrid": false,
+          "color": "blue",
+          "name": "blue pansies",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Pansi5.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "red roses",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Rose0",
+    "storageFilename": "FlwRoseRed",
+    "variants": [
+      {
+        "uniqueEntryId": "6whx4t9k8aztJN6a4",
+        "colors": ["Red", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2935,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwRoseRed.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Rose0.png"
+      }
+    ],
+    "color": "red",
+    "genus": "rose",
+    "breed": [
+      [
+        {
+          "hybrid": false,
+          "color": "white",
+          "name": "white roses",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Rose1.png"
+        },
+        {
+          "hybrid": false,
+          "color": "orange",
+          "name": "orange roses",
+          "image": "https://acnhcdn.com/latest/MenuIcon/Rose4.png"
+        }
+      ]
+    ]
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "red tulips",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Turip0",
+    "storageFilename": "FlwTulipRed",
+    "variants": [
+      {
+        "uniqueEntryId": "wbJwAKy9SJsuWeHLn",
+        "colors": ["Red", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2883,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwTulipRed.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Turip0.png"
+      }
+    ],
+    "color": "red",
+    "genus": "tulip",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "red windflowers",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Anemone1",
+    "storageFilename": "FlwAnemonesRed",
+    "variants": [
+      {
+        "uniqueEntryId": "JRcjMczbQ6geDSWDb",
+        "colors": ["Red", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3723,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwAnemonesRed.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Anemone1.png"
+      }
+    ],
+    "color": "red",
+    "genus": "windflower",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "white cosmos",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Cosmos0",
+    "storageFilename": "FlwCosmosWhite",
+    "variants": [
+      {
+        "uniqueEntryId": "3e4iLg8KTpbmx6XW4",
+        "colors": ["White", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2305,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwCosmosWhite.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Cosmos0.png"
+      }
+    ],
+    "color": "white",
+    "genus": "cosmos",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "white hyacinths",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Hyacinth0",
+    "storageFilename": "FlwHyacinthWhite",
+    "variants": [
+      {
+        "uniqueEntryId": "JtxQ44iAMCEDowPzj",
+        "colors": ["White", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3730,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwHyacinthWhite.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Hyacinth0.png"
+      }
+    ],
+    "color": "white",
+    "genus": "hyacinth",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "white lilies",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Yuri0",
+    "storageFilename": "FlwYuriWhite",
+    "variants": [
+      {
+        "uniqueEntryId": "HxHDxpDqRQEjiEs5L",
+        "colors": ["White", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2979,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwYuriWhite.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Yuri0.png"
+      }
+    ],
+    "color": "white",
+    "genus": "lily",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "white mums",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Mum0",
+    "storageFilename": "FlwMumWhite",
+    "variants": [
+      {
+        "uniqueEntryId": "nCnEJpwfWp5d3DBaF",
+        "colors": ["White", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3754,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwMumWhite.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Mum0.png"
+      }
+    ],
+    "color": "white",
+    "genus": "mum",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "white pansies",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Pansi0",
+    "storageFilename": "FlwPansyWhite",
+    "variants": [
+      {
+        "uniqueEntryId": "zxfj87rooXrjMcppa",
+        "colors": ["White", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2907,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwPansyWhite.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Pansi0.png"
+      }
+    ],
+    "color": "white",
+    "genus": "pansy",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "white roses",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Rose1",
+    "storageFilename": "FlwRoseWhite",
+    "variants": [
+      {
+        "uniqueEntryId": "2ASg5YXYQr5sqSvwG",
+        "colors": ["White", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2931,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwRoseWhite.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Rose1.png"
+      }
+    ],
+    "color": "white",
+    "genus": "rose",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "white tulips",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Turip1",
+    "storageFilename": "FlwTulipWhite",
+    "variants": [
+      {
+        "uniqueEntryId": "pzYHqKwsGDPBTsYmP",
+        "colors": ["White", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2879,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwTulipWhite.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Turip1.png"
+      }
+    ],
+    "color": "white",
+    "genus": "tulip",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "white windflowers",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Anemone0",
+    "storageFilename": "FlwAnemonesWhite",
+    "variants": [
+      {
+        "uniqueEntryId": "QayiSgWWCqxzfAHwj",
+        "colors": ["White", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3709,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwAnemonesWhite.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Anemone0.png"
+      }
+    ],
+    "color": "white",
+    "genus": "windflower",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "yellow cosmos",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Cosmos2",
+    "storageFilename": "FlwCosmosYellow",
+    "variants": [
+      {
+        "uniqueEntryId": "zjAYhjmqMzq3kDBdb",
+        "colors": ["Yellow", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2863,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwCosmosYellow.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Cosmos2.png"
+      }
+    ],
+    "color": "yellow",
+    "genus": "cosmos",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "yellow hyacinths",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Hyacinth1",
+    "storageFilename": "FlwHyacinthYellow",
+    "variants": [
+      {
+        "uniqueEntryId": "4KF7eJpRzonQ585ut",
+        "colors": ["Yellow", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3734,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwHyacinthYellow.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Hyacinth1.png"
+      }
+    ],
+    "color": "yellow",
+    "genus": "hyacinth",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "yellow lilies",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Yuri1",
+    "storageFilename": "FlwYuriYellow",
+    "variants": [
+      {
+        "uniqueEntryId": "CYNwo9htHodqc52MC",
+        "colors": ["Yellow", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2987,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwYuriYellow.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Yuri1.png"
+      }
+    ],
+    "color": "yellow",
+    "genus": "lily",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "yellow mums",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Mum1",
+    "storageFilename": "FlwMumYellow",
+    "variants": [
+      {
+        "uniqueEntryId": "5RAPmcCnKxJuTxsD5",
+        "colors": ["Yellow", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 3758,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwMumYellow.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Mum1.png"
+      }
+    ],
+    "color": "yellow",
+    "genus": "mum",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "yellow pansies",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Pansi1",
+    "storageFilename": "FlwPansyYellow",
+    "variants": [
+      {
+        "uniqueEntryId": "s5oZ3HMatfcyLFmb7",
+        "colors": ["Yellow", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2915,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwPansyYellow.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Pansi1.png"
+      }
+    ],
+    "color": "yellow",
+    "genus": "pansy",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "yellow roses",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Rose2",
+    "storageFilename": "FlwRoseYellow",
+    "variants": [
+      {
+        "uniqueEntryId": "sfweQbaT8mzKykjhk",
+        "colors": ["Yellow", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2939,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwRoseYellow.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Rose2.png"
+      }
+    ],
+    "color": "yellow",
+    "genus": "rose",
+    "breed": []
+  },
+  {
+    "sourceSheet": "Other",
+    "name": "yellow tulips",
+    "diy": false,
+    "stackSize": 10,
+    "exchangePrice": null,
+    "exchangeCurrency": null,
+    "sourceNotes": null,
+    "seasonEvent": null,
+    "seasonEventExclusive": null,
+    "hhaBasePoints": 87,
+    "tag": "Plants",
+    "foodPower": null,
+    "versionAdded": "1.0.0",
+    "unlocked": true,
+    "inventoryFilename": "Turip2",
+    "storageFilename": "FlwTulipYellow",
+    "variants": [
+      {
+        "uniqueEntryId": "PdZJXzmx5y6JSLrRD",
+        "colors": ["Yellow", "Green"],
+        "source": ["Picking flowers"],
+        "internalId": 2887,
+        "buy": -1,
+        "sell": 40,
+        "themes": [],
+        "storageImage": "https://acnhcdn.com/latest/FtrIcon/FlwTulipYellow.png",
+        "inventoryImage": "https://acnhcdn.com/latest/MenuIcon/Turip2.png"
+      }
+    ],
+    "color": "yellow",
+    "genus": "tulip",
+    "breed": []
+  }
+]
