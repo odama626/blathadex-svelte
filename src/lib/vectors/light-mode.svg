@@ -1,0 +1,11 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="9.99999" cy="10" r="4.40909" fill="var(--icon-fill-color)" stroke="var(--icon-stroke-color)"/>
+<rect x="9.18182" y="1" width="1.63636" height="2.45455" rx="0.818182" fill="var(--icon-stroke-color)"/>
+<rect x="10.8182" y="19" width="1.63636" height="2.45455" rx="0.818182" transform="rotate(-180 10.8182 19)" fill="var(--icon-stroke-color)"/>
+<rect x="1" y="10.8184" width="1.63636" height="2.45455" rx="0.818182" transform="rotate(-90 1 10.8184)" fill="var(--icon-stroke-color)"/>
+<rect x="19" y="9.18164" width="1.63636" height="2.45455" rx="0.818182" transform="rotate(90 19 9.18164)" fill="var(--icon-stroke-color)"/>
+<rect x="15.7854" y="3.05774" width="1.63636" height="2.45455" rx="0.818182" transform="rotate(45 15.7854 3.05774)" fill="var(--icon-stroke-color)"/>
+<rect x="4.21458" y="16.9423" width="1.63636" height="2.45455" rx="0.818182" transform="rotate(-135 4.21458 16.9423)" fill="var(--icon-stroke-color)"/>
+<rect x="3.05749" y="4.2146" width="1.63636" height="2.45455" rx="0.818182" transform="rotate(-45 3.05749 4.2146)" fill="var(--icon-stroke-color)"/>
+<rect x="16.9425" y="15.7854" width="1.63636" height="2.45455" rx="0.818182" transform="rotate(135 16.9425 15.7854)" fill="var(--icon-stroke-color)"/>
+</svg>

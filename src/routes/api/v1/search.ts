@@ -21,6 +21,7 @@ function getRelevance(query, item) {
 }
 
 export async function get({ url }) {
+	console.time('search')
 	console.log(url.searchParams.get('q'));
 	try {
 		const q = url.searchParams.get('q').toLowerCase();
@@ -29,10 +30,12 @@ export async function get({ url }) {
 			.filter((item) => getRelevance(q, item) > 0)
 			.sort((a, b) => getRelevance(q, b) - getRelevance(q, a));
 
+		console.timeEnd('search');
 		return {
 			body: { items }
 		};
 	} catch (e) {
+		console.timeEnd('search');
 		console.error(e);
 		return {
 			status: 500,

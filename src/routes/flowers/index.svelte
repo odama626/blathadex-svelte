@@ -3,15 +3,28 @@
 	import Search from '$lib/search.svelte';
 	import flowersJson from '$lib/data/flowers.json';
 	import SelectableBlock from '$lib/selectable-block.svelte';
-	import { getItemImage, getSetFromArray, sanitizeName } from '$lib/utils';
+	import { getItemImage, getSetFromArray, sanitizeName, titleCase } from '$lib/utils';
 	import { acquired, selected } from '../items/_store';
 	import { slide } from 'svelte/transition';
 	import BottomNav from '$lib/bottom-nav.svelte';
+	import type { Flower } from '$lib/data/flowers';
 
 	let ownedList = [];
 	let isSelecting = getSetFromArray($selected).length > 0;
 
-	$: ownedList = flowersJson.filter((villager) => $acquired[villager.name.toLowerCase()]);
+	const flowers: Flower[] = flowersJson.sort(
+		(a, b) => a.genus.localeCompare(b.genus) || a.color.localeCompare(b.color)
+	);
+
+	const groupedFlowers = Object.entries(
+		flowers.reduce((groups, flower) => {
+			groups[flower.genus] = groups[flower.genus] || [];
+			groups[flower.genus].push(flower);
+			return groups;
+		}, {})
+	).map(([title, items]) => ({ title, items }));
+
+	$: ownedList = flowers.filter((flower) => $acquired[flower.name.toLowerCase()]);
 	$: selectedCount = getSetFromArray($selected).length;
 
 	function toggle(target) {
@@ -85,45 +98,26 @@
 {/if}
 <div class="container">
 	<main>
-		{#if ownedList.length > 0}
+		{#each groupedFlowers as group (group.title)}
 			<section>
-				<h3>Grown Flowers</h3>
+				<h3>{titleCase(group.title)}</h3>
 				<div class="grid">
-					{#each ownedList as flower (flower.name)}
+					{#each group.items as flower (flower.name)}
+						{@const id = flower.name.toLowerCase()}
 						<SelectableBlock
 							label={flower.name}
-							id={flower.name.toLowerCase()}
+							{id}
 							image={getItemImage(flower)}
 							href="/items/{sanitizeName(flower.name)}"
 							on:click={click}
 							on:long-press={longPress}
-							selected={$selected[flower.name.toLowerCase()]}
-						>
-							<svelte:fragment slot="before">{flower.name}</svelte:fragment>
-						</SelectableBlock>
+							selected={$selected[id]}
+							acquired={$acquired[id]}
+						/>
 					{/each}
 				</div>
 			</section>
-		{/if}
-		<section>
-			<h3>All Flowers</h3>
-			<div class="grid">
-				{#each flowersJson as flower (flower.name)}
-					<SelectableBlock
-						label={flower.name}
-						id={flower.name.toLowerCase()}
-						image={getItemImage(flower)}
-						href="/items/{sanitizeName(flower.name)}"
-						on:click={click}
-						on:long-press={longPress}
-						selected={$selected[flower.name.toLowerCase()]}
-						acquired={$acquired[flower.name.toLowerCase()]}
-					>
-						<span slot="before">{flower.name}</span>
-					</SelectableBlock>
-				{/each}
-			</div>
-		</section>
+		{/each}
 	</main>
 </div>
 

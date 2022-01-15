@@ -1,17 +1,23 @@
 <script context="module" lang="ts">
 	export async function load({ url, params, fetch, session, stuff }) {
 		return {
-			props: { account: session?.account, sent: url.searchParams.get('sent') === 'true' }
+			props: {
+				account: session?.account,
+				sent: url.searchParams.get('sent') === 'true',
+				email: url.searchParams.get('email')
+			}
 		};
 	}
 </script>
 
 <script>
 	import Header from '$lib/header.svelte';
+	import MagicLinkHero from '$lib/vectors/magic-link-hero.svg';
 	import { syncState } from '$lib/store-types';
 
 	export let account;
 	export let sent;
+	export let email;
 
 	let verifier;
 
@@ -27,36 +33,44 @@
 <div class="container">
 	<main>
 		<section>
-			<h3>Login</h3>
-			<p>
-				Login / Sign up with a magic link to save your caught creatures, collected items, and other
-				selections.
-			</p>
-			<p>
-				We won't use your email for newsletters or anything else, its just to help us know who's
-				data to give you when you come back
-			</p>
-			<p>
-				If you're only using this device, your data is already saved locally as long as you don't
-				clear your browser history and you don't need to sign up although we still recommend it
-			</p>
+			<div class="hero-background">
+				<MagicLinkHero />
+			</div>
 			<div>
 				{#if $syncState === 'ok' && account}
 					<h3>Welcome back {account.email}!</h3>
 					<p>You're logged in and your data should be syncing</p>
-					<a href="/"><button>Take me back</button></a>
+					<a href="/"><button>Back to Home</button></a>
 				{:else if sent}
 					<h3>Sent! Check your email for a login link</h3>
+					<p>
+						We just sent an email to you at <a>{email}</a> it contains a link that will sign you in!
+					</p>
+					<p>
+						<a href="/"><button>Back to Home</button></a>
+					</p>
+					<p>
+						<a href="/account/login">Try a different email ></a>
+					</p>
 				{:else}
+					<p>Get a magic link sent to your email that will sign you in instantly</p>
 					<form action="/api/v1/account/email-link">
-						<label>
-							<span>Email</span>
-							<input name="email" />
+						<label style="text-align: left; width: 100%;">
+							<div>Email</div>
+							<input bind:value={email} name="email" style="width: 100%;" />
 						</label>
 						<br />
 						<br />
 						<button>Email me a login link!</button>
 					</form>
+					<p>
+						We won't use your email for newsletters or anything else, its just to help us to know
+						who's data to give you when you come back
+					</p>
+					<p>
+						If you're only using this device, your data is already saved locally as long as you
+						don't clear your browser history.
+					</p>
 				{/if}
 			</div>
 		</section>
@@ -96,5 +110,20 @@
 	.container {
 		margin: 0 auto;
 		max-width: 966px;
+		--eye: var(--background);
+	}
+
+	.hero-background {
+		background-color: var(--header-background);
+		margin: -16px;
+		padding: 16px;
+		margin-bottom: 16px;
+		border-top-left-radius: var(--border-radius);
+		border-top-right-radius: var(--border-radius);
+	}
+
+	:global([data-theme='dark']) .container {
+		--eye-background: transparent;
+		--eye: green;
 	}
 </style>

@@ -1,17 +1,30 @@
 <script lang="ts">
+	import BottomNav from '$lib/bottom-nav.svelte';
+	import villagersJson from '$lib/data/villagers.json';
 	import Header from '$lib/header.svelte';
 	import Search from '$lib/search.svelte';
-	import villagerJson from '$lib/data/villagers.json';
 	import SelectableBlock from '$lib/selectable-block.svelte';
-	import { getSetFromArray, sanitizeName } from '$lib/utils';
-	import { acquired, selected } from './_store';
+	import { getSetFromArray, sanitizeName, titleCase } from '$lib/utils';
 	import { slide } from 'svelte/transition';
-	import BottomNav from '$lib/bottom-nav.svelte';
+	import { acquired, selected } from './_store';
+
+	const villagers = villagersJson.sort(
+		(a, b) => a.species.localeCompare(b.species) || a.name.localeCompare(b.name)
+	);
+	const villagerGroups = Object.entries(
+		villagers.reduce((group, next) => {
+			group[next.species] = group[next.species] || [];
+			group[next.species].push(next);
+			return group;
+		}, {})
+	).map(([title, items]) => ({ title: titleCase(title), items }));
 
 	let neighbors = [];
 	let isSelecting = getSetFromArray($selected).length > 0;
 
-	$: neighbors = villagerJson.filter((villager) => $acquired[villager.name.toLowerCase()]);
+	$: neighbors = villagers
+		.filter((villager) => $acquired[villager.name.toLowerCase()])
+		.sort((a, b) => a.name.localeCompare(b.name));
 	$: selectedCount = getSetFromArray($selected).length;
 
 	function toggle(target) {
@@ -90,14 +103,16 @@
 				<h3>Neighbors</h3>
 				<div class="grid">
 					{#each neighbors as villager (villager.name)}
+						{@const id = villager.name.toLowerCase()}
 						<SelectableBlock
 							label={villager.name}
-							id={villager.name.toLowerCase()}
+							{id}
+							acquired={$acquired[id]}
 							image={villager.iconImage}
 							href="/villagers/{sanitizeName(villager.name)}"
 							on:click={click}
 							on:long-press={longPress}
-							selected={$selected[villager.name.toLowerCase()]}
+							selected={$selected[id]}
 						>
 							<svelte:fragment slot="before">{villager.name}</svelte:fragment>
 						</SelectableBlock>
@@ -105,25 +120,48 @@
 				</div>
 			</section>
 		{/if}
-		<section>
+		{#each villagerGroups as group (group.title)}
+			<section>
+				<h3>{group.title}</h3>
+				<div class="grid">
+					{#each group.items as villager (villager.name)}
+						{@const id = villager.name.toLowerCase()}
+						<SelectableBlock
+							label={villager.name}
+							{id}
+							image={villager.iconImage}
+							href="/villagers/{sanitizeName(villager.name)}"
+							on:click={click}
+							on:long-press={longPress}
+							selected={$selected[id]}
+							acquired={$acquired[id]}
+						>
+							<span slot="before">{villager.name}</span>
+						</SelectableBlock>
+					{/each}
+				</div>
+			</section>
+		{/each}
+		<!-- <section>
 			<h3>All Villagers</h3>
 			<div class="grid">
-				{#each villagerJson as villager (villager.name)}
+				{#each villagers as villager (villager.name)}
+					{@const id = villager.name.toLowerCase()}
 					<SelectableBlock
 						label={villager.name}
-						id={villager.name.toLowerCase()}
+						{id}
 						image={villager.iconImage}
 						href="/villagers/{sanitizeName(villager.name)}"
 						on:click={click}
 						on:long-press={longPress}
-						selected={$selected[villager.name.toLowerCase()]}
-						acquired={$acquired[villager.name.toLowerCase()]}
+						selected={$selected[id]}
+						acquired={$acquired[id]}
 					>
 						<span slot="before">{villager.name}</span>
 					</SelectableBlock>
 				{/each}
 			</div>
-		</section>
+		</section> -->
 	</main>
 </div>
 

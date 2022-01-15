@@ -157,19 +157,21 @@
 					</div>
 				</div>
 			</section>
-			<section>
-				<h3>Similar Creatures</h3>
-				<div class="grid">
-					{#each similar as creature (creature.name)}
-						<SelectableBlock
-							href="/creatures/{sanitizeName(creature.name)}"
-							label={creature.name}
-							id={creature.name}
-							image={creature.iconImage}
-						/>
-					{/each}
-				</div>
-			</section>
+			{#if similar.length > 0}
+				<section>
+					<h3>Similar Creatures</h3>
+					<div class="grid">
+						{#each similar as creature (creature.name)}
+							<SelectableBlock
+								href="/creatures/{sanitizeName(creature.name)}"
+								label={creature.name}
+								id={creature.name}
+								image={creature.iconImage}
+							/>
+						{/each}
+					</div>
+				</section>
+			{/if}
 		</article>
 	</main>
 </div>

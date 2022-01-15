@@ -1,7 +1,8 @@
 import jwt from 'jsonwebtoken';
 import { prisma } from '../../_utils';
 
-const { VITE_TOKEN_SECRET, VITE_SENDGRID_KEY, VITE_EMAIL_URL } = import.meta.env;
+const { VITE_TOKEN_SECRET, VITE_SENDGRID_KEY, VITE_EMAIL_URL, VITE_SENDGRID_TEMPLATE_MAGIC_LINK } =
+	import.meta.env;
 
 export async function get({ url }) {
 	const email = url.searchParams.get('email');
@@ -21,22 +22,21 @@ export async function get({ url }) {
 		method: 'post',
 		headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${VITE_SENDGRID_KEY}` },
 		body: JSON.stringify({
-			personalizations: [{ to: [{ email }] }],
+			personalizations: [
+				{ to: [{ email }], dynamic_template_data: { url: magicLinkUrl.toString() } }
+			],
 			from: { email: 'accounts@blathadex.com', name: 'Blathadex Account' },
 			subject: 'Blathadex Magic Link',
-			content: [
-				{
-					type: 'text/plain',
-					value: `To log in to your blathadex account follow this link ${magicLinkUrl.toString()}`
-				}
-			]
+			template_id: VITE_SENDGRID_TEMPLATE_MAGIC_LINK,
 		})
 	}).then((r) => r.text());
+
+	console.log({ result })
 
 	return {
 		status: 302,
 		headers: {
-			location: url.origin + '/account/login?sent=true'
+			location: `${url.origin}/account/login?sent=true&email=${email}`
 		}
 	};
 }
