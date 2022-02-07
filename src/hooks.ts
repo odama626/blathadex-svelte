@@ -5,7 +5,6 @@ import jwt from 'jsonwebtoken';
 const prisma = new Prisma.PrismaClient();
 const TOKEN_SECRET = import.meta.env.VITE_TOKEN_SECRET;
 
-
 export async function getSession(request) {
 	if (request.locals.account) {
 		return { account: request.locals.account, freshLogin: request?.locals?.freshLogin };
@@ -22,16 +21,16 @@ async function authenticate(magic) {
 }
 
 /** @type {import('@sveltejs/kit').Handle} */
-export async function handle({ request, resolve }) {
-	const cookies = parse(request.headers.cookie || '');
-	const magic = request.url.searchParams.get('magic');
+export async function handle({ event, resolve }) {
+	const cookies = parse(event.request.headers.get('cookie'));
+	const magic = event.url.searchParams.get('magic');
 	let setCookie;
 
 	if (magic) {
 		try {
 			const token = await authenticate(magic);
 			cookies['session_id'] = token;
-			request.locals.freshLogin = true;
+			event.locals.freshLogin = true;
 			setCookie = serialize('session_id', token, {
 				path: '/',
 				httpOnly: true,
@@ -50,15 +49,16 @@ export async function handle({ request, resolve }) {
 	try {
 		const cookie = cookies['session_id'];
 		jwt.verify(cookie, TOKEN_SECRET);
-		request.locals.account = jwt.decode(cookie);
-	} catch (e) {}
+		event.locals.account = jwt.decode(cookie);
+	} catch (e) {
+		// jwt failed to verify, safe to ignore
+	}
 
-	const response = await resolve(request);
+	const response = await resolve(event);
 
 	if (setCookie) {
 		console.log('Set cookie');
-		response.headers = response.headers || {};
-		response.headers['Set-Cookie'] = setCookie;
+		response.headers.set('set-cookie', setCookie)
 	}
 
 	return response;

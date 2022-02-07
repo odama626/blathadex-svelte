@@ -31,8 +31,6 @@ export async function get({ url }) {
 		})
 	}).then((r) => r.text());
 
-	console.log({ result })
-
 	return {
 		status: 302,
 		headers: {

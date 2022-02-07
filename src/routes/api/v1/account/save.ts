@@ -2,10 +2,11 @@ import { prisma } from '../../_utils';
 
 const KEY_WHITELIST = ['caught', 'config', 'selected', 'collected', 'flowers', 'villagers'];
 
-export async function post({ locals, url, body }) {
+export async function post({ locals, url, request }) {
 	if (!locals.account) return { status: 401 };
 	const { email } = locals.account;
 	const { key, type } = Object.fromEntries(url.searchParams.entries());
+	const body = await request.json();
 
 	if (!KEY_WHITELIST.includes(key))
 		return { status: 403, body: { msg: `operations on key key "${key}" are illegal.` } };
@@ -39,7 +40,7 @@ export async function post({ locals, url, body }) {
 	return { status: 200 };
 }
 
-export async function get({ locals, url, body }) {
+export async function get({ locals, url }) {
 	if (!locals.account) return { status: 401 };
 	const { email } = locals.account;
 	const { key, type } = Object.fromEntries(url.searchParams.entries());
