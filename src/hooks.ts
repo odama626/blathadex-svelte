@@ -22,7 +22,7 @@ async function authenticate(magic) {
 
 /** @type {import('@sveltejs/kit').Handle} */
 export async function handle({ event, resolve }) {
-	const cookies = parse(event.request.headers.get('cookie'));
+	const cookies = parse(event.request.headers.get('cookie') || '');
 	const magic = event.url.searchParams.get('magic');
 	let setCookie;
 
